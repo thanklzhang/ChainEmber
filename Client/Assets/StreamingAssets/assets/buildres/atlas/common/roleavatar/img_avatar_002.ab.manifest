@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 77602320
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a473bb3026e2dc7f48d7bbea1e7551ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/Common/RoleAvatar/img_avatar_002.png
+Dependencies: []

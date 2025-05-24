@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4227779376
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f42b542376dd04954265bfd8ebfde77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/BGM/bgm_battle_001.mp3
+Dependencies: []

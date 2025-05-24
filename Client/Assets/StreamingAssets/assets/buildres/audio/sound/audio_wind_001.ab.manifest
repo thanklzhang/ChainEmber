@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4192747561
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04857454546e3eddb1dd64296c014d0d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_wind_001.mp3
+Dependencies: []

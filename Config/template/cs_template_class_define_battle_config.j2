@@ -1,0 +1,22 @@
+/*
+ * generate by tool
+*/
+//using System.Collections;
+using System.Collections.Generic;
+namespace Battle
+{
+    {# 创建变量#}
+    {% macro create_fields(n) -%}
+        {% for n2 in n %}
+        /// <summary>
+        ///{{n2.comment}}
+        /// </summary>
+        {{ n2.type }} {{ n2.up_name }} {get;} 
+        {% endfor %}
+    {%- endmacro %}
+ 
+    public interface I{{ name }} : IConfig
+    {
+        {{create_fields(list)}}
+    } 
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 10001,
+        "name": "\u7eff\u7bb1\u5b50",
+        "describe": "\u6d4b\u8bd5\u7eff\u8272\u54c1\u8d28\u9879",
+        "iconResId": 0,
+        "quality": 0,
+        "costItemId": 500001,
+        "costCount": 300,
+        "boxIdList": [
+            1
+        ],
+        "boxWeightList": [
+            1
+        ],
+        "minCount": 500,
+        "maxCount": 500,
+        "chance": 1000
+    },
+    {
+        "id": 10002,
+        "name": "\u84dd\u7bb1\u5b50",
+        "describe": "\u6d4b\u8bd5\u84dd\u8272\u54c1\u8d28\u9879",
+        "iconResId": 0,
+        "quality": 1,
+        "costItemId": 500001,
+        "costCount": 600,
+        "boxIdList": [
+            101
+        ],
+        "boxWeightList": [
+            1
+        ],
+        "minCount": 3,
+        "maxCount": 5,
+        "chance": 500
+    },
+    {
+        "id": 10003,
+        "name": "\u7d2b\u7bb1\u5b50",
+        "describe": "\u6d4b\u8bd5\u7d2b\u8272\u54c1\u8d28\u9879",
+        "iconResId": 0,
+        "quality": 2,
+        "costItemId": 500001,
+        "costCount": 1200,
+        "boxIdList": [
+            102
+        ],
+        "boxWeightList": [
+            1
+        ],
+        "minCount": 2,
+        "maxCount": 3,
+        "chance": 500
+    },
+    {
+        "id": 10004,
+        "name": "\u6a59\u7bb1\u5b50",
+        "describe": "\u6d4b\u8bd5\u6a59\u8272\u54c1\u8d28\u9879",
+        "iconResId": 0,
+        "quality": 3,
+        "costItemId": 500001,
+        "costCount": 2400,
+        "boxIdList": [
+            103
+        ],
+        "boxWeightList": [
+            1
+        ],
+        "minCount": 1,
+        "maxCount": 2,
+        "chance": 250
+    },
+    {
+        "id": 10005,
+        "name": "\u7ea2\u7bb1\u5b50",
+        "describe": "\u6d4b\u8bd5\u7ea2\u8272\u54c1\u8d28\u9879",
+        "iconResId": 0,
+        "quality": 4,
+        "costItemId": 500001,
+        "costCount": 4800,
+        "boxIdList": [
+            104
+        ],
+        "boxWeightList": [
+            1
+        ],
+        "minCount": 0,
+        "maxCount": 1,
+        "chance": 100
+    }
+]

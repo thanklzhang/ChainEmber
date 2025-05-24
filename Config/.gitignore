@@ -1,0 +1,16 @@
+Library
+Logs
+obj
+Packages
+Temp
+*.csproj
+*.sln
+*.meta
+.vs
+.vscode
+~$*.xlsx
+.DS_Store
+CommonData/.DS_Store
+CommonData/Battle/.DS_Store
+CommonData/Config/.DS_Store
+CommonData/Plot/.DS_Store

@@ -1,0 +1,36 @@
+
+{
+    "triggerEvent" : {
+        "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "__TYPE__"     : "Battle.BattleTrigger.Config.BattleStartEvent"
+    },
+    "executeGroup" : [
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+            "delayTime"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 160.0
+                }
+            }
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.BattleEndNode",
+            "teamIndex"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 1,
+                "numberVar" : {
+                    "__TYPE__" : "IntFixedVar",
+                    "value"    : 0
+                }
+            },
+            "endType"      : 1
+        }
+    ]
+}	}
+	]
+}

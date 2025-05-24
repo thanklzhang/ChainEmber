@@ -1,0 +1,21 @@
+[
+    {
+        "id": 27005101,
+        "name": "\u8427\u7389 \u5927\u62db \u9a71\u6563\u6240\u6709\u8d1f\u9762\u6548\u679clv1",
+        "describe": "\u8427\u7389 \u5927\u62db \u9a71\u6563\u6240\u6709\u8d1f\u9762\u6548\u679clv1",
+        "triggerEventType": 11,
+        "triggerParamList": [],
+        "triggerTargetType": 0
+    },
+    {
+        "id": 27801101,
+        "name": "\u968f\u673a\u6280\u80fd \u6539\u53d8\u8eb2\u907f\u4f24\u5bb3\u7684 buff \u7684\u5c42\u6570lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u6539\u53d8\u8eb2\u907f\u4f24\u5bb3\u7684 buff \u7684\u5c42\u6570lv1",
+        "triggerEventType": 5,
+        "triggerParamList": [
+            "14801201",
+            "-1"
+        ],
+        "triggerTargetType": 0
+    }
+]

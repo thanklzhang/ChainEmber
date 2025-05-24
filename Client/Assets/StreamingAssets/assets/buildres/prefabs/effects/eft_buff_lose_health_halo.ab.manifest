@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2838510441
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7ef9ebf4dfef75ed51f36657311bf215
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a29e3e59026a291016e3ecc157e85fad
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Prefabs/Effects/eft_buff_lose_health_halo.prefab
+Dependencies: []

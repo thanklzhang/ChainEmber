@@ -1,0 +1,16 @@
+/*
+ * generate by tool
+*/
+using System;
+using System.Collections.Generic;
+using System.Collections;
+
+
+//UI 资源 Id 枚举 
+public enum UIResIds
+{
+	{% for item in res_id_map %}
+    {{item["name"]}} = {{item["id"]}},
+    {%- endfor %}
+}
+

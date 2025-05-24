@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 353707923
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 613344b9e9db0fba6421570ec783a69b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/Common/Buff/icon_buff_hero_0020.png
+Dependencies: []

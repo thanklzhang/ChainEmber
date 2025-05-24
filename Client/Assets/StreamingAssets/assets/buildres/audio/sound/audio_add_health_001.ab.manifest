@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2579200736
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd1bdb2ab9fd5609f5e14e4395ede7a9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_add_health_001.mp3
+Dependencies: []

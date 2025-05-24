@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 1444547947
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b5af5ffa2a36d49b83f3891481ae4a24
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1504ff0573afcad0046be4d8e94efb02
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aff071da9bba47a4382e2dd6909c99c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0d8e675f84dfd144a0ae14f00ea3311, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Scenes/LoginScene.unity
+Dependencies: []

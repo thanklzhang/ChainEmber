@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 137567544
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 711dca08cd96b08acb0a6d717d49b2bb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Textures/Cursor/cursor_normal_005.png
+Dependencies: []

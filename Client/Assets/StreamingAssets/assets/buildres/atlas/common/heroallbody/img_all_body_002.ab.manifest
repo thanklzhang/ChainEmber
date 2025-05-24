@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1267421183
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2ac3762e615f72340c8470dce29f1b67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/Common/HeroAllBody/img_all_body_002.png
+Dependencies: []

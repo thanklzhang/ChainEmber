@@ -1,0 +1,15 @@
+[
+    {
+        "id": 17001001,
+        "name": "\u5200\u75a4 w \u6280\u80fd\u78b0\u649e\u7ec4",
+        "describe": "\u6280\u80fd\u4ecb\u7ecd",
+        "skillEffectIds": [
+            3003002,
+            3003003,
+            3003004
+        ],
+        "affectType": 1,
+        "affectParam": -1000,
+        "effectResId": 15008002
+    }
+]

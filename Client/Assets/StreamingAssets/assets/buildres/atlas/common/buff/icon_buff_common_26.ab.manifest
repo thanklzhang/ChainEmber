@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3242157107
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ddefdaf1d3f7e56c385efeaf0ff3f98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/Common/Buff/icon_buff_common_26.png
+Dependencies: []

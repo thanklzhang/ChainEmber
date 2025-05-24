@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a839c9e3-7b1c-41da-8e68-db7c9032a3fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.001_GameFramework_Client/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.001_GameFramework_Client/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.001_GameFramework_Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.001_GameFramework_Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1a34d7ee85f44ff2a9df5d0ea5a6ee325735b0/04/6eeb645c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1a34d7ee85f44ff2a9df5d0ea5a6ee325735b0/6f/eb812143/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1a34d7ee85f44ff2a9df5d0ea5a6ee325735b0/82/26cbad62/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1a34d7ee85f44ff2a9df5d0ea5a6ee325735b0/b7/66e4cb03/ValueTuple`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1a34d7ee85f44ff2a9df5d0ea5a6ee325735b0/fe/4d600cf2/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4b58f32e95814c1baa71d3f224d3c17f7a00/a4/631bcf76/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/60/06cb223b/Dictionary`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/6b/4fc021c6/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/74/e130e66f/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/76/d3ebac2a/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/8e/4b99b50c/RuntimeMethodInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6aa56e57ab504395b555cf3ed50fa53d46ac00/8e/8cc6a797/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/836ffa4b2bb84a8e989f695f4a9dabc47000/0b/2079966f/CanvasRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9c2967a135e648bdb993c5397a44991b573620/70/a3f54001/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9c2967a135e648bdb993c5397a44991b573620/83/d126110e/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a543fc358460497cbcbd51737090d7761fc00/58/85ff63de/RaycastHit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/05/bb0a7071/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/a4/95f4929d/ColorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/b3/8b41e1ea/Rect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/b3/cdfb068b/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/bf/e535cd9d/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/c6/4c126c15/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/ce/cc003314/KeyCode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/fe/f2cf2888/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b18a8b3398e74bca86895881dd02956c573648/d4/8cc0287f/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b9f607e27b8644e0bf609b59dfb1c8525735b0/39/f68981ec/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b9f607e27b8644e0bf609b59dfb1c8525735b0/50/37a4a13a/Enum.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d46c07da13f941aeb9b5f49c78214485173200/23/294b0f93/RenderChain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de80aed0bd3646409e8bfb15c101f005e2000/c7/3b0439ba/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e585f5e2b21741c8a3a65b4f9abfa5e8572e20/14/aac089a0/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e585f5e2b21741c8a3a65b4f9abfa5e8572e20/61/c9da37cb/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e585f5e2b21741c8a3a65b4f9abfa5e8572e20/9f/8ce21a99/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e585f5e2b21741c8a3a65b4f9abfa5e8572e20/a6/6a2d8434/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e585f5e2b21741c8a3a65b4f9abfa5e8572e20/a8/6025880c/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/BuildPackage/ABPackStrategyEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/BuildPackage/ABPackageStrategySO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/CopyPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/FastTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Battle/BattleClient/BattleClientMsg/RecvMsg/SyncEntityItemBarItem_RecvMsg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Battle/BattleClient/Debug/SectorAreaVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/AI/CpuAI.SkillPriority.Func.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Framework/CommonUtil/FileOperate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorHandles.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/UI/GridPaintingToolbar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Help/BuildFormattedHelp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.memoryprofiler@1.0.0/Editor/Profiler/ManagedDataCrawler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Editor/AppStoreExtensionMethods.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Editor/BuildTargetGroupExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/Android/AmazonAppStore/FakeAmazon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/Android/GooglePlay/FakeGooglePlayStoreConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/Android/GooglePlay/FakeGooglePlayStoreExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/Android/UDP/FakeUDPExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/AppStore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/StandardPurchasingModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Runtime/Stores/WindowsStore/FakeMicrosoftExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.core@1.9.0/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.core@1.9.0/Editor/Core/Linker/Models/XmlLinkedMember.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.core@1.9.0/Runtime/Scheduler/MinimumBinaryHeap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/AttributeFinderBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.7.4/Editor/Actions/Menus/TimelineContextMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.7.4/Editor/Animation/AnimationClipCurveCache.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.7.4/Editor/Recording/TimelineRecording.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/ButtonEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SelectableEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ILayoutElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/CanvasSizeCorrectInAwakeAndStartScript.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2R0tnUyTYg7wj3UKJho5zwb1EyY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.13863216&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\94067\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\94067\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\94067\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../UnityPackageOutPath/OrderOfChain\001_GameFramework_Client.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityPackageOutPath\OrderOfChain\Windows" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Software\UnityHubLocation\2022.3.0f1c1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\UnityProjects\KalGame\001_GameFramework_Client -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\KalGame\001_GameFramework_Client" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Software\UnityHubLocation\2022.3.0f1c1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\UnityProjects\KalGame\001_GameFramework_Client -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\KalGame\001_GameFramework_Client" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a839c9e3-7b1c-41da-8e68-db7c9032a3fd" name="Changes" comment="" />
+      <created>1686399002128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686399002128</updated>
+      <workItem from="1686399003823" duration="66000" />
+      <workItem from="1686399088007" duration="127000" />
+      <workItem from="1686399242610" duration="22000" />
+      <workItem from="1686399402820" duration="609000" />
+      <workItem from="1687541330928" duration="56000" />
+      <workItem from="1687541470685" duration="12000" />
+      <workItem from="1687541510206" duration="3356000" />
+      <workItem from="1687581407512" duration="5985000" />
+      <workItem from="1687608870745" duration="11591000" />
+      <workItem from="1687629613214" duration="100000" />
+      <workItem from="1687668972907" duration="6586000" />
+      <workItem from="1687786079364" duration="5129000" />
+      <workItem from="1687881132265" duration="5369000" />
+      <workItem from="1687887339071" duration="2071000" />
+      <workItem from="1687961605874" duration="6103000" />
+      <workItem from="1688047815757" duration="3984000" />
+      <workItem from="1689004672408" duration="1341000" />
+      <workItem from="1689084731101" duration="3947000" />
+      <workItem from="1689180160099" duration="1251000" />
+      <workItem from="1689258177797" duration="3874000" />
+      <workItem from="1689511116196" duration="8704000" />
+      <workItem from="1689597723631" duration="11819000" />
+      <workItem from="1689685570340" duration="8762000" />
+      <workItem from="1689776783483" duration="2182000" />
+      <workItem from="1690027807222" duration="5892000" />
+      <workItem from="1690296646436" duration="5116000" />
+      <workItem from="1690374125371" duration="16530000" />
+      <workItem from="1690461576951" duration="12997000" />
+      <workItem from="1690552736646" duration="230000" />
+      <workItem from="1690641916252" duration="4569000" />
+      <workItem from="1690653315443" duration="897000" />
+      <workItem from="1690807126126" duration="8786000" />
+      <workItem from="1690893587889" duration="13751000" />
+      <workItem from="1690982024707" duration="8801000" />
+      <workItem from="1690993021759" duration="2046000" />
+      <workItem from="1691066278485" duration="12934000" />
+      <workItem from="1691152317671" duration="7506000" />
+      <workItem from="1691226854665" duration="2880000" />
+      <workItem from="1691306086529" duration="8709000" />
+      <workItem from="1691411655602" duration="440000" />
+      <workItem from="1691412111418" duration="3477000" />
+      <workItem from="1691503089745" duration="682000" />
+      <workItem from="1691507029311" duration="5793000" />
+      <workItem from="1691582989149" duration="14978000" />
+      <workItem from="1691673921615" duration="7490000" />
+      <workItem from="1691758368840" duration="18019000" />
+      <workItem from="1691830325877" duration="10528000" />
+      <workItem from="1691915970418" duration="4150000" />
+      <workItem from="1692014539903" duration="3965000" />
+      <workItem from="1692110383005" duration="1328000" />
+      <workItem from="1692198924863" duration="7802000" />
+      <workItem from="1692275781956" duration="12078000" />
+      <workItem from="1692363697604" duration="8087000" />
+      <workItem from="1692430898880" duration="1927000" />
+      <workItem from="1692624219906" duration="4242000" />
+      <workItem from="1692709207254" duration="13819000" />
+      <workItem from="1692793934615" duration="135000" />
+      <workItem from="1692794087970" duration="13690000" />
+      <workItem from="1692881432704" duration="3204000" />
+      <workItem from="1692892299905" duration="1236000" />
+      <workItem from="1692893939541" duration="324000" />
+      <workItem from="1692967574656" duration="4192000" />
+      <workItem from="1693061557795" duration="2654000" />
+      <workItem from="1693225296053" duration="4046000" />
+      <workItem from="1693232813752" duration="25000" />
+      <workItem from="1693233813829" duration="8563000" />
+      <workItem from="1693313369172" duration="7332000" />
+      <workItem from="1693322300252" duration="3535000" />
+      <workItem from="1693397040637" duration="10253000" />
+      <workItem from="1693483369785" duration="5462000" />
+      <workItem from="1693829391673" duration="12198000" />
+      <workItem from="1693916097039" duration="30000" />
+      <workItem from="1693916157316" duration="5822000" />
+      <workItem from="1693922388483" duration="4470000" />
+      <workItem from="1693927171114" duration="3603000" />
+      <workItem from="1694004071094" duration="12939000" />
+      <workItem from="1694087924551" duration="584000" />
+      <workItem from="1694094847067" duration="6491000" />
+      <workItem from="1694177954698" duration="11133000" />
+      <workItem from="1694282254978" duration="5815000" />
+      <workItem from="1694353236893" duration="4062000" />
+      <workItem from="1694365494979" duration="836000" />
+      <workItem from="1694438749083" duration="10198000" />
+      <workItem from="1694520313672" duration="4566000" />
+      <workItem from="1694613249509" duration="7028000" />
+      <workItem from="1694696840078" duration="6277000" />
+      <workItem from="1694707382394" duration="5763000" />
+      <workItem from="1694781534874" duration="4116000" />
+      <workItem from="1694862062507" duration="4087000" />
+      <workItem from="1694873164168" duration="4025000" />
+      <workItem from="1694877992138" duration="5100000" />
+      <workItem from="1695127053548" duration="11931000" />
+      <workItem from="1695211937075" duration="12408000" />
+      <workItem from="1695301665061" duration="489000" />
+      <workItem from="1695539157299" duration="11212000" />
+      <workItem from="1695643618034" duration="79000" />
+      <workItem from="1695816229559" duration="8491000" />
+      <workItem from="1696518706987" duration="15374000" />
+      <workItem from="1696766970006" duration="9886000" />
+      <workItem from="1696854507295" duration="18442000" />
+      <workItem from="1696944514735" duration="10515000" />
+      <workItem from="1696957484633" duration="878000" />
+      <workItem from="1697026373266" duration="11901000" />
+      <workItem from="1697119577447" duration="11431000" />
+      <workItem from="1697458265526" duration="10419000" />
+      <workItem from="1697548923636" duration="10239000" />
+      <workItem from="1697630249978" duration="10828000" />
+      <workItem from="1697716512347" duration="14287000" />
+      <workItem from="1698064025220" duration="12142000" />
+      <workItem from="1698149257191" duration="1281000" />
+      <workItem from="1698237393683" duration="6971000" />
+      <workItem from="1698949084086" duration="5055000" />
+      <workItem from="1698993302455" duration="9375000" />
+      <workItem from="1699034720876" duration="986000" />
+      <workItem from="1699367239473" duration="5351000" />
+      <workItem from="1699451213121" duration="12459000" />
+      <workItem from="1699623811512" duration="704000" />
+      <workItem from="1699886354074" duration="632000" />
+      <workItem from="1699972842824" duration="960000" />
+      <workItem from="1700229367020" duration="9908000" />
+      <workItem from="1700310599530" duration="4910000" />
+      <workItem from="1700378132789" duration="20053000" />
+      <workItem from="1700583658086" duration="3290000" />
+      <workItem from="1700749828688" duration="626000" />
+      <workItem from="1701705450932" duration="3785000" />
+      <workItem from="1701784848038" duration="9953000" />
+      <workItem from="1701956782695" duration="8356000" />
+      <workItem from="1702107577189" duration="18819000" />
+      <workItem from="1702201064939" duration="4049000" />
+      <workItem from="1702392298228" duration="7901000" />
+      <workItem from="1702565411427" duration="7898000" />
+      <workItem from="1703775862550" duration="5631000" />
+      <workItem from="1704208086085" duration="4915000" />
+      <workItem from="1704386232602" duration="3628000" />
+      <workItem from="1704541308119" duration="11355000" />
+      <workItem from="1704725077979" duration="6064000" />
+      <workItem from="1704903611018" duration="3456000" />
+      <workItem from="1705418814589" duration="4888000" />
+      <workItem from="1705505951506" duration="4032000" />
+      <workItem from="1705935465496" duration="5875000" />
+      <workItem from="1706103160889" duration="4938000" />
+      <workItem from="1708352485376" duration="4439000" />
+      <workItem from="1708613514730" duration="4609000" />
+      <workItem from="1708699071957" duration="7629000" />
+      <workItem from="1708768269861" duration="5547000" />
+      <workItem from="1709316330169" duration="4464000" />
+      <workItem from="1709648265313" duration="5983000" />
+      <workItem from="1709735760990" duration="3062000" />
+      <workItem from="1710166856476" duration="321000" />
+      <workItem from="1712037181528" duration="17709000" />
+      <workItem from="1712146032319" duration="11190000" />
+      <workItem from="1712212577096" duration="597000" />
+      <workItem from="1712223108039" duration="23027000" />
+      <workItem from="1712302152496" duration="28063000" />
+      <workItem from="1712389715210" duration="1959000" />
+      <workItem from="1712481883139" duration="19242000" />
+      <workItem from="1712581494131" duration="2281000" />
+      <workItem from="1712587245917" duration="16409000" />
+      <workItem from="1712645443152" duration="33739000" />
+      <workItem from="1712738496296" duration="8932000" />
+      <workItem from="1712770778874" duration="10191000" />
+      <workItem from="1712816836484" duration="19619000" />
+      <workItem from="1712844918449" duration="21630000" />
+      <workItem from="1712910420769" duration="1852000" />
+      <workItem from="1713171312262" duration="624000" />
+      <workItem from="1713443609212" duration="23511000" />
+      <workItem from="1713524325404" duration="21004000" />
+      <workItem from="1713643479414" duration="3019000" />
+      <workItem from="1713795378356" duration="632000" />
+      <workItem from="1714026625715" duration="18743000" />
+      <workItem from="1714112097026" duration="15023000" />
+      <workItem from="1719501536619" duration="4518000" />
+      <workItem from="1719842903664" duration="4788000" />
+      <workItem from="1719926970098" duration="5159000" />
+      <workItem from="1720013090138" duration="7791000" />
+      <workItem from="1720101462685" duration="12777000" />
+      <workItem from="1720446225213" duration="2297000" />
+      <workItem from="1722521360867" duration="7925000" />
+      <workItem from="1722609416230" duration="15255000" />
+      <workItem from="1722708850164" duration="3481000" />
+      <workItem from="1722755896181" duration="1011000" />
+      <workItem from="1722760826894" duration="1155000" />
+      <workItem from="1722765566573" duration="9449000" />
+      <workItem from="1722867663887" duration="2074000" />
+      <workItem from="1722953978408" duration="5125000" />
+      <workItem from="1723041578711" duration="9980000" />
+      <workItem from="1723127631614" duration="13144000" />
+      <workItem from="1723210757541" duration="9405000" />
+      <workItem from="1723275303440" duration="35284000" />
+      <workItem from="1723368453361" duration="25390000" />
+      <workItem from="1723474376731" duration="11146000" />
+      <workItem from="1723556450569" duration="11449000" />
+      <workItem from="1723642501093" duration="12986000" />
+      <workItem from="1723735912542" duration="6369000" />
+      <workItem from="1723816856675" duration="10074000" />
+      <workItem from="1723876025283" duration="40746000" />
+      <workItem from="1723970357408" duration="23264000" />
+      <workItem from="1724074048638" duration="10274000" />
+      <workItem from="1724343629199" duration="5630000" />
+      <workItem from="1724856654732" duration="8774000" />
+      <workItem from="1724938403024" duration="7548000" />
+      <workItem from="1724983560960" duration="15611000" />
+      <workItem from="1725029411413" duration="6839000" />
+      <workItem from="1725106652262" duration="8559000" />
+      <workItem from="1725122612956" duration="106000" />
+      <workItem from="1725124211003" duration="146000" />
+      <workItem from="1725186539745" duration="15842000" />
+      <workItem from="1725243705895" duration="27000" />
+      <workItem from="1725243778944" duration="2378000" />
+      <workItem from="1725255505877" duration="4465000" />
+      <workItem from="1725371438375" duration="7455000" />
+      <workItem from="1725456554691" duration="7906000" />
+      <workItem from="1725543648200" duration="8613000" />
+      <workItem from="1725632990819" duration="723000" />
+      <workItem from="1725888332910" duration="11601000" />
+      <workItem from="1725976495670" duration="5411000" />
+      <workItem from="1726060980322" duration="1522000" />
+      <workItem from="1726147606209" duration="8518000" />
+      <workItem from="1726238915550" duration="4129000" />
+      <workItem from="1726506370070" duration="20139000" />
+      <workItem from="1726667145068" duration="10484000" />
+      <workItem from="1726754342436" duration="12021000" />
+      <workItem from="1726842101726" duration="9222000" />
+      <workItem from="1726901276848" duration="31831000" />
+      <workItem from="1726989933247" duration="24407000" />
+      <workItem from="1727272679988" duration="595000" />
+      <workItem from="1727357353759" duration="12231000" />
+      <workItem from="1728485451543" duration="11495000" />
+      <workItem from="1728568881209" duration="593000" />
+      <workItem from="1728998696314" duration="9859000" />
+      <workItem from="1729085204736" duration="9647000" />
+      <workItem from="1729171394868" duration="2389000" />
+      <workItem from="1729258794764" duration="9665000" />
+      <workItem from="1729335576809" duration="2059000" />
+      <workItem from="1729414331457" duration="5389000" />
+      <workItem from="1729517452252" duration="8469000" />
+      <workItem from="1729611019756" duration="5623000" />
+      <workItem from="1729690911429" duration="4725000" />
+      <workItem from="1730125884574" duration="5796000" />
+      <workItem from="1730210132055" duration="8426000" />
+      <workItem from="1730295893149" duration="12895000" />
+      <workItem from="1730381334868" duration="11408000" />
+      <workItem from="1730472249142" duration="5748000" />
+      <workItem from="1730616341221" duration="24211000" />
+      <workItem from="1730733220823" duration="7267000" />
+      <workItem from="1730815248730" duration="4193000" />
+      <workItem from="1730900911234" duration="13375000" />
+      <workItem from="1730985971512" duration="596000" />
+      <workItem from="1731137569907" duration="15434000" />
+      <workItem from="1731224238017" duration="12775000" />
+      <workItem from="1731332167492" duration="20023000" />
+      <workItem from="1731508297799" duration="5833000" />
+      <workItem from="1731593799682" duration="9819000" />
+      <workItem from="1731666561146" duration="7495000" />
+      <workItem from="1731825348817" duration="13959000" />
+      <workItem from="1731937004869" duration="9036000" />
+      <workItem from="1732023906788" duration="5302000" />
+      <workItem from="1732032628612" duration="3666000" />
+      <workItem from="1732109646524" duration="12520000" />
+      <workItem from="1732195252450" duration="8034000" />
+      <workItem from="1732285628974" duration="9534000" />
+      <workItem from="1732348899873" duration="23324000" />
+      <workItem from="1732442991727" duration="20222000" />
+      <workItem from="1732546065600" duration="4822000" />
+      <workItem from="1732628328794" duration="9169000" />
+      <workItem from="1732713637291" duration="13723000" />
+      <workItem from="1732801458132" duration="6863000" />
+      <workItem from="1732883638741" duration="14662000" />
+      <workItem from="1732971995311" duration="13104000" />
+      <workItem from="1733051330452" duration="8637000" />
+      <workItem from="1733148815425" duration="10221000" />
+      <workItem from="1733237002830" duration="10482000" />
+      <workItem from="1733319800583" duration="11016000" />
+      <workItem from="1733408364853" duration="2795000" />
+      <workItem from="1733560090371" duration="2015000" />
+      <workItem from="1734013942176" duration="2908000" />
+      <workItem from="1734101758368" duration="15896000" />
+      <workItem from="1734164224108" duration="30416000" />
+      <workItem from="1734241405550" duration="36396000" />
+      <workItem from="1734359923128" duration="11151000" />
+      <workItem from="1734445739787" duration="1939000" />
+      <workItem from="1734708555597" duration="8744000" />
+      <workItem from="1734873088391" duration="19120000" />
+      <workItem from="1734964020567" duration="11741000" />
+      <workItem from="1735053429322" duration="8889000" />
+      <workItem from="1735135719563" duration="13349000" />
+      <workItem from="1735223002146" duration="6509000" />
+      <workItem from="1735313050084" duration="11765000" />
+      <workItem from="1735459472789" duration="23992000" />
+      <workItem from="1735566721234" duration="5111000" />
+      <workItem from="1735643027993" duration="4195000" />
+      <workItem from="1735824627814" duration="9131000" />
+      <workItem from="1735916443714" duration="11429000" />
+      <workItem from="1735981046259" duration="5818000" />
+      <workItem from="1736172230619" duration="11156000" />
+      <workItem from="1736257605806" duration="11530000" />
+      <workItem from="1736341914735" duration="12201000" />
+      <workItem from="1736432318140" duration="5628000" />
+      <workItem from="1736516173778" duration="439000" />
+      <workItem from="1736671967475" duration="1843000" />
+      <workItem from="1736862358384" duration="594000" />
+      <workItem from="1737121701762" duration="696000" />
+      <workItem from="1737191704948" duration="103000" />
+      <workItem from="1737467397655" duration="9029000" />
+      <workItem from="1737639126870" duration="8933000" />
+      <workItem from="1737723250488" duration="8304000" />
+      <workItem from="1738936481271" duration="5013000" />
+      <workItem from="1739007570254" duration="2621000" />
+      <workItem from="1739090166929" duration="457000" />
+      <workItem from="1739090639017" duration="9334000" />
+      <workItem from="1739281043986" duration="11322000" />
+      <workItem from="1739617756249" duration="21319000" />
+      <workItem from="1739686515243" duration="428000" />
+      <workItem from="1739694695542" duration="20402000" />
+      <workItem from="1739800121293" duration="8887000" />
+      <workItem from="1739886729830" duration="7782000" />
+      <workItem from="1739973579561" duration="10900000" />
+      <workItem from="1740057526022" duration="3667000" />
+      <workItem from="1740147017346" duration="11063000" />
+      <workItem from="1740158333842" duration="59000" />
+      <workItem from="1740158429155" duration="2506000" />
+      <workItem from="1740217778689" duration="16560000" />
+      <workItem from="1740404342757" duration="7376000" />
+      <workItem from="1740490018642" duration="10688000" />
+      <workItem from="1740577072624" duration="3683000" />
+      <workItem from="1740588427556" duration="700000" />
+      <workItem from="1740672093058" duration="3085000" />
+      <workItem from="1741011444140" duration="4266000" />
+      <workItem from="1741093974020" duration="6859000" />
+      <workItem from="1741181234061" duration="13130000" />
+      <workItem from="1741277056481" duration="5857000" />
+      <workItem from="1741355553627" duration="13562000" />
+      <workItem from="1741405311998" duration="36865000" />
+      <workItem from="1741505375434" duration="29102000" />
+      <workItem from="1741616323177" duration="10327000" />
+      <workItem from="1741702669224" duration="6640000" />
+      <workItem from="1741791797257" duration="9624000" />
+      <workItem from="1741876397033" duration="8136000" />
+      <workItem from="1742028014238" duration="20254000" />
+      <workItem from="1742108503378" duration="11996000" />
+      <workItem from="1742223014845" duration="7878000" />
+      <workItem from="1742307541514" duration="5416000" />
+      <workItem from="1742395068540" duration="8578000" />
+      <workItem from="1742486317224" duration="595000" />
+      <workItem from="1742631719667" duration="11582000" />
+      <workItem from="1742714693408" duration="11476000" />
+      <workItem from="1742826528534" duration="14095000" />
+      <workItem from="1742902061476" duration="6360000" />
+      <workItem from="1743000821261" duration="1972000" />
+      <workItem from="1743429898684" duration="8863000" />
+      <workItem from="1743523646744" duration="2108000" />
+      <workItem from="1743603681547" duration="5709000" />
+      <workItem from="1743688816218" duration="7416000" />
+      <workItem from="1743751624880" duration="2222000" />
+      <workItem from="1743759794975" duration="22888000" />
+      <workItem from="1743837326827" duration="25447000" />
+      <workItem from="1743934910064" duration="16756000" />
+      <workItem from="1744032529391" duration="8309000" />
+      <workItem from="1744122808129" duration="8344000" />
+      <workItem from="1744209789348" duration="1098000" />
+      <workItem from="1744293414025" duration="1707000" />
+      <workItem from="1744373505031" duration="296000" />
+      <workItem from="1744373818329" duration="6139000" />
+      <workItem from="1744382596211" duration="9011000" />
+      <workItem from="1744391809950" duration="374000" />
+      <workItem from="1744393064851" duration="3788000" />
+      <workItem from="1744439956212" duration="18145000" />
+      <workItem from="1744523397020" duration="29686000" />
+      <workItem from="1744642047482" duration="7875000" />
+      <workItem from="1744727143877" duration="8235000" />
+      <workItem from="1744811731500" duration="1074000" />
+      <workItem from="1744898704983" duration="7657000" />
+      <workItem from="1744990170203" duration="9080000" />
+      <workItem from="1745124200254" duration="12972000" />
+      <workItem from="1745247070582" duration="9527000" />
+      <workItem from="1745333354083" duration="5875000" />
+      <workItem from="1745419224890" duration="7489000" />
+      <workItem from="1745510427314" duration="1219000" />
+      <workItem from="1745589112214" duration="14047000" />
+      <workItem from="1745657261947" duration="11474000" />
+      <workItem from="1745760849736" duration="8884000" />
+      <workItem from="1745846074359" duration="14984000" />
+      <workItem from="1745932951643" duration="8401000" />
+      <workItem from="1745989661333" duration="24182000" />
+      <workItem from="1746088124902" duration="7942000" />
+      <workItem from="1746456118351" duration="1195000" />
+      <workItem from="1746801436131" duration="9863000" />
+      <workItem from="1746860576266" duration="23411000" />
+      <workItem from="1746953906079" duration="6772000" />
+      <workItem from="1747060875189" duration="597000" />
+      <workItem from="1747144120880" duration="280000" />
+      <workItem from="1747144422649" duration="6216000" />
+      <workItem from="1747229918516" duration="3377000" />
+      <workItem from="1747319683077" duration="11494000" />
+      <workItem from="1747401156838" duration="7191000" />
+      <workItem from="1747491496924" duration="3126000" />
+      <workItem from="1747560977360" duration="18979000" />
+      <workItem from="1747662672714" duration="11765000" />
+      <workItem from="1747749230737" duration="10444000" />
+      <workItem from="1747836778797" duration="13838000" />
+      <workItem from="1747923575559" duration="13896000" />
+      <workItem from="1748010997361" duration="2123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/BattleEntity.Skill.cs</url>
+          <line>184</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\BattleEntity.Skill.cs" initialLine="173" containingFunctionPresentation="Method 'SelectReplaceSkill'">
+            <startOffsets>
+              <option value="5568" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5590" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/BattleEntity.Skill.cs</url>
+          <line>189</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\BattleEntity.Skill.cs" initialLine="178" containingFunctionPresentation="Method 'SelectReplaceSkill'">
+            <startOffsets>
+              <option value="5766" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5798" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/BattleClient/BattleManager.cs</url>
+          <line>215</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\BattleClient\BattleManager.cs" initialLine="215" containingFunctionPresentation="Method 'OnReplaceSkillResult'">
+            <startOffsets>
+              <option value="6616" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6669" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/BattleEntity.Skill.cs</url>
+          <line>143</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\BattleEntity.Skill.cs" initialLine="132" containingFunctionPresentation="Method 'AddSkill'">
+            <startOffsets>
+              <option value="4128" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4169" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Skill/SkillEffect/AreaEffect.cs</url>
+          <line>214</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Skill\SkillEffect\AreaEffect.cs" initialLine="200" containingFunctionPresentation="Method 'OnStart'">
+            <startOffsets>
+              <option value="7589" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7618" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/UI/UICtrl/BattleUI/BattleReplaceHeroUI.cs</url>
+          <line>212</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\UI\UICtrl\BattleUI\BattleReplaceHeroUI.cs" initialLine="182" containingFunctionPresentation="Method 'RefreshUI'">
+            <startOffsets>
+              <option value="6776" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6828" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/UI/UICtrl/BattleUI/BattleReplaceHeroUI.cs</url>
+          <line>152</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\UI\UICtrl\BattleUI\BattleReplaceHeroUI.cs" initialLine="146" containingFunctionPresentation="Method 'RefreshUI'">
+            <startOffsets>
+              <option value="4341" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4394" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/UI/UICtrl/BattleUI/BattleReplaceHeroUI.cs</url>
+          <line>189</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\UI\UICtrl\BattleUI\BattleReplaceHeroUI.cs" initialLine="183" containingFunctionPresentation="Method 'RefreshUI'">
+            <startOffsets>
+              <option value="5985" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6027" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/BattleEntity.Skill.cs</url>
+          <line>222</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\BattleEntity.Skill.cs" initialLine="222" containingFunctionPresentation="Method 'AddExpToSkill'">
+            <startOffsets>
+              <option value="6637" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6655" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Skill/SkillEffect/MoveEffect.cs</url>
+          <line>186</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Skill\SkillEffect\MoveEffect.cs" initialLine="186" containingFunctionPresentation="Method 'OnUpdate'">
+            <startOffsets>
+              <option value="6985" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7055" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Common/Func/Attr/AttrHelper_Client.cs</url>
+          <line>201</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Common\Func\Attr\AttrHelper_Client.cs" initialLine="201" containingFunctionPresentation="Method 'GetBattleRewardEffectContent'">
+            <startOffsets>
+              <option value="6681" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6700" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Reward/BattleReward/RewardEffect_TeamMember_TeammateAddRandAttr.cs</url>
+          <line>92</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Reward\BattleReward\RewardEffect_TeamMember_TeammateAddRandAttr.cs" initialLine="92" containingFunctionPresentation="Method 'GetValues'">
+            <startOffsets>
+              <option value="3149" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3178" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Reward/BattleReward/RewardEffect_TeamMember_TeammateAddRandAttr.cs</url>
+          <line>67</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Reward\BattleReward\RewardEffect_TeamMember_TeammateAddRandAttr.cs" initialLine="67" containingFunctionPresentation="Method 'OnGain'">
+            <startOffsets>
+              <option value="2219" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2290" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/BattleClient/PlayerInput/PlayerInput.ReleaseSkill.cs</url>
+          <line>55</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\BattleClient\PlayerInput\PlayerInput.ReleaseSkill.cs" initialLine="55" containingFunctionPresentation="Method 'HandleReleaseSkill'">
+            <startOffsets>
+              <option value="1986" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2066" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/BattleClient/PlayerInput/PlayerInput.ReleaseSkill.cs</url>
+          <line>45</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\BattleClient\PlayerInput\PlayerInput.ReleaseSkill.cs" initialLine="45" containingFunctionPresentation="Method 'HandleReleaseSkill'">
+            <startOffsets>
+              <option value="1604" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1648" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/BattleEntity.AskOperate.cs</url>
+          <line>47</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\BattleEntity.AskOperate.cs" initialLine="47" containingFunctionPresentation="Method 'AskReleaseSkill'">
+            <startOffsets>
+              <option value="1316" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1331" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/OperateQueue/ReleaseSkill_OperateNode.cs</url>
+          <line>14</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\OperateQueue\ReleaseSkill_OperateNode.cs" initialLine="14" containingFunctionPresentation="Method 'OnExecute'">
+            <startOffsets>
+              <option value="311" />
+            </startOffsets>
+            <endOffsets>
+              <option value="330" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Entity/OperateQueue/ReleaseSkill_OperateNode.cs</url>
+          <line>19</line>
+          <properties documentPath="D:\GameProjects\KalGame\001_GameFramework_Client\Assets\Script\Battle\LocalBattleLogic\BattleLogic\BattleCore\Entity\OperateQueue\ReleaseSkill_OperateNode.cs" initialLine="19" containingFunctionPresentation="Method 'OnUpdate'">
+            <startOffsets>
+              <option value="422" />
+            </startOffsets>
+            <endOffsets>
+              <option value="454" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="value" />
+        <PinnedItemInfo parentTag="Type#Battle.Skill" memberName="infoConfig" />
+        <PinnedItemInfo parentTag="Type#OpEntityItemGroup" memberName="entity" />
+        <PinnedItemInfo parentTag="Type#System.Collections.Generic.KeyValuePair`2" memberName="Value" />
+        <PinnedItemInfo parentTag="Type#Battle.BattleBox" memberName="player" />
+        <PinnedItemInfo parentTag="Type#Battle.EntityAttrObj" memberName="attrPartDic" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

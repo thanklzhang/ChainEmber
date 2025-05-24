@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 167842329
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 68199f0ec6efc2ac8b7b80e5b096c9d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_knife_hit_002.wav
+Dependencies: []

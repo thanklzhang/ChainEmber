@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3474089759
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9f0a4282d394d533c28433b99c978c68
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/HeroListUI/img_hero_list_option_select.png
+- Assets/BuildRes/Atlas/HeroListUI/img_hero_list_filter_arrow.png
+- Assets/BuildRes/Atlas/HeroListUI/img_hero_list_option_normal.png
+- "Assets/BuildRes/Atlas/HeroListUI/\u6574\u4F53.png"
+- Assets/BuildRes/Atlas/HeroListUI/img_hero_list_hero_bg.png
+- Assets/BuildRes/Atlas/HeroListUI/img_hero_list_filter_bg.png
+- Assets/BuildRes/Atlas/HeroListUI/img_hero_list_line_01.png
+Dependencies: []

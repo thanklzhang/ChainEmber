@@ -1,0 +1,1901 @@
+[
+    {
+        "id": 15000001,
+        "name": "LoginUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000002,
+        "name": "LobbyUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000003,
+        "name": "HeroListUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000004,
+        "name": "BattleUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000005,
+        "name": "LoadingUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000006,
+        "name": "HeroInfoUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000007,
+        "name": "ConfirmUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000008,
+        "name": "MainTaskUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000009,
+        "name": "MainTaskStageUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000010,
+        "name": "BattleResultUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000011,
+        "name": "TitleBarUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000012,
+        "name": "TeamRoomListUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000013,
+        "name": "TeamRoomInfoUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000014,
+        "name": "TipsUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000015,
+        "name": "SelectHeroUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000016,
+        "name": "BattleReviveUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000501,
+        "name": "BattleReplaceSkillUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15000502,
+        "name": "BattleReplaceHeroUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
+        "id": 15001001,
+        "name": "hero_100",
+        "des": "",
+        "path": "Textures/HeroBodyPic",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15002001,
+        "name": "icon_money",
+        "des": "",
+        "path": "UI/Atlas\\Common\\Item",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003001,
+        "name": "cursor_001",
+        "des": "",
+        "path": "Textures/Cursor",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003002,
+        "name": "cursor_002",
+        "des": "",
+        "path": "Textures/Cursor",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003003,
+        "name": "cursor_select_attack_001",
+        "des": "",
+        "path": "Textures/Cursor",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003004,
+        "name": "cursor_normal_005",
+        "des": "",
+        "path": "Textures/Cursor",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003005,
+        "name": "cursor_attack_001",
+        "des": "",
+        "path": "Textures/Cursor",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003101,
+        "name": "icon_buff_common_01",
+        "des": "\u901a\u7528 buff",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003102,
+        "name": "icon_buff_common_02",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003103,
+        "name": "icon_buff_common_03",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003104,
+        "name": "icon_buff_common_04",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003105,
+        "name": "icon_buff_common_05",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003106,
+        "name": "icon_buff_common_06",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003107,
+        "name": "icon_buff_common_07",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003108,
+        "name": "icon_buff_common_08",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003109,
+        "name": "icon_buff_common_09",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003110,
+        "name": "icon_buff_common_10",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003111,
+        "name": "icon_buff_common_11",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003112,
+        "name": "icon_buff_common_12",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003113,
+        "name": "icon_buff_common_13",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003114,
+        "name": "icon_buff_common_14",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003115,
+        "name": "icon_buff_common_15",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003116,
+        "name": "icon_buff_common_16",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003117,
+        "name": "icon_buff_common_17",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003118,
+        "name": "icon_buff_common_18",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003119,
+        "name": "icon_buff_common_19",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003120,
+        "name": "icon_buff_common_20",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003121,
+        "name": "icon_buff_common_21",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003122,
+        "name": "icon_buff_common_22",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003123,
+        "name": "icon_buff_common_23",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003124,
+        "name": "icon_buff_common_24",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003125,
+        "name": "icon_buff_common_25",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003126,
+        "name": "icon_buff_common_26",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003201,
+        "name": "icon_buff_hero_0001",
+        "des": "\u82f1\u96c4buff",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003202,
+        "name": "icon_buff_hero_0002",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003203,
+        "name": "icon_buff_hero_0003",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003204,
+        "name": "icon_buff_hero_0004",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003205,
+        "name": "icon_buff_hero_0005",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003206,
+        "name": "icon_buff_hero_0006",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003207,
+        "name": "icon_buff_hero_0007",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003208,
+        "name": "icon_buff_hero_0008",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003209,
+        "name": "icon_buff_hero_0009",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003210,
+        "name": "icon_buff_hero_0010",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003211,
+        "name": "icon_buff_hero_0011",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003212,
+        "name": "icon_buff_hero_0012",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003213,
+        "name": "icon_buff_hero_0013",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003214,
+        "name": "icon_buff_hero_0014",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003215,
+        "name": "icon_buff_hero_0015",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003216,
+        "name": "icon_buff_hero_0016",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003217,
+        "name": "icon_buff_hero_0017",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003218,
+        "name": "icon_buff_hero_0018",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003219,
+        "name": "icon_buff_hero_0019",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003220,
+        "name": "icon_buff_hero_0020",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003221,
+        "name": "icon_buff_hero_0021",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003222,
+        "name": "icon_buff_hero_0022",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003223,
+        "name": "icon_buff_hero_0023",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003224,
+        "name": "icon_buff_hero_0024",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003225,
+        "name": "icon_buff_hero_0025",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003226,
+        "name": "icon_buff_hero_0026",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003227,
+        "name": "icon_buff_hero_0027",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003228,
+        "name": "icon_buff_hero_0028",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003229,
+        "name": "icon_buff_hero_0029",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003230,
+        "name": "icon_buff_hero_0030",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003231,
+        "name": "icon_buff_hero_0031",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003232,
+        "name": "icon_buff_hero_0032",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003233,
+        "name": "icon_buff_hero_0033",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003234,
+        "name": "icon_buff_hero_0034",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003235,
+        "name": "icon_buff_hero_0035",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003236,
+        "name": "icon_buff_hero_0036",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003237,
+        "name": "icon_buff_hero_0037",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003238,
+        "name": "icon_buff_hero_0038",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003239,
+        "name": "icon_buff_hero_0039",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003240,
+        "name": "icon_buff_hero_0040",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003241,
+        "name": "icon_buff_hero_0041",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003242,
+        "name": "icon_buff_hero_0042",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003243,
+        "name": "icon_buff_hero_0043",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003244,
+        "name": "icon_buff_hero_0044",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003245,
+        "name": "icon_buff_hero_0045",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003246,
+        "name": "icon_buff_hero_0046",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003247,
+        "name": "icon_buff_hero_0047",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003248,
+        "name": "icon_buff_hero_0048",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003249,
+        "name": "icon_buff_hero_0049",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003250,
+        "name": "icon_buff_hero_0050",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003251,
+        "name": "icon_buff_hero_0051",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003252,
+        "name": "icon_buff_hero_0052",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003253,
+        "name": "icon_buff_hero_0053",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003254,
+        "name": "icon_buff_hero_0054",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003255,
+        "name": "icon_buff_hero_0055",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003256,
+        "name": "icon_buff_hero_0056",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003257,
+        "name": "icon_buff_hero_0057",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003258,
+        "name": "icon_buff_hero_0058",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003259,
+        "name": "icon_buff_hero_0059",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003260,
+        "name": "icon_buff_hero_0060",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003261,
+        "name": "icon_buff_hero_0061",
+        "des": "",
+        "path": "UI/Atlas/Common/Buff",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003501,
+        "name": "img_avatar_001",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003502,
+        "name": "img_avatar_002",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003503,
+        "name": "img_avatar_003",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003504,
+        "name": "img_avatar_004",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003505,
+        "name": "img_avatar_005",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003506,
+        "name": "img_avatar_006",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003507,
+        "name": "img_avatar_007",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003508,
+        "name": "img_avatar_008",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003509,
+        "name": "img_avatar_009",
+        "des": "\u5934\u50cf",
+        "path": "UI/Atlas/Common/RoleAvatar",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003601,
+        "name": "img_all_body_001",
+        "des": "\u82f1\u96c4\u5168\u8eab\u50cf",
+        "path": "UI/Atlas/Common/HeroAllBody",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003602,
+        "name": "img_all_body_002",
+        "des": "\u82f1\u96c4\u5168\u8eab\u50cf",
+        "path": "UI/Atlas/Common/HeroAllBody",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003603,
+        "name": "img_all_body_003",
+        "des": "\u82f1\u96c4\u5168\u8eab\u50cf",
+        "path": "UI/Atlas/Common/HeroAllBody",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003604,
+        "name": "img_all_body_004",
+        "des": "\u82f1\u96c4\u5168\u8eab\u50cf",
+        "path": "UI/Atlas/Common/HeroAllBody",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003701,
+        "name": "img_attr_attack",
+        "des": "\u653b\u51fb\u5c5e\u6027\u56fe\u6807",
+        "path": "UI/Atlas/Common/Attr",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003702,
+        "name": "img_attr_defend",
+        "des": "\u62a4\u7532\u5c5e\u6027\u56fe\u6807",
+        "path": "UI/Atlas/Common/Attr",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003703,
+        "name": "img_attr_max_health",
+        "des": "\u6700\u5927\u751f\u547d\u503c\u5c5e\u6027\u56fe\u6807",
+        "path": "UI/Atlas/Common/Attr",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003704,
+        "name": "img_attr_attack_speed",
+        "des": "\u653b\u51fb\u901f\u5ea6\u5c5e\u6027\u56fe\u6807",
+        "path": "UI/Atlas/Common/Attr",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003705,
+        "name": "img_attr_move_speed",
+        "des": "\u79fb\u52a8\u901f\u5ea6\u5c5e\u6027\u56fe\u6807",
+        "path": "UI/Atlas/Common/Attr",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003706,
+        "name": "img_attr_attack_range",
+        "des": "\u653b\u51fb\u8ddd\u79bb\u5c5e\u6027\u56fe\u6807",
+        "path": "UI/Atlas/Common/Attr",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003751,
+        "name": "img_skill_001",
+        "des": "\u6280\u80fd\u56fe\u6807",
+        "path": "UI/Atlas/Common/SkillIcon",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003752,
+        "name": "img_skill_002",
+        "des": "\u6280\u80fd\u56fe\u6807",
+        "path": "UI/Atlas/Common/SkillIcon",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003753,
+        "name": "img_skill_003",
+        "des": "\u6280\u80fd\u56fe\u6807",
+        "path": "UI/Atlas/Common/SkillIcon",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003754,
+        "name": "img_skill_004",
+        "des": "\u6280\u80fd\u56fe\u6807",
+        "path": "UI/Atlas/Common/SkillIcon",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15003755,
+        "name": "img_skill_005",
+        "des": "\u6280\u80fd\u56fe\u6807",
+        "path": "UI/Atlas/Common/SkillIcon",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15004001,
+        "name": "item0",
+        "des": "\u9053\u5177\u56fe\u6807",
+        "path": "UI/Atlas/Common/Item",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15004002,
+        "name": "item1",
+        "des": "\u9053\u5177\u56fe\u6807",
+        "path": "UI/Atlas/Common/Item",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15004003,
+        "name": "item2",
+        "des": "\u9053\u5177\u56fe\u6807",
+        "path": "UI/Atlas/Common/Item",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15005000,
+        "name": "bg_01",
+        "des": "\u80cc\u666f",
+        "path": "UI/Atlas/BG",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15005001,
+        "name": "bg_02",
+        "des": "\u80cc\u666f",
+        "path": "UI/Atlas/BG",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15005002,
+        "name": "bg_03",
+        "des": "\u80cc\u666f",
+        "path": "UI/Atlas/BG",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15005003,
+        "name": "bg_04",
+        "des": "\u80cc\u666f",
+        "path": "UI/Atlas/BG",
+        "ext": "png",
+        "type": 2,
+        "tag": ""
+    },
+    {
+        "id": 15006001,
+        "name": "audio_click_001",
+        "des": "",
+        "path": "Audio/Sound",
+        "ext": "wav",
+        "type": 3,
+        "tag": ""
+    },
+    {
+        "id": 15006002,
+        "name": "bgm_battle_001",
+        "des": "",
+        "path": "Audio/BGM",
+        "ext": "mp3",
+        "type": 3,
+        "tag": ""
+    },
+    {
+        "id": 15006003,
+        "name": "bgm_001",
+        "des": "",
+        "path": "Audio/BGM",
+        "ext": "mp3",
+        "type": 3,
+        "tag": ""
+    },
+    {
+        "id": 15006004,
+        "name": "bgm_002",
+        "des": "",
+        "path": "Audio/BGM",
+        "ext": "mp3",
+        "type": 3,
+        "tag": ""
+    },
+    {
+        "id": 15008001,
+        "name": "eft_select_entity_01",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008002,
+        "name": "eft_buff_fire_follow",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008003,
+        "name": "eft_skill_projectile_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008004,
+        "name": "eft_skill_cal_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008005,
+        "name": "eft_skill_cal_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008006,
+        "name": "eft_hit_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008007,
+        "name": "eft_arrow_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008008,
+        "name": "eft_ring_dart_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008009,
+        "name": "eft_move_trail",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008010,
+        "name": "eft_buff_lose_health_halo",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008011,
+        "name": "eft_health_impact",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008012,
+        "name": "eft_buff_gray_halo",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008013,
+        "name": "eft_add_health",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008014,
+        "name": "eft_stun_range",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008015,
+        "name": "eft_stun_circle",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008016,
+        "name": "eft_knife_light",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008017,
+        "name": "eft_buff_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008018,
+        "name": "eft_buff_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008019,
+        "name": "eft_impact_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008020,
+        "name": "eft_impact_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008021,
+        "name": "eft_skill_projectile_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008022,
+        "name": "eft_buff_003",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008023,
+        "name": "eft_buff_004",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008024,
+        "name": "eft_buff_005",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008025,
+        "name": "eft_buff_006",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008026,
+        "name": "eft_buff_007",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008027,
+        "name": "eft_knife_hit_001",
+        "des": "\u5200 \u51fb\u4e2d",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008028,
+        "name": "eft_knife_hit_002",
+        "des": "\u5200 \u51fb\u4e2d2",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008029,
+        "name": "eft_range_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008030,
+        "name": "eft_explosion_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008031,
+        "name": "eft_explosion_003",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008032,
+        "name": "eft_buff_link_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008101,
+        "name": "eft_skill_director_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008102,
+        "name": "eft_skill_director_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008201,
+        "name": "eft_skill_track_001",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008202,
+        "name": "eft_skill_track_002",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15008203,
+        "name": "eft_skill_track_003",
+        "des": "",
+        "path": "Effects/Prefabs",
+        "ext": "prefab",
+        "type": 4,
+        "tag": ""
+    },
+    {
+        "id": 15010001,
+        "name": "battle_scene_001",
+        "des": "",
+        "path": "Prefabs/Scene",
+        "ext": "prefab",
+        "type": 5,
+        "tag": ""
+    },
+    {
+        "id": 15010002,
+        "name": "scene_wuxia_002",
+        "des": "",
+        "path": "Prefabs/Scene",
+        "ext": "prefab",
+        "type": 5,
+        "tag": ""
+    },
+    {
+        "id": 15010003,
+        "name": "scene_ogre_001",
+        "des": "",
+        "path": "Prefabs/Scene",
+        "ext": "prefab",
+        "type": 5,
+        "tag": ""
+    },
+    {
+        "id": 15011001,
+        "name": "shangguanling_battle_001",
+        "des": "",
+        "path": "Prefabs/Models/Role",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011002,
+        "name": "shangguanling_battle_002",
+        "des": "",
+        "path": "Prefabs/Models/Role",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011003,
+        "name": "shangguanling_battle_003",
+        "des": "",
+        "path": "Prefabs/Models/Role",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011004,
+        "name": "shangguanling_battle_004",
+        "des": "",
+        "path": "Prefabs/Models/Role",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011021,
+        "name": "tangyi_battle_003",
+        "des": "",
+        "path": "Prefabs/Models/Role",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011031,
+        "name": "role_001",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011032,
+        "name": "role_002",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011033,
+        "name": "role_003",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011034,
+        "name": "role_004",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011035,
+        "name": "role_005",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011036,
+        "name": "role_006",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011037,
+        "name": "role_007",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011038,
+        "name": "role_008",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011101,
+        "name": "monster_001",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011102,
+        "name": "monster_002",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011103,
+        "name": "monster_boss_101",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011104,
+        "name": "monster_201",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15011105,
+        "name": "monster_202",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15012001,
+        "name": "monster1_battle",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15013001,
+        "name": "daoba_battle_030",
+        "des": "",
+        "path": "Models/Role/Prefabs",
+        "ext": "prefab",
+        "type": 6,
+        "tag": ""
+    },
+    {
+        "id": 15014001,
+        "name": "OutlineEffect",
+        "des": "",
+        "path": "Shader",
+        "ext": "shader",
+        "type": 7,
+        "tag": ""
+    },
+    {
+        "id": 15015001,
+        "name": "Battle_02_Desert",
+        "des": "",
+        "path": "Scenes",
+        "ext": "unity",
+        "type": 5,
+        "tag": ""
+    },
+    {
+        "id": 15015100,
+        "name": "LoginScene",
+        "des": "",
+        "path": "Scenes",
+        "ext": "unity",
+        "type": 5,
+        "tag": ""
+    },
+    {
+        "id": 15015101,
+        "name": "LobbyScene",
+        "des": "",
+        "path": "Scenes",
+        "ext": "unity",
+        "type": 5,
+        "tag": ""
+    }
+]

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3870184792
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9af0c297ff6fa745333985d945ee828
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Table/Attribute.json
+Dependencies: []

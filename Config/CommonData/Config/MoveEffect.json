@@ -1,0 +1,169 @@
+[
+    {
+        "id": 16002101,
+        "name": "\u51e4\u7d2b\u5915 \u77ac\u95f4\u4f4d\u79fb",
+        "describe": "\u51e4\u7d2b\u5915 \u77ac\u95f4\u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 1,
+        "endPosType": 1,
+        "lastTime": 320,
+        "startEffectList": [],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 0,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16003101,
+        "name": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "describe": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 4,
+        "lastTime": 320,
+        "startEffectList": [
+            14003201
+        ],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 1,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16003102,
+        "name": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "describe": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 4,
+        "lastTime": 320,
+        "startEffectList": [
+            14003202
+        ],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 1,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16003103,
+        "name": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "describe": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 4,
+        "lastTime": 320,
+        "startEffectList": [
+            14003203
+        ],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 1,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16003104,
+        "name": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "describe": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 4,
+        "lastTime": 320,
+        "startEffectList": [
+            14003204
+        ],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 1,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16003105,
+        "name": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "describe": "\u5510\u4f9d \u6280\u80fd1 \u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 4,
+        "lastTime": 320,
+        "startEffectList": [
+            14003205
+        ],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 1,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16004101,
+        "name": "\u591c\u9b42 \u5927\u62db \u4f4d\u79fb",
+        "describe": "\u591c\u9b42 \u5927\u62db \u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 1,
+        "lastTime": 320,
+        "startEffectList": [],
+        "reachEffectList": [
+            14004601,
+            13004201
+        ],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 1,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16101101,
+        "name": "\u602a\u7269 \u62c9\u4eba \u4f4d\u79fb",
+        "describe": "\u602a\u7269 \u62c9\u4eba \u4f4d\u79fb",
+        "moveSpeed": 20000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 5,
+        "lastTime": 99999999,
+        "startEffectList": [
+            14101101
+        ],
+        "reachEffectList": [
+            4103101
+        ],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 0,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16801101,
+        "name": "\u968f\u673a\u6280\u80fd \u77ac\u95f4\u4f4d\u79fb",
+        "describe": "\u968f\u673a\u6280\u80fd \u77ac\u95f4\u4f4d\u79fb",
+        "moveSpeed": 10000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 1,
+        "endPosType": 1,
+        "lastTime": 320,
+        "startEffectList": [],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 0,
+        "effectResId": 15008009
+    },
+    {
+        "id": 16801201,
+        "name": "\u968f\u673a\u6280\u80fd \u5355\u4eba\u51fb\u9000\u4f4d\u79fblv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u5355\u4eba\u51fb\u9000\u4f4d\u79fblv1",
+        "moveSpeed": 20000,
+        "moveTargetPosType": 0,
+        "moveProcessType": 0,
+        "endPosType": 3,
+        "lastTime": 180,
+        "startEffectList": [],
+        "reachEffectList": [],
+        "endRemoveEffectList": [],
+        "isThisEndForSkillEnd": 0,
+        "effectResId": 15008009
+    }
+]

@@ -1,0 +1,834 @@
+ManifestFileVersion: 0
+CRC: 3249133489
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets/buildres/atlas/bg/bg_001 (19).ab
+      Dependencies: {}
+    Info_1:
+      Name: assets/buildres/atlas/bg/bg_01 (10).ab
+      Dependencies: {}
+    Info_2:
+      Name: assets/buildres/atlas/bg/bg_01 (8).ab
+      Dependencies: {}
+    Info_3:
+      Name: assets/buildres/atlas/bg/bg_01 (9).ab
+      Dependencies: {}
+    Info_4:
+      Name: assets/buildres/atlas/bg/bg_01.ab
+      Dependencies: {}
+    Info_5:
+      Name: assets/buildres/atlas/bg/bg_02.ab
+      Dependencies: {}
+    Info_6:
+      Name: assets/buildres/atlas/bg/bg_03.ab
+      Dependencies: {}
+    Info_7:
+      Name: assets/buildres/atlas/bg/bg_04.ab
+      Dependencies: {}
+    Info_8:
+      Name: assets/buildres/atlas/bg/bg_05.ab
+      Dependencies: {}
+    Info_9:
+      Name: assets/buildres/atlas/bg/bg_06.ab
+      Dependencies: {}
+    Info_10:
+      Name: assets/buildres/atlas/bg/bg_07.ab
+      Dependencies: {}
+    Info_11:
+      Name: assets/buildres/atlas/bg/login_bg.ab
+      Dependencies: {}
+    Info_12:
+      Name: assets/buildres/atlas/bg/main_bg.ab
+      Dependencies: {}
+    Info_13:
+      Name: assets/buildres/atlas/herolistui.ab
+      Dependencies: {}
+    Info_14:
+      Name: assets/buildres/atlas/lobbyui.ab
+      Dependencies: {}
+    Info_15:
+      Name: assets/buildres/atlas/loginui.ab
+      Dependencies: {}
+    Info_16:
+      Name: assets/buildres/atlas/selectheroui.ab
+      Dependencies: {}
+    Info_17:
+      Name: assets/buildres/atlas/teamroominfoui.ab
+      Dependencies: {}
+    Info_18:
+      Name: assets/buildres/atlas/teamroomlistui.ab
+      Dependencies: {}
+    Info_19:
+      Name: assets/buildres/atlas/titlebarui.ab
+      Dependencies: {}
+    Info_20:
+      Name: assets/buildres/atlas/common/attr.ab
+      Dependencies: {}
+    Info_21:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_01.ab
+      Dependencies: {}
+    Info_22:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_02.ab
+      Dependencies: {}
+    Info_23:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_03.ab
+      Dependencies: {}
+    Info_24:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_04.ab
+      Dependencies: {}
+    Info_25:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_05.ab
+      Dependencies: {}
+    Info_26:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_06.ab
+      Dependencies: {}
+    Info_27:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_07.ab
+      Dependencies: {}
+    Info_28:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_08.ab
+      Dependencies: {}
+    Info_29:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_09.ab
+      Dependencies: {}
+    Info_30:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_10.ab
+      Dependencies: {}
+    Info_31:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_11.ab
+      Dependencies: {}
+    Info_32:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_12.ab
+      Dependencies: {}
+    Info_33:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_13.ab
+      Dependencies: {}
+    Info_34:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_14.ab
+      Dependencies: {}
+    Info_35:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_15.ab
+      Dependencies: {}
+    Info_36:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_16.ab
+      Dependencies: {}
+    Info_37:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_17.ab
+      Dependencies: {}
+    Info_38:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_18.ab
+      Dependencies: {}
+    Info_39:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_19.ab
+      Dependencies: {}
+    Info_40:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_20.ab
+      Dependencies: {}
+    Info_41:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_21.ab
+      Dependencies: {}
+    Info_42:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_22.ab
+      Dependencies: {}
+    Info_43:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_23.ab
+      Dependencies: {}
+    Info_44:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_24.ab
+      Dependencies: {}
+    Info_45:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_25.ab
+      Dependencies: {}
+    Info_46:
+      Name: assets/buildres/atlas/common/buff/icon_buff_common_26.ab
+      Dependencies: {}
+    Info_47:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0001.ab
+      Dependencies: {}
+    Info_48:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0002.ab
+      Dependencies: {}
+    Info_49:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0003.ab
+      Dependencies: {}
+    Info_50:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0004.ab
+      Dependencies: {}
+    Info_51:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0005.ab
+      Dependencies: {}
+    Info_52:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0006.ab
+      Dependencies: {}
+    Info_53:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0007.ab
+      Dependencies: {}
+    Info_54:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0008.ab
+      Dependencies: {}
+    Info_55:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0009.ab
+      Dependencies: {}
+    Info_56:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0010.ab
+      Dependencies: {}
+    Info_57:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0011.ab
+      Dependencies: {}
+    Info_58:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0012.ab
+      Dependencies: {}
+    Info_59:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0014.ab
+      Dependencies: {}
+    Info_60:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0015.ab
+      Dependencies: {}
+    Info_61:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0016.ab
+      Dependencies: {}
+    Info_62:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0017.ab
+      Dependencies: {}
+    Info_63:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0018.ab
+      Dependencies: {}
+    Info_64:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0019.ab
+      Dependencies: {}
+    Info_65:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0020.ab
+      Dependencies: {}
+    Info_66:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0021.ab
+      Dependencies: {}
+    Info_67:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0022.ab
+      Dependencies: {}
+    Info_68:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0023.ab
+      Dependencies: {}
+    Info_69:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0024.ab
+      Dependencies: {}
+    Info_70:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0025.ab
+      Dependencies: {}
+    Info_71:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0026.ab
+      Dependencies: {}
+    Info_72:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0027.ab
+      Dependencies: {}
+    Info_73:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0028.ab
+      Dependencies: {}
+    Info_74:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0029.ab
+      Dependencies: {}
+    Info_75:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0030.ab
+      Dependencies: {}
+    Info_76:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0031.ab
+      Dependencies: {}
+    Info_77:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0032.ab
+      Dependencies: {}
+    Info_78:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0033.ab
+      Dependencies: {}
+    Info_79:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0034.ab
+      Dependencies: {}
+    Info_80:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0036.ab
+      Dependencies: {}
+    Info_81:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0038.ab
+      Dependencies: {}
+    Info_82:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0039.ab
+      Dependencies: {}
+    Info_83:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0040.ab
+      Dependencies: {}
+    Info_84:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0041.ab
+      Dependencies: {}
+    Info_85:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0042.ab
+      Dependencies: {}
+    Info_86:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0043.ab
+      Dependencies: {}
+    Info_87:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0044.ab
+      Dependencies: {}
+    Info_88:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0045.ab
+      Dependencies: {}
+    Info_89:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0046.ab
+      Dependencies: {}
+    Info_90:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0047.ab
+      Dependencies: {}
+    Info_91:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0048.ab
+      Dependencies: {}
+    Info_92:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0049.ab
+      Dependencies: {}
+    Info_93:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0050.ab
+      Dependencies: {}
+    Info_94:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0051.ab
+      Dependencies: {}
+    Info_95:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0052.ab
+      Dependencies: {}
+    Info_96:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0053.ab
+      Dependencies: {}
+    Info_97:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0054.ab
+      Dependencies: {}
+    Info_98:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0055.ab
+      Dependencies: {}
+    Info_99:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0056.ab
+      Dependencies: {}
+    Info_100:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0057.ab
+      Dependencies: {}
+    Info_101:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0058.ab
+      Dependencies: {}
+    Info_102:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0059.ab
+      Dependencies: {}
+    Info_103:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0060.ab
+      Dependencies: {}
+    Info_104:
+      Name: assets/buildres/atlas/common/buff/icon_buff_hero_0061.ab
+      Dependencies: {}
+    Info_105:
+      Name: assets/buildres/atlas/common/heroallbody/img_all_body_001.ab
+      Dependencies: {}
+    Info_106:
+      Name: assets/buildres/atlas/common/heroallbody/img_all_body_002.ab
+      Dependencies: {}
+    Info_107:
+      Name: assets/buildres/atlas/common/heroallbody/img_all_body_003.ab
+      Dependencies: {}
+    Info_108:
+      Name: assets/buildres/atlas/common/heroallbody/img_all_body_004.ab
+      Dependencies: {}
+    Info_109:
+      Name: assets/buildres/atlas/common/item/icon_money.ab
+      Dependencies: {}
+    Info_110:
+      Name: assets/buildres/atlas/common/item/item0.ab
+      Dependencies: {}
+    Info_111:
+      Name: assets/buildres/atlas/common/item/item1.ab
+      Dependencies: {}
+    Info_112:
+      Name: assets/buildres/atlas/common/item/item2.ab
+      Dependencies: {}
+    Info_113:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_001.ab
+      Dependencies: {}
+    Info_114:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_002.ab
+      Dependencies: {}
+    Info_115:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_003.ab
+      Dependencies: {}
+    Info_116:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_004.ab
+      Dependencies: {}
+    Info_117:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_005.ab
+      Dependencies: {}
+    Info_118:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_006.ab
+      Dependencies: {}
+    Info_119:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_007.ab
+      Dependencies: {}
+    Info_120:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_008.ab
+      Dependencies: {}
+    Info_121:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_009.ab
+      Dependencies: {}
+    Info_122:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_050.ab
+      Dependencies: {}
+    Info_123:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_051.ab
+      Dependencies: {}
+    Info_124:
+      Name: assets/buildres/atlas/common/roleavatar/img_avatar_052.ab
+      Dependencies: {}
+    Info_125:
+      Name: assets/buildres/atlas/common/rolehalf/role_half_001.ab
+      Dependencies: {}
+    Info_126:
+      Name: assets/buildres/atlas/common/skillicon/img_skill_001.ab
+      Dependencies: {}
+    Info_127:
+      Name: assets/buildres/atlas/common/skillicon/img_skill_002.ab
+      Dependencies: {}
+    Info_128:
+      Name: assets/buildres/atlas/common/skillicon/img_skill_003.ab
+      Dependencies: {}
+    Info_129:
+      Name: assets/buildres/atlas/common/skillicon/img_skill_004.ab
+      Dependencies: {}
+    Info_130:
+      Name: assets/buildres/atlas/common/skillicon/img_skill_005.ab
+      Dependencies: {}
+    Info_131:
+      Name: assets/buildres/atlas/common/other.ab
+      Dependencies: {}
+    Info_132:
+      Name: assets/buildres/audio/bgm/bgm_001.ab
+      Dependencies: {}
+    Info_133:
+      Name: assets/buildres/audio/bgm/bgm_002.ab
+      Dependencies: {}
+    Info_134:
+      Name: assets/buildres/audio/bgm/bgm_battle_001.ab
+      Dependencies: {}
+    Info_135:
+      Name: assets/buildres/audio/sound/audio_add_health_001.ab
+      Dependencies: {}
+    Info_136:
+      Name: assets/buildres/audio/sound/audio_arrow_001.ab
+      Dependencies: {}
+    Info_137:
+      Name: assets/buildres/audio/sound/audio_buff_fire_001.ab
+      Dependencies: {}
+    Info_138:
+      Name: assets/buildres/audio/sound/audio_click_001.ab
+      Dependencies: {}
+    Info_139:
+      Name: assets/buildres/audio/sound/audio_electric_001.ab
+      Dependencies: {}
+    Info_140:
+      Name: assets/buildres/audio/sound/audio_explosion_001.ab
+      Dependencies: {}
+    Info_141:
+      Name: assets/buildres/audio/sound/audio_explosion_002.ab
+      Dependencies: {}
+    Info_142:
+      Name: assets/buildres/audio/sound/audio_explosion_003.ab
+      Dependencies: {}
+    Info_143:
+      Name: assets/buildres/audio/sound/audio_fire_001.ab
+      Dependencies: {}
+    Info_144:
+      Name: assets/buildres/audio/sound/audio_gain_buff_state_001.ab
+      Dependencies: {}
+    Info_145:
+      Name: assets/buildres/audio/sound/audio_gain_buff_state_002.ab
+      Dependencies: {}
+    Info_146:
+      Name: assets/buildres/audio/sound/audio_knife_hit.ab
+      Dependencies: {}
+    Info_147:
+      Name: assets/buildres/audio/sound/audio_knife_hit_002.ab
+      Dependencies: {}
+    Info_148:
+      Name: assets/buildres/audio/sound/audio_stun_001.ab
+      Dependencies: {}
+    Info_149:
+      Name: assets/buildres/audio/sound/audio_wind_001.ab
+      Dependencies: {}
+    Info_150:
+      Name: assets/buildres/audio/mixer/battleaudio.ab
+      Dependencies: {}
+    Info_151:
+      Name: assets/buildres/battlemap/map_info_temp.ab
+      Dependencies: {}
+    Info_152:
+      Name: assets/buildres/battlemap/map_info_temp0.ab
+      Dependencies: {}
+    Info_153:
+      Name: assets/buildres/battlemap/map_info_temp1.ab
+      Dependencies: {}
+    Info_154:
+      Name: assets/buildres/battlemap/map_info_temp2.ab
+      Dependencies: {}
+    Info_155:
+      Name: assets/buildres/battlemap/test_map_info.ab
+      Dependencies: {}
+    Info_156:
+      Name: assets/buildres/material/outlineeffect.ab
+      Dependencies:
+        Dependency_0: assets/buildres/shader.ab
+    Info_157:
+      Name: assets/buildres/prefabs/effects/eft_add_health.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_add_health_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_158:
+      Name: assets/buildres/prefabs/effects/eft_arrow_001.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_add_health_001.ab
+        Dependency_1: assets/buildres/audio/sound/audio_arrow_001.ab
+        Dependency_2: assets/buildres/audio/mixer/battleaudio.ab
+    Info_159:
+      Name: assets/buildres/prefabs/effects/eft_buff_001.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_electric_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_160:
+      Name: assets/buildres/prefabs/effects/eft_buff_002.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_buff_fire_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_161:
+      Name: assets/buildres/prefabs/effects/eft_buff_003.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_gain_buff_state_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_162:
+      Name: assets/buildres/prefabs/effects/eft_buff_004.ab
+      Dependencies: {}
+    Info_163:
+      Name: assets/buildres/prefabs/effects/eft_buff_005.ab
+      Dependencies: {}
+    Info_164:
+      Name: assets/buildres/prefabs/effects/eft_buff_006.ab
+      Dependencies: {}
+    Info_165:
+      Name: assets/buildres/prefabs/effects/eft_buff_007.ab
+      Dependencies: {}
+    Info_166:
+      Name: assets/buildres/prefabs/effects/eft_buff_fire_follow.ab
+      Dependencies: {}
+    Info_167:
+      Name: assets/buildres/prefabs/effects/eft_buff_gray_halo.ab
+      Dependencies: {}
+    Info_168:
+      Name: assets/buildres/prefabs/effects/eft_buff_lose_health_halo.ab
+      Dependencies: {}
+    Info_169:
+      Name: assets/buildres/prefabs/effects/eft_explosion_002.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_explosion_002.ab
+        Dependency_1: assets/buildres/audio/sound/audio_stun_001.ab
+        Dependency_2: assets/buildres/audio/mixer/battleaudio.ab
+    Info_170:
+      Name: assets/buildres/prefabs/effects/eft_explosion_003.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_explosion_003.ab
+        Dependency_1: assets/buildres/audio/sound/audio_stun_001.ab
+        Dependency_2: assets/buildres/audio/mixer/battleaudio.ab
+    Info_171:
+      Name: assets/buildres/prefabs/effects/eft_health_impact.ab
+      Dependencies: {}
+    Info_172:
+      Name: assets/buildres/prefabs/effects/eft_hit_001.ab
+      Dependencies: {}
+    Info_173:
+      Name: assets/buildres/prefabs/effects/eft_impact_001.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_explosion_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_174:
+      Name: assets/buildres/prefabs/effects/eft_impact_002.ab
+      Dependencies: {}
+    Info_175:
+      Name: assets/buildres/prefabs/effects/eft_knife_hit_001.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_knife_hit.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_176:
+      Name: assets/buildres/prefabs/effects/eft_knife_hit_002.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_knife_hit_002.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_177:
+      Name: assets/buildres/prefabs/effects/eft_knife_light.ab
+      Dependencies: {}
+    Info_178:
+      Name: assets/buildres/prefabs/effects/eft_move_trail.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_wind_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_179:
+      Name: assets/buildres/prefabs/effects/eft_range_001.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_gain_buff_state_002.ab
+        Dependency_1: assets/buildres/audio/sound/audio_stun_001.ab
+        Dependency_2: assets/buildres/audio/mixer/battleaudio.ab
+    Info_180:
+      Name: assets/buildres/prefabs/effects/eft_ring_dart_001.ab
+      Dependencies: {}
+    Info_181:
+      Name: assets/buildres/prefabs/effects/eft_skill_cal_001.ab
+      Dependencies: {}
+    Info_182:
+      Name: assets/buildres/prefabs/effects/eft_skill_cal_002.ab
+      Dependencies: {}
+    Info_183:
+      Name: assets/buildres/prefabs/effects/eft_skill_director_001.ab
+      Dependencies: {}
+    Info_184:
+      Name: assets/buildres/prefabs/effects/eft_skill_director_002.ab
+      Dependencies: {}
+    Info_185:
+      Name: assets/buildres/prefabs/effects/eft_skill_projectile_001.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_fire_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_186:
+      Name: assets/buildres/prefabs/effects/eft_skill_projectile_002_del.ab
+      Dependencies: {}
+    Info_187:
+      Name: assets/buildres/prefabs/effects/eft_skill_track_001.ab
+      Dependencies: {}
+    Info_188:
+      Name: assets/buildres/prefabs/effects/eft_skill_track_002.ab
+      Dependencies: {}
+    Info_189:
+      Name: assets/buildres/prefabs/effects/eft_stun_circle.ab
+      Dependencies: {}
+    Info_190:
+      Name: assets/buildres/prefabs/effects/eft_stun_range.ab
+      Dependencies:
+        Dependency_0: assets/buildres/audio/sound/audio_stun_001.ab
+        Dependency_1: assets/buildres/audio/mixer/battleaudio.ab
+    Info_191:
+      Name: assets/buildres/prefabs/models/role/daoba_battle_030.ab
+      Dependencies: {}
+    Info_192:
+      Name: assets/buildres/prefabs/models/role/monster1_battle.ab
+      Dependencies: {}
+    Info_193:
+      Name: assets/buildres/prefabs/models/role/monster_001.ab
+      Dependencies: {}
+    Info_194:
+      Name: assets/buildres/prefabs/models/role/monster_002.ab
+      Dependencies: {}
+    Info_195:
+      Name: assets/buildres/prefabs/models/role/monster_boss_101.ab
+      Dependencies: {}
+    Info_196:
+      Name: assets/buildres/prefabs/models/role/role_001.ab
+      Dependencies: {}
+    Info_197:
+      Name: assets/buildres/prefabs/models/role/role_002.ab
+      Dependencies: {}
+    Info_198:
+      Name: assets/buildres/prefabs/models/role/shangguanling_battle_001.ab
+      Dependencies: {}
+    Info_199:
+      Name: assets/buildres/prefabs/models/role/tangyi_battle_003.ab
+      Dependencies: {}
+    Info_200:
+      Name: assets/buildres/prefabs/scene/scene_ogre_001.ab
+      Dependencies: {}
+    Info_201:
+      Name: assets/buildres/prefabs/ui/aui.ab
+      Dependencies: {}
+    Info_202:
+      Name: assets/buildres/prefabs/ui/battleresultui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/loginui.ab
+        Dependency_1: assets/buildres/atlas/teamroomlistui.ab
+        Dependency_2: assets/buildres/atlas/common/other.ab
+        Dependency_3: assets/buildres/atlas/battleui.ab
+    Info_203:
+      Name: assets/buildres/prefabs/ui/battleui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/common/attr.ab
+        Dependency_1: assets/buildres/atlas/common/buff/icon_buff_common_01.ab
+        Dependency_2: assets/buildres/atlas/common/skillicon/img_skill_001.ab
+        Dependency_3: assets/buildres/atlas/common/other.ab
+        Dependency_4: assets/buildres/atlas/battleui.ab
+    Info_204:
+      Name: assets/buildres/prefabs/ui/bui.ab
+      Dependencies: {}
+    Info_205:
+      Name: assets/buildres/prefabs/ui/confirmui.ab
+      Dependencies: {}
+    Info_206:
+      Name: assets/buildres/prefabs/ui/cui.ab
+      Dependencies: {}
+    Info_207:
+      Name: assets/buildres/prefabs/ui/equipmentlistui.ab
+      Dependencies: {}
+    Info_208:
+      Name: assets/buildres/prefabs/ui/heroavatar.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/common/other.ab
+    Info_209:
+      Name: assets/buildres/prefabs/ui/heroinfoui.ab
+      Dependencies: {}
+    Info_210:
+      Name: assets/buildres/prefabs/ui/herolistui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/herolistui.ab
+        Dependency_1: assets/buildres/atlas/common/heroallbody/img_all_body_003.ab
+        Dependency_2: assets/buildres/atlas/common/other.ab
+    Info_211:
+      Name: assets/buildres/prefabs/ui/loadingui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/bg/bg_03.ab
+    Info_212:
+      Name: assets/buildres/prefabs/ui/lobbyui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/lobbyui.ab
+    Info_213:
+      Name: assets/buildres/prefabs/ui/loginui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/loginui.ab
+        Dependency_1: assets/buildres/atlas/common/other.ab
+    Info_214:
+      Name: assets/buildres/prefabs/ui/maintaskstageui.ab
+      Dependencies: {}
+    Info_215:
+      Name: assets/buildres/prefabs/ui/maintaskui.ab
+      Dependencies: {}
+    Info_216:
+      Name: assets/buildres/prefabs/ui/selectheroui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/selectheroui.ab
+        Dependency_1: assets/buildres/atlas/common/heroallbody/img_all_body_004.ab
+        Dependency_2: assets/buildres/atlas/common/other.ab
+    Info_217:
+      Name: assets/buildres/prefabs/ui/teamroominfoui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/teamroominfoui.ab
+        Dependency_1: assets/buildres/atlas/common/heroallbody/img_all_body_001.ab
+        Dependency_2: assets/buildres/atlas/common/other.ab
+    Info_218:
+      Name: assets/buildres/prefabs/ui/teamroomlistui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/teamroomlistui.ab
+        Dependency_1: assets/buildres/atlas/common/other.ab
+    Info_219:
+      Name: assets/buildres/prefabs/ui/tipsui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/common/other.ab
+    Info_220:
+      Name: assets/buildres/prefabs/ui/titlebarui.ab
+      Dependencies:
+        Dependency_0: assets/buildres/atlas/lobbyui.ab
+        Dependency_1: assets/buildres/atlas/titlebarui.ab
+        Dependency_2: assets/buildres/atlas/common/other.ab
+    Info_221:
+      Name: assets/buildres/textures/cursor/cursor_001.ab
+      Dependencies: {}
+    Info_222:
+      Name: assets/buildres/textures/cursor/cursor_002.ab
+      Dependencies: {}
+    Info_223:
+      Name: assets/buildres/textures/cursor/cursor_attack_001.ab
+      Dependencies: {}
+    Info_224:
+      Name: assets/buildres/textures/cursor/cursor_normal_005.ab
+      Dependencies: {}
+    Info_225:
+      Name: assets/buildres/textures/cursor/cursor_select_attack_001.ab
+      Dependencies: {}
+    Info_226:
+      Name: assets/buildres/table/areaeffect.ab
+      Dependencies: {}
+    Info_227:
+      Name: assets/buildres/table/attribute.ab
+      Dependencies: {}
+    Info_228:
+      Name: assets/buildres/table/battle.ab
+      Dependencies: {}
+    Info_229:
+      Name: assets/buildres/table/battleconfig.ab
+      Dependencies: {}
+    Info_230:
+      Name: assets/buildres/table/battlemap.ab
+      Dependencies: {}
+    Info_231:
+      Name: assets/buildres/table/battletrigger.ab
+      Dependencies: {}
+    Info_232:
+      Name: assets/buildres/table/buffeffect.ab
+      Dependencies: {}
+    Info_233:
+      Name: assets/buildres/table/calculateeffect.ab
+      Dependencies: {}
+    Info_234:
+      Name: assets/buildres/table/collisiongroupeffect.ab
+      Dependencies: {}
+    Info_235:
+      Name: assets/buildres/table/entityattrbase.ab
+      Dependencies: {}
+    Info_236:
+      Name: assets/buildres/table/entityattrlevel.ab
+      Dependencies: {}
+    Info_237:
+      Name: assets/buildres/table/entityattrstar.ab
+      Dependencies: {}
+    Info_238:
+      Name: assets/buildres/table/entityinfo.ab
+      Dependencies: {}
+    Info_239:
+      Name: assets/buildres/table/item.ab
+      Dependencies: {}
+    Info_240:
+      Name: assets/buildres/table/maintaskchapter.ab
+      Dependencies: {}
+    Info_241:
+      Name: assets/buildres/table/maintaskstage.ab
+      Dependencies: {}
+    Info_242:
+      Name: assets/buildres/table/moveeffect.ab
+      Dependencies: {}
+    Info_243:
+      Name: assets/buildres/table/passiveeffect.ab
+      Dependencies: {}
+    Info_244:
+      Name: assets/buildres/table/projectileeffect.ab
+      Dependencies: {}
+    Info_245:
+      Name: assets/buildres/table/resourceconfig.ab
+      Dependencies: {}
+    Info_246:
+      Name: assets/buildres/table/skill.ab
+      Dependencies: {}
+    Info_247:
+      Name: assets/buildres/table/skilltrack.ab
+      Dependencies: {}
+    Info_248:
+      Name: assets/buildres/table/teamstage.ab
+      Dependencies: {}
+    Info_249:
+      Name: assets/buildres/table/titlebar.ab
+      Dependencies: {}
+    Info_250:
+      Name: assets/buildres/battletrigger/testtrigger.ab
+      Dependencies: {}
+    Info_251:
+      Name: assets/buildres/atlas/battleui.ab
+      Dependencies: {}
+    Info_252:
+      Name: assets/buildres/shader.ab
+      Dependencies: {}
+    Info_253:
+      Name: assets/buildres/scenes/battlescene_001.ab
+      Dependencies: {}
+    Info_254:
+      Name: assets/buildres/scenes/lobbyscene.ab
+      Dependencies: {}
+    Info_255:
+      Name: assets/buildres/scenes/loginscene.ab
+      Dependencies: {}

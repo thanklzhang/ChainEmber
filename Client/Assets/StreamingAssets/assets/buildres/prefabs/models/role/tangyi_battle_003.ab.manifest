@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 845856798
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fddcb5baa53eafdcf710634c5d555bf4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f2d3d89c670d107a5446dcfca3c5af2d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Prefabs/Models/Role/tangyi_battle_003.prefab
+Dependencies: []

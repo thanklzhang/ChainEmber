@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3680415257
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7a11d85662296a58a6e7d628a88b0d0c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 137c15a16236da89168c8215a1e23a39
+HashAppended: 0
+ClassTypes:
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Mixer/BattleAudio.mixer
+Dependencies: []

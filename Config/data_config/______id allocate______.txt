@@ -1,0 +1,56 @@
+最大：2100 999999
+
+格式 ： x 000000
+
+x:
+
+HeroInfo	1
+
+Skill 2
+
+ProjectileEffect 3
+
+CalculateEffect 4
+
+Battle 5
+
+BattleTrigger 6
+
+BattleMap 7
+
+BattleConfig 9
+
+EntityAttrBase 10
+
+EntityAttrLevel 11
+
+EntityAttrStar 12
+
+AreaEffect 13
+
+BuffEffect 14
+
+ResourceConfig	15
+
+MoveEffect 16
+
+CollisionGroupEffect 17
+
+PassiveEffect 18
+
+MainTaskChapter 20
+
+MainTaskStage 21
+
+Item 22
+
+TeamStage 23
+
+Attribute 24
+
+SkillTrack 25
+
+
+
+
+

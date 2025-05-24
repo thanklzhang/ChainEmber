@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1201849067
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1088d276e98e6f31ac3f2afffb5d4ed6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_temp.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_role_temp.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_avatar_bg.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_line_01.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_stage_bg.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_change_btn.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_role_bg.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_stage_temp.png
+- Assets/BuildRes/Atlas/TeamRoomInfoUI/img_team_room_info_invite_btn.png
+Dependencies: []

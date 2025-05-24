@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1101,
+        "name": "\u901a\u7528\u5168\u968f\u673a\u5b9d\u7bb1\uff08\u91d1\u5e01\u8d2d\u4e70\uff09",
+        "describe": "",
+        "rewardIdList": [
+            10101,
+            30101,
+            40101,
+            40201,
+            50101,
+            60101
+        ],
+        "rewardWeightList": [
+            60,
+            60,
+            60,
+            120,
+            120,
+            30
+        ],
+        "fixedRewardList": []
+    },
+    {
+        "id": 1001101,
+        "name": "\u5173\u5361\u51c6\u5907\u7ed3\u7b97\u5b9d\u7bb1",
+        "describe": "",
+        "rewardIdList": [
+            10101,
+            30101,
+            40101
+        ],
+        "rewardWeightList": [
+            1,
+            1,
+            1
+        ],
+        "fixedRewardList": [
+            10101,
+            30101,
+            40101
+        ]
+    }
+]

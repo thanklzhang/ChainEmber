@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 340302421
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 02ee3736060681c46d95eae836d2ed4f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/TitleBarUI/img_coin.png
+- Assets/BuildRes/Atlas/TitleBarUI/img_res_black_bg.png
+- Assets/BuildRes/Atlas/TitleBarUI/img_title_line.png
+- Assets/BuildRes/Atlas/TitleBarUI/img_add_01.png
+Dependencies: []

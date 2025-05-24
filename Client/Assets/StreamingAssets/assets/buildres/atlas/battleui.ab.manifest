@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 387469242
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9365c7cfb0c4dd1a354ee7e92c84cb6e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 033fafe2c9f6c610c3a734393882fd4c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_03.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_item_bar_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_describ_bar_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_small_map_friend.png
+- Assets/BuildRes/Atlas/BattleUI/img_skill_cd_mask.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_bg_01.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_exp_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_04.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_avatar_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_chat_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_exp.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_02.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_06.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_small_map_self.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_chat_input_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_big_skill_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_01.png
+- Assets/BuildRes/Atlas/BattleUI/BattleUI.spriteatlas
+- Assets/BuildRes/Atlas/BattleUI/img_battle_skill_option_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_attr_bar_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_item_option_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_05.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_skill_bar_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_small_map_enemy.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_small_map_bg.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_bg_02.png
+- Assets/BuildRes/Atlas/BattleUI/img_battle_hp_bg_03.png
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3754048825
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e3736c916898a08ef02c5a94acfbc1b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_buff_fire_001.mp3
+Dependencies: []

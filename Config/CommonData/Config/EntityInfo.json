@@ -1,0 +1,562 @@
+[
+    {
+        "id": 1000001,
+        "name": "\u9690\u58a8",
+        "describe": "\u9690\u58a8",
+        "describe2": "\u8fd1\u6218\uff0c\u653b\u5b88\u517c\u5907\uff0c\u80fd\u6297\u80fd\u6253\u3002",
+        "type": 0,
+        "modelId": 15011031,
+        "baseAttrId": 10001,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2001101,
+            2001201
+        ],
+        "ultimateSkillId": 2001301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000002,
+        "name": "\u51e4\u7d2b\u5915",
+        "describe": "\u51e4\u7d2b\u5915",
+        "describe2": "\u8fd1\u6218\uff0c\u523a\u5ba2\uff0c\u5bf9\u4ed8\u6b8b\u8840\u6709\u6548\u3002",
+        "type": 0,
+        "modelId": 15011032,
+        "baseAttrId": 10002,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2002101,
+            2002201
+        ],
+        "ultimateSkillId": 2002301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000003,
+        "name": "\u5510\u4f9d",
+        "describe": "\u5510\u4f9d",
+        "describe2": "\u8fdc\u7a0b\uff0c\u6bd4\u8f83\u8fc5\u6377\u3002",
+        "type": 0,
+        "modelId": 15011033,
+        "baseAttrId": 10003,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2003101,
+            2003201
+        ],
+        "ultimateSkillId": 2003301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000004,
+        "name": "\u591c\u9b42",
+        "describe": "\u591c\u9b42",
+        "describe2": "\u8fd1\u6218\uff0c\u503e\u5411\u9632\u5b88\u7684\u8089\u76fe\u3002",
+        "type": 0,
+        "modelId": 15011034,
+        "baseAttrId": 10004,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2004101,
+            2004201
+        ],
+        "ultimateSkillId": 2004301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000005,
+        "name": "\u8427\u7389",
+        "describe": "\u8427\u7389",
+        "describe2": "\u8fdc\u7a0b\uff0c\u64c5\u957f\u8f85\u52a9\u3002",
+        "type": 0,
+        "modelId": 15011035,
+        "baseAttrId": 10005,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2005101,
+            2005201
+        ],
+        "ultimateSkillId": 2005301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000006,
+        "name": "\u627f\u7075",
+        "describe": "\u627f\u7075",
+        "describe2": "\u8fd1\u6218\uff0c\u53ef\u4ee5\u8fdb\u884c\u53ec\u5524\u3002",
+        "type": 0,
+        "modelId": 15011036,
+        "baseAttrId": 10006,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2006101,
+            2006201
+        ],
+        "ultimateSkillId": 2006301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000007,
+        "name": "\u6797\u6e05\u8fdc",
+        "describe": "\u6797\u6e05\u8fdc",
+        "describe2": "\u8fd1\u6218\uff0c\u64c5\u957f\u6b8b\u8840\u4f5c\u6218\u3002",
+        "type": 0,
+        "modelId": 15011037,
+        "baseAttrId": 10007,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2007101,
+            2007201
+        ],
+        "ultimateSkillId": 2007301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000008,
+        "name": "\u53f6\u7ea2\u8863",
+        "describe": "\u53f6\u7ea2\u8863",
+        "describe2": "\u8fdc\u7a0b\uff0c\u7fa4\u4f53\u62db\u5f0f\u3002",
+        "type": 0,
+        "modelId": 15011038,
+        "baseAttrId": 10006,
+        "levelAttrId": 1,
+        "starAttrId": 1,
+        "skillIds": [
+            2006101,
+            2005201
+        ],
+        "ultimateSkillId": 2006301,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003503,
+        "allBodyResId": 15003603
+    },
+    {
+        "id": 1000101,
+        "name": "\u602a\u72691",
+        "describe": "\u602a\u72691",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011101,
+        "baseAttrId": 20001,
+        "levelAttrId": 10001,
+        "starAttrId": 1001,
+        "skillIds": [
+            2101101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1000102,
+        "name": "\u602a\u72692",
+        "describe": "\u602a\u72692",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011102,
+        "baseAttrId": 20002,
+        "levelAttrId": 10001,
+        "starAttrId": 1002,
+        "skillIds": [
+            2102101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1000103,
+        "name": "boss",
+        "describe": "boss",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011103,
+        "baseAttrId": 20003,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2103101,
+            2103201,
+            2103301,
+            2103401,
+            2103501
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1000501,
+        "name": "\u517d\u7075\uff08\u627f\u7075\u53ec\u5524\u7269\uff09",
+        "describe": "\u517d\u7075\uff08\u627f\u7075\u53ec\u5524\u7269\uff09",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 20501,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2501101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1000502,
+        "name": "\u5c06\u7075\uff08\u627f\u7075\u53ec\u5524\u7269\uff09",
+        "describe": "\u5c06\u7075\uff08\u627f\u7075\u53ec\u5524\u7269\uff09",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011105,
+        "baseAttrId": 20502,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2502101,
+            2502201,
+            2502301
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1000801,
+        "name": "\u81ea\u7206\u4eba\uff08\u53ec\u5524\u7269\uff09",
+        "describe": "\u81ea\u7206\u4eba\uff08\u53ec\u5524\u7269\uff09",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 20801,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2502101,
+            2580101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 0,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1080011,
+        "name": "\u7070\u718a\u5927\u9ed1 Lv1",
+        "describe": "\u7070\u718a\u5927\u9ed1 Lv1",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 28011,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2880101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 1080011,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1080012,
+        "name": "\u7070\u718a\u5927\u9ed1 Lv2",
+        "describe": "\u7070\u718a\u5927\u9ed1 Lv2",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 28012,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2880101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 1080011,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1080013,
+        "name": "\u7070\u718a\u5927\u9ed1 Lv3",
+        "describe": "\u7070\u718a\u5927\u9ed1 Lv3",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 28013,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2880101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 1080011,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1080014,
+        "name": "\u7070\u718a\u5927\u9ed1 Lv4",
+        "describe": "\u7070\u718a\u5927\u9ed1 Lv4",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 28014,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2880101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 1080011,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    },
+    {
+        "id": 1080015,
+        "name": "\u7070\u718a\u5927\u9ed1 Lv5",
+        "describe": "\u7070\u718a\u5927\u9ed1 Lv5",
+        "describe2": "",
+        "type": 0,
+        "modelId": 15011104,
+        "baseAttrId": 28015,
+        "levelAttrId": 10001,
+        "starAttrId": 10001,
+        "skillIds": [
+            2880101
+        ],
+        "ultimateSkillId": 0,
+        "level_pre": 1,
+        "quality": 0,
+        "star_pre": 1,
+        "skillLevels_pre": [
+            1,
+            1
+        ],
+        "originEntityId": 1080011,
+        "aiScript": "BaseAI",
+        "isBoss": 0,
+        "avatarResId": 15003501,
+        "allBodyResId": 15003601
+    }
+]

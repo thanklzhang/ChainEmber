@@ -1,0 +1,14 @@
+Library
+Logs
+obj
+Packages
+Temp
+*.csproj
+*.sln
+.vs
+.vscode
+
+Assets/.DS_Store
+Assets/BuildRes/.DS_Store
+Assets/Script/Battle/.DS_Store
+.DS_Store

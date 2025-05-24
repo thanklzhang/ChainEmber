@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3759978031
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35b11a0ccf0c24e843adf265a5bbe546
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/Common/Attr/img_attr_attack.png
+- Assets/BuildRes/Atlas/Common/Attr/img_attr_defend.png
+- Assets/BuildRes/Atlas/Common/Attr/img_attr_attack_range.png
+- Assets/BuildRes/Atlas/Common/Attr/img_attr_max_health.png
+- Assets/BuildRes/Atlas/Common/Attr/img_attr_attack_speed.png
+- Assets/BuildRes/Atlas/Common/Attr/img_attr_move_speed.png
+Dependencies: []

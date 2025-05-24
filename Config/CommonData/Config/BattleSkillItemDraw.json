@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1001,
+        "name": "\u6280\u80fd\u62bd\u53d61",
+        "describe": "\u6280\u80fd\u62bd\u53d61",
+        "iconResId": 15003701,
+        "costItemIds": [
+            500001
+        ],
+        "costItemCounts": [
+            300
+        ],
+        "drawWeights": [
+            85,
+            15,
+            0,
+            0
+        ],
+        "drawValues": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "pool1ItemIds": [],
+        "pool1ItemWeights": [],
+        "pool2ItemIds": [],
+        "pool2ItemWeights": [],
+        "pool3ItemIds": [],
+        "pool3ItemWeights": [],
+        "pool4ItemIds": [],
+        "pool4ItemWeights": []
+    },
+    {
+        "id": 1002,
+        "name": "\u6280\u80fd\u62bd\u53d62",
+        "describe": "\u6280\u80fd\u62bd\u53d62",
+        "iconResId": 15003702,
+        "costItemIds": [
+            500001
+        ],
+        "costItemCounts": [
+            700
+        ],
+        "drawWeights": [
+            73,
+            25,
+            2,
+            0
+        ],
+        "drawValues": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "pool1ItemIds": [],
+        "pool1ItemWeights": [],
+        "pool2ItemIds": [],
+        "pool2ItemWeights": [],
+        "pool3ItemIds": [],
+        "pool3ItemWeights": [],
+        "pool4ItemIds": [],
+        "pool4ItemWeights": []
+    },
+    {
+        "id": 1003,
+        "name": "\u6280\u80fd\u62bd\u53d63",
+        "describe": "\u6280\u80fd\u62bd\u53d63",
+        "iconResId": 15003703,
+        "costItemIds": [
+            500001
+        ],
+        "costItemCounts": [
+            1500
+        ],
+        "drawWeights": [
+            53,
+            40,
+            6,
+            1
+        ],
+        "drawValues": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "pool1ItemIds": [],
+        "pool1ItemWeights": [],
+        "pool2ItemIds": [],
+        "pool2ItemWeights": [],
+        "pool3ItemIds": [],
+        "pool3ItemWeights": [],
+        "pool4ItemIds": [],
+        "pool4ItemWeights": []
+    },
+    {
+        "id": 1004,
+        "name": "\u6280\u80fd\u62bd\u53d64",
+        "describe": "\u6280\u80fd\u62bd\u53d64",
+        "iconResId": 15003704,
+        "costItemIds": [
+            500001
+        ],
+        "costItemCounts": [
+            3000
+        ],
+        "drawWeights": [
+            35,
+            50,
+            11,
+            4
+        ],
+        "drawValues": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "pool1ItemIds": [],
+        "pool1ItemWeights": [],
+        "pool2ItemIds": [],
+        "pool2ItemWeights": [],
+        "pool3ItemIds": [],
+        "pool3ItemWeights": [],
+        "pool4ItemIds": [],
+        "pool4ItemWeights": []
+    },
+    {
+        "id": 1005,
+        "name": "\u6280\u80fd\u62bd\u53d65",
+        "describe": "\u6280\u80fd\u62bd\u53d65",
+        "iconResId": 15003705,
+        "costItemIds": [
+            500001
+        ],
+        "costItemCounts": [
+            6000
+        ],
+        "drawWeights": [
+            20,
+            25,
+            20,
+            7
+        ],
+        "drawValues": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "pool1ItemIds": [],
+        "pool1ItemWeights": [],
+        "pool2ItemIds": [],
+        "pool2ItemWeights": [],
+        "pool3ItemIds": [],
+        "pool3ItemWeights": [],
+        "pool4ItemIds": [],
+        "pool4ItemWeights": []
+    }
+]

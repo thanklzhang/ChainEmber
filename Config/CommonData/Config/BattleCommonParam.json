@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "initCoin": 500,
+        "initPopulation": 2,
+        "initReviveCoin": 1,
+        "initEntityItemBarCellUnlockCount": 1,
+        "maxEntityItemBarCellCount": 3,
+        "entityItemBarCellUnlockStarLevel": [
+            2,
+            4
+        ],
+        "initPlayerWarhouseCellUnlockCount": 20,
+        "maxPlayerWarhouseCellCount": 50,
+        "buyPopulationCostCoin": [
+            500,
+            1000,
+            2000,
+            3500,
+            5500
+        ]
+    }
+]

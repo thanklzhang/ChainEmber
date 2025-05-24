@@ -1,0 +1,28 @@
+/*
+ * generate by tool
+*/
+using System.Collections;
+using System;
+using System.Collections.Generic;
+namespace Table
+{
+	public enum ResIds
+	{
+		{% for n2 in list %}
+		{{n2.name}} = {{n2.id}},
+        {% endfor %}
+	
+	}
+
+	public class ResDefine
+	{
+		public static Dictionary<ResIds,string> ResIdDic = new Dictionary<ResIds,string>()
+		{
+			{% for n2 in list %}
+			{ResIds.{{n2.name}},"{{n2.fullPath}}"},
+        	{% endfor %}
+		};
+	}
+
+  
+}

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 4278378354
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 079097a67f1d51e0660a03a70baf3a37
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/TeamRoomListUI/img_team_line_01.png
+- Assets/BuildRes/Atlas/TeamRoomListUI/teamTemp.png
+- Assets/BuildRes/Atlas/TeamRoomListUI/img_team_avatar_bg.png
+- Assets/BuildRes/Atlas/TeamRoomListUI/img_team_room_bg.png
+Dependencies: []

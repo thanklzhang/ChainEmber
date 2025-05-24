@@ -1,0 +1,14 @@
+namespace Config
+{
+	{% for e in enums %}
+    public enum {{e.enumType}}
+    {
+        {% for item in e["items"] %}
+        /// <summary>
+        /// {{item["value"]}}-{{item["text"]}}
+        /// </summary>
+        {{item["name"]}} = {{item["value"]}},
+        {%- endfor %}
+    }
+    {% endfor %}
+}

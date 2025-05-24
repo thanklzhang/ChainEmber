@@ -1,0 +1,29 @@
+/*
+ * generate by tool
+*/
+using System.Collections;
+using System;
+using System.Collections.Generic;
+namespace Config
+{
+
+  public class ConfigPathDefine
+    {
+        public static List<string> GetConfigPathList()
+        {
+            return configPathList;
+            
+        }
+		static List<string> configPathList = new List<string>()
+		{
+			{% for k in list %}
+			"{{k}}",
+			{% endfor %}
+		
+		};
+       
+    }
+	
+	
+	
+}

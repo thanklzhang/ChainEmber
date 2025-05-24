@@ -1,0 +1,2306 @@
+[
+    {
+        "id": 14001101,
+        "name": "\u9690\u58a8\u653b\u51fb\u52a0\u62a4\u7532 buff",
+        "describe": "\u9690\u58a8\u653b\u51fb\u52a0\u62a4\u7532 buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 1,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 5,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1001101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14001201,
+        "name": "\u9690\u58a8\u5927\u62db buff",
+        "describe": "\u9690\u58a8\u5927\u62db buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18001201
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1001201,
+        "endRemoveEffectList": [
+            18001201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14001202,
+        "name": "\u9690\u58a8\u5927\u62db buff",
+        "describe": "\u9690\u58a8\u5927\u62db buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18001201
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1001202,
+        "endRemoveEffectList": [
+            18001201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14001203,
+        "name": "\u9690\u58a8\u5927\u62db buff",
+        "describe": "\u9690\u58a8\u5927\u62db buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18001201
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1001203,
+        "endRemoveEffectList": [
+            18001201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14002101,
+        "name": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 999999999,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [
+            4002201
+        ],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14002102,
+        "name": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 999999999,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [
+            4002202
+        ],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14002103,
+        "name": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 999999999,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [
+            4002203
+        ],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14002104,
+        "name": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 999999999,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [
+            4002204
+        ],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14002105,
+        "name": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 999999999,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [
+            4002205
+        ],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14002201,
+        "name": "\u51e4\u7d2b\u5915\u5927\u62dbbuff \u589e\u52a0\u79fb\u52a8\u901f\u5ea6\u548c\u653b\u51fb\u9644\u5e26\u6d41\u8840\u4f24\u5bb3\u88ab\u52a8",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18002101
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1002101,
+        "endRemoveEffectList": [
+            18002101
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14002202,
+        "name": "\u51e4\u7d2b\u5915\u5927\u62dbbuff \u589e\u52a0\u79fb\u52a8\u901f\u5ea6\u548c\u653b\u51fb\u9644\u5e26\u6d41\u8840\u4f24\u5bb3\u88ab\u52a8",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18002102
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1002102,
+        "endRemoveEffectList": [
+            18002102
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14002203,
+        "name": "\u51e4\u7d2b\u5915\u5927\u62dbbuff \u589e\u52a0\u79fb\u52a8\u901f\u5ea6\u548c\u653b\u51fb\u9644\u5e26\u6d41\u8840\u4f24\u5bb3\u88ab\u52a8",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18002103
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1002103,
+        "endRemoveEffectList": [
+            18002103
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14002301,
+        "name": "\u51e4\u7d2b\u5915\u5927\u62dbbuff \u6d41\u8840\u72b6\u6001",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 5,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 1000,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [
+            4002301
+        ],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008023,
+        "showType": 0
+    },
+    {
+        "id": 14002302,
+        "name": "\u51e4\u7d2b\u5915\u5927\u62dbbuff \u6d41\u8840\u72b6\u6001",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 5,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 1000,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [
+            4002302
+        ],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008023,
+        "showType": 0
+    },
+    {
+        "id": 14002303,
+        "name": "\u51e4\u7d2b\u5915\u5927\u62dbbuff \u6d41\u8840\u72b6\u6001",
+        "describe": "\u51e4\u7d2b\u5915\u88ab\u52a8buff \u589e\u52a0\u666e\u901a\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 5,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 1000,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [
+            4002303
+        ],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008023,
+        "showType": 0
+    },
+    {
+        "id": 14003101,
+        "name": "\u5510\u4f9d\u653b\u51fb\u547d\u4e2d\u589e\u52a0\u79fb\u901f\u7684 buff",
+        "describe": "\u5510\u4f9d\u653b\u51fb\u547d\u4e2d\u589e\u52a0\u79fb\u901f\u7684 buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 1,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 5,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1003101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14003201,
+        "name": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "describe": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003201
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [
+            18003201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003202,
+        "name": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "describe": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003202
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [
+            18003201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003203,
+        "name": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "describe": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003203
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [
+            18003201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003204,
+        "name": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "describe": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003204
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [
+            18003201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003205,
+        "name": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "describe": "\u5510\u4f9dq\u6280\u80fd\u7a7f\u523a buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003205
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [
+            18003201
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003301,
+        "name": "\u5510\u4f9d\u5927\u62db buff",
+        "describe": "\u5510\u4f9d\u5927\u62db buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003301
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1003201,
+        "endRemoveEffectList": [
+            18003301
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003302,
+        "name": "\u5510\u4f9d\u5927\u62db buff",
+        "describe": "\u5510\u4f9d\u5927\u62db buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003301
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1003201,
+        "endRemoveEffectList": [
+            18003301
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14003303,
+        "name": "\u5510\u4f9d\u5927\u62db buff",
+        "describe": "\u5510\u4f9d\u5927\u62db buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18003301
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1003201,
+        "endRemoveEffectList": [
+            18003301
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14004101,
+        "name": "\u591c\u9b42 q \u6280\u80fd\u589e\u52a0\u751f\u547d\u4e0a\u9650 buff",
+        "describe": "\u591c\u9b42 q \u6280\u80fd\u589e\u52a0\u751f\u547d\u4e0a\u9650 buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 0,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 0,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1004101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14004201,
+        "name": "\u591c\u9b42 q \u6280\u80fd\u88ab\u52a8\u88ab\u6253\u5468\u56f4\u653b\u51fb buff",
+        "describe": "\u591c\u9b42 q \u6280\u80fd\u88ab\u52a8 buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 3,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 1,
+        "maxLayerTriggerEffectList": [
+            13004101
+        ],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14004301,
+        "name": "\u591c\u9b42 q \u6280\u80fd\u4e3b\u52a8\u589e\u52a0\u62a4\u7532 buff",
+        "describe": "\u591c\u9b42 q \u6280\u80fd\u4e3b\u52a8\u589e\u52a0\u62a4\u7532 buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 1,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1004201,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14004401,
+        "name": "\u591c\u9b42 q \u6280\u80fd\u4e3b\u52a8\u589e\u52a0\u653b\u51fb\u9644\u5e26\u62a4\u7532\u653b\u51fb\u4f24\u5bb3",
+        "describe": "\u591c\u9b42 q \u6280\u80fd\u4e3b\u52a8\u589e\u52a0\u653b\u51fb\u9644\u5e26\u62a4\u7532\u653b\u51fb\u4f24\u5bb3",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18004201
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14004501,
+        "name": "\u591c\u9b42 \u5927\u62db\u51fb\u6655",
+        "describe": "\u591c\u9b42 \u5927\u62db\u51fb\u6655",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2000
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008015,
+        "showType": 0
+    },
+    {
+        "id": 14004601,
+        "name": "\u591c\u9b42 \u5927\u62db\u51cf\u4f24",
+        "describe": "\u591c\u9b42 \u5927\u62db\u51cf\u4f24",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1010
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1004301,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14005101,
+        "name": "\u8427\u7389 \u5927\u62db\u589e\u52a0\u62a4\u7532buff",
+        "describe": "\u8427\u7389 \u5927\u62db\u589e\u52a0\u62a4\u7532buff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 1,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1004201,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14006101,
+        "name": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1006101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14006201,
+        "name": "\u627f\u7075 \u5927\u62db \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 \u5927\u62db \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1006201,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14007101,
+        "name": "\u6797\u6e05\u8fdc q \u6280\u80fd\u51cf\u901f",
+        "describe": "\u6797\u6e05\u8fdc q \u6280\u80fd\u51cf\u901f",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1005
+        ],
+        "lastTime": 4000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1007101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008023,
+        "showType": 0
+    },
+    {
+        "id": 14007201,
+        "name": "\u6797\u6e05\u8fdc q \u6280\u80fd \u6b8b\u8840\u7206\u53d1\u589e\u52a0\u653b\u51fb",
+        "describe": "\u6797\u6e05\u8fdc q \u6280\u80fd \u6b8b\u8840\u7206\u53d1\u589e\u52a0\u653b\u51fb",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 1,
+        "addLayerType": 2,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1007201,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14007301,
+        "name": "\u6797\u6e05\u8fdc \u5927\u62db\u589e\u52a0\u653b\u901fbuff + \u5438\u8840",
+        "describe": "\u6797\u6e05\u8fdc \u5927\u62db\u589e\u52a0\u653b\u901fbuff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            4
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18007301
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1007301,
+        "endRemoveEffectList": [
+            18007301
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14007302,
+        "name": "\u6797\u6e05\u8fdc \u5927\u62db\u589e\u52a0\u653b\u901fbuff + \u5438\u8840",
+        "describe": "\u6797\u6e05\u8fdc \u5927\u62db\u589e\u52a0\u653b\u901fbuff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            4
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18007302
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1007302,
+        "endRemoveEffectList": [
+            18007302
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14007303,
+        "name": "\u6797\u6e05\u8fdc \u5927\u62db\u589e\u52a0\u653b\u901fbuff + \u5438\u8840",
+        "describe": "\u6797\u6e05\u8fdc \u5927\u62db\u589e\u52a0\u653b\u901fbuff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            4
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            18007303
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1007303,
+        "endRemoveEffectList": [
+            18007303
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14101101,
+        "name": "\u602a\u7269 \u62c9\u4eba\u51fb\u6655",
+        "describe": "\u591c\u9b42 \u5927\u62db\u51fb\u6655",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2000
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008015,
+        "showType": 0
+    },
+    {
+        "id": 14501101,
+        "name": "\u627f\u7075\u5927\u62db\u53ec\u5524\u517d\u53e0\u52a0\u653b\u901fbuff",
+        "describe": "\u627f\u7075\u5927\u62db\u53ec\u5524\u517d\u53e0\u52a0\u653b\u901fbuff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            4
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 1,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 100,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1501101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14801101,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u751f\u547d\u6062\u590d\u901f\u5ea6",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u751f\u547d\u6062\u590d\u901f\u5ea6",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            15
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 0,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801101,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008025,
+        "showType": 0
+    },
+    {
+        "id": 14801201,
+        "name": "\u968f\u673a\u6280\u80fd \u8eb2\u907f\u4f24\u5bb3 lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u8eb2\u907f\u4f24\u5bb3 lv1",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2053
+        ],
+        "lastTime": 10000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 3,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [
+            18801101
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [
+            18801101
+        ],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801301,
+        "name": "\u968f\u673a\u6280\u80fd \u88ab\u52a8\u589e\u52a0\u53ec\u5524\u517d\u653b\u51fb\u529b lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u88ab\u52a8\u589e\u52a0\u53ec\u5524\u517d\u653b\u51fb\u529b lv1",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 0,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801201,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801401,
+        "name": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv1",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801301,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801402,
+        "name": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv2",
+        "describe": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv2",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801302,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801403,
+        "name": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv3",
+        "describe": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv3",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801303,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801404,
+        "name": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv4",
+        "describe": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv4",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801304,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801405,
+        "name": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv5",
+        "describe": "\u968f\u673a\u6280\u80fd \u4e00\u6bb5\u65f6\u95f4\u589e\u52a0\u653b\u901f lv5",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            5
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801305,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801501,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv1",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801401,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801502,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv2",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv2",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801402,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801503,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv3",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv3",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801403,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801504,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv4",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv4",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801404,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801505,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv5",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u51fb\u529b lv5",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801405,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801601,
+        "name": "\u968f\u673a\u6280\u80fd \u5468\u56f4\u5355\u4f4d\u51fb\u6655 lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u5468\u56f4\u5355\u4f4d\u51fb\u6655 lv1",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2000
+        ],
+        "lastTime": 2000,
+        "isCanBeClear": 0,
+        "affectType": 2,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [
+            4804301
+        ],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008015,
+        "showType": 0
+    },
+    {
+        "id": 14801701,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv1",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801501,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801702,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv2",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv2",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801502,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801703,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv3",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv3",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801503,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801704,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv4",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv4",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801504,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801705,
+        "name": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv5",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv5",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 6000,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801505,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801801,
+        "name": "\u968f\u673a\u6280\u80fd \u51fb\u9000\u51fb\u6655",
+        "describe": "\u968f\u673a\u6280\u80fd \u589e\u52a0\u4e00\u4e2a\u961f\u53cb\u653b\u901flv1",
+        "iconResId": 15003218,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            2000
+        ],
+        "lastTime": 1500,
+        "isCanBeClear": 0,
+        "affectType": 0,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 0,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14801901,
+        "name": "\u968f\u673a\u6280\u80fd \u7070\u718a\u53ec\u5524\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801601,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14801902,
+        "name": "\u968f\u673a\u6280\u80fd \u7070\u718a\u53ec\u5524\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801602,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14801903,
+        "name": "\u968f\u673a\u6280\u80fd \u7070\u718a\u53ec\u5524\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801603,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14801904,
+        "name": "\u968f\u673a\u6280\u80fd \u7070\u718a\u53ec\u5524\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801604,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14801905,
+        "name": "\u968f\u673a\u6280\u80fd \u7070\u718a\u53ec\u5524\u5c5e\u6027\u52a0\u6210",
+        "describe": "\u627f\u7075 q \u53ec\u5524\u7269\u5c5e\u6027\u52a0\u6210",
+        "iconResId": 15003114,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            0
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 1801605,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 0,
+        "showType": 0
+    },
+    {
+        "id": 14820101,
+        "name": "\u9053\u5177\u6280\u80fd \u653b\u51fb\u53e0\u52a0\u66b4\u51fbbuff",
+        "describe": "\u9053\u5177\u6280\u80fd \u653b\u51fb\u53e0\u52a0\u66b4\u51fbbuff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            7
+        ],
+        "lastTime": 5000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 10,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 3000013,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14820201,
+        "name": "\u9053\u5177\u6280\u80fd \u589e\u52a0\u6cbb\u7597\u6548\u679cbuff",
+        "describe": "\u9053\u5177\u6280\u80fd \u589e\u52a0\u6cbb\u7597\u6548\u679cbuff",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            7
+        ],
+        "lastTime": 999999000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 1,
+        "initLayerCount": 0,
+        "maxLayerCount": 10,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 3000016,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14850101,
+        "name": "\u6218\u6597\u5956\u52b1 buff \u589e\u4f24 50%",
+        "describe": "\u6218\u6597\u5956\u52b1 buff \u589e\u4f24 50%",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            9
+        ],
+        "lastTime": 15000,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 0,
+        "initLayerCount": 0,
+        "maxLayerCount": 0,
+        "addLayerType": 0,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 4001001,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    },
+    {
+        "id": 14850201,
+        "name": "\u6218\u6597\u5956\u52b1 buff \u589e\u52a0\u653b\u51fb\u529b 50%",
+        "describe": "\u6218\u6597\u5956\u52b1 buff \u589e\u52a0\u653b\u51fb\u529b 50%",
+        "iconResId": 15003107,
+        "effectTargetType": 0,
+        "abnormalStateTypeList": [
+            1
+        ],
+        "lastTime": 9999999,
+        "isCanBeClear": 0,
+        "affectType": 1,
+        "isDeleteOnDead": 0,
+        "initLayerCount": 0,
+        "maxLayerCount": 100,
+        "addLayerType": 1,
+        "isMaxLayerRemove": 0,
+        "maxLayerTriggerEffectList": [],
+        "maxLayerTriggerTargetType": 0,
+        "intervalTime": 0,
+        "lastTimeAddedGroup": [
+            [
+                0
+            ]
+        ],
+        "startEffectList": [],
+        "intervalEffectList": [],
+        "endEffectList": [],
+        "attrGroupConfigId": 4001002,
+        "endRemoveEffectList": [],
+        "normalAttackAddedEffectIds": [],
+        "effectResId": 15008017,
+        "showType": 0
+    }
+]

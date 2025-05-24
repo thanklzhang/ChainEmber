@@ -1,0 +1,598 @@
+[
+    {
+        "id": 18001101,
+        "name": "\u9690\u58a8 \u653b\u51fb\u52a0\u62a4\u7532",
+        "describe": "\u9690\u58a8 \u653b\u51fb\u52a0\u62a4\u7532",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            14001101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18001201,
+        "name": "\u9690\u58a8\u5927\u62db \u7fa4\u653b",
+        "describe": "\u9690\u58a8\u5927\u62db \u7fa4\u653b",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            13001101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18002101,
+        "name": "\u51e4\u7d2b\u5915 \u5927\u62db\u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0 \u6d41\u8840buff",
+        "describe": "\u51e4\u7d2b\u5915 \u5927\u62db\u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0 \u6d41\u8840buff",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            14002301
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18002102,
+        "name": "\u51e4\u7d2b\u5915 \u5927\u62db\u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0 \u6d41\u8840buff",
+        "describe": "\u51e4\u7d2b\u5915 \u5927\u62db\u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0 \u6d41\u8840buff",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            14002302
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18002103,
+        "name": "\u51e4\u7d2b\u5915 \u5927\u62db\u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0 \u6d41\u8840buff",
+        "describe": "\u51e4\u7d2b\u5915 \u5927\u62db\u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0 \u6d41\u8840buff",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            14002303
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003101,
+        "name": "\u5510\u4f9d \u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0\u79fb\u901fbuff",
+        "describe": "\u5510\u4f9d \u666e\u901a\u51fb\u4e2d\u65f6\u589e\u52a0\u79fb\u901fbuff",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            14003101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003201,
+        "name": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "describe": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            3003201
+        ],
+        "afterTriggerRemoveEffectList": [
+            14003201
+        ],
+        "maxTriggerCount": 1,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003202,
+        "name": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "describe": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            3003202
+        ],
+        "afterTriggerRemoveEffectList": [
+            14003202
+        ],
+        "maxTriggerCount": 1,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003203,
+        "name": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "describe": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            3003203
+        ],
+        "afterTriggerRemoveEffectList": [
+            14003203
+        ],
+        "maxTriggerCount": 1,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003204,
+        "name": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "describe": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            3003204
+        ],
+        "afterTriggerRemoveEffectList": [
+            14003204
+        ],
+        "maxTriggerCount": 1,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003205,
+        "name": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "describe": "\u5510\u4f9d q\u6280\u80fd\u4f4d\u79fb\u4e4b\u540e\u7684\u7a7f\u523a\u653b\u51fb",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            3003205
+        ],
+        "afterTriggerRemoveEffectList": [
+            14003205
+        ],
+        "maxTriggerCount": 1,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18003301,
+        "name": "\u5510\u4f9d \u5927\u62db\u7fa4\u653b\u88ab\u52a8",
+        "describe": "\u5510\u4f9d \u5927\u62db\u7fa4\u653b\u88ab\u52a8",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            13003101
+        ],
+        "afterTriggerRemoveEffectList": [
+            0
+        ],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18004101,
+        "name": "\u591c\u9b42q \u88ab\u653b\u51fb\u6253\u4f24\u5bb3\u7684\u88ab\u52a8",
+        "describe": "\u591c\u9b42q\u88ab\u52a8",
+        "triggerTimeType": 6,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            14004201
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18004201,
+        "name": "\u591c\u9b42q \u653b\u51fb\u9644\u5e26\u62a4\u7532\u4f24\u5bb3",
+        "describe": "\u591c\u9b42q \u653b\u51fb\u9644\u5e26\u62a4\u7532\u4f24\u5bb3",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            4004301
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18005101,
+        "name": "\u8427\u7389q\u88ab\u52a8\u653b\u51fb\u6cbb\u7597",
+        "describe": "\u8427\u7389q\u88ab\u52a8\u653b\u51fb\u6cbb\u7597",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            13005101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18006101,
+        "name": "\u627f\u7075 q \u88ab\u52a8 \u53ec\u5524\u517d\u9020\u6210\u4f24\u5bb3 \u81ea\u5df1\u56de\u8840 ",
+        "describe": "\u627f\u7075 q \u88ab\u52a8 \u53ec\u5524\u517d\u9020\u6210\u4f24\u5bb3 \u81ea\u5df1\u56de\u8840 ",
+        "triggerTimeType": 30,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            4006201
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18006201,
+        "name": "\u627f\u7075 q \u88ab\u52a8 \u81ea\u5df1\u9020\u6210\u4f24\u5bb3 \u76ee\u6807\u5468\u56f4\u53ec\u5524\u517d\u56de\u8840 ",
+        "describe": "\u627f\u7075 q \u88ab\u52a8 \u81ea\u5df1\u9020\u6210\u4f24\u5bb3 \u81ea\u5df1\u5468\u56f4\u53ec\u5524\u517d\u56de\u8840 ",
+        "triggerTimeType": 5,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            13006101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18007101,
+        "name": "\u6797\u6e05\u8fdc q \u6280\u80fd\u4f24\u5bb3\u56de\u8840 ",
+        "describe": "\u6797\u6e05\u8fdc q \u6280\u80fd\u4f24\u5bb3\u56de\u8840 ",
+        "triggerTimeType": 5,
+        "triggerIntListParam": [
+            2007201
+        ],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            4007301
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18007201,
+        "name": "\u6797\u6e05\u8fdc q \u6280\u80fd \u6b8b\u8840\u7206\u53d1\uff08\u88ab\u52a8\uff09",
+        "describe": "\u6797\u6e05\u8fdc q \u6280\u80fd \u6b8b\u8840\u7206\u53d1\uff08\u88ab\u52a8\uff09",
+        "triggerTimeType": 8,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            14007201
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18007301,
+        "name": "\u6797\u6e05\u8fdc \u5927\u62db \u666e\u901a\u51fb\u4e2d\u65f6\u5438\u8840",
+        "describe": "\u6797\u6e05\u8fdc \u5927\u62db \u666e\u901a\u51fb\u4e2d\u65f6\u5438\u8840",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            4007401
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18007302,
+        "name": "\u6797\u6e05\u8fdc \u5927\u62db \u666e\u901a\u51fb\u4e2d\u65f6\u5438\u8840",
+        "describe": "\u6797\u6e05\u8fdc \u5927\u62db \u666e\u901a\u51fb\u4e2d\u65f6\u5438\u8840",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            4007402
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18007303,
+        "name": "\u6797\u6e05\u8fdc \u5927\u62db \u666e\u901a\u51fb\u4e2d\u65f6\u5438\u8840",
+        "describe": "\u6797\u6e05\u8fdc \u5927\u62db \u666e\u901a\u51fb\u4e2d\u65f6\u5438\u8840",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            4007403
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18501101,
+        "name": "\u627f\u7075\u5927\u62db\u53ec\u5524\u517d\u7684\u7fa4\u653b\u88ab\u52a8",
+        "describe": "\u627f\u7075\u5927\u62db\u53ec\u5524\u517d\u7684\u7fa4\u653b\u88ab\u52a8",
+        "triggerTimeType": 1,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            13501101
+        ],
+        "afterTriggerRemoveEffectList": [
+            0
+        ],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18502101,
+        "name": "\u627f\u7075\u5927\u62db\u53ec\u5524\u517d\u7684\u653b\u901f\u53e0\u52a0\u589e\u52a0\u88ab\u52a8",
+        "describe": "\u627f\u7075\u5927\u62db\u53ec\u5524\u517d\u7684\u653b\u901f\u53e0\u52a0\u589e\u52a0\u88ab\u52a8",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            14501101
+        ],
+        "afterTriggerRemoveEffectList": [
+            0
+        ],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801101,
+        "name": "\u968f\u673a\u6280\u80fd \u8eb2\u907f\u4f24\u5bb3\u51cf\u5c11\u5c42\u6570lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u8eb2\u907f\u4f24\u5bb3\u51cf\u5c11\u5c42\u6570lv1",
+        "triggerTimeType": 12,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            27801101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801201,
+        "name": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv1",
+        "triggerTimeType": 4,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            4801201
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801202,
+        "name": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv2",
+        "describe": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv2",
+        "triggerTimeType": 4,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            4801202
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801203,
+        "name": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv3",
+        "describe": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv3",
+        "triggerTimeType": 4,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            4801203
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801204,
+        "name": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv4",
+        "describe": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv4",
+        "triggerTimeType": 4,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            4801204
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801205,
+        "name": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv5",
+        "describe": "\u968f\u673a\u6280\u80fd \u53cd\u5f39\u4f24\u5bb3 lv5",
+        "triggerTimeType": 4,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            4801205
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801301,
+        "name": "\u968f\u673a\u6280\u80fd \u81ea\u7206\u4eba\u81ea\u7206\u88ab\u52a8\u6280\u80fd lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u81ea\u7206\u4eba\u81ea\u7206\u88ab\u52a8\u6280\u80fd lv1",
+        "triggerTimeType": 9,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            13801101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18801401,
+        "name": "\u968f\u673a\u6280\u80fd \u88ab\u52a8\u589e\u52a0\u53ec\u5524\u517d\u653b\u51fb\u529b lv1",
+        "describe": "\u968f\u673a\u6280\u80fd \u88ab\u52a8\u589e\u52a0\u53ec\u5524\u517d\u653b\u51fb\u529b lv1",
+        "triggerTimeType": 14,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            14801301
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18820101,
+        "name": "\u9053\u5177\u6280\u80fd \u653b\u51fb\u53e0\u52a0\u66b4\u51fb",
+        "describe": "\u9053\u5177\u6280\u80fd \u653b\u51fb\u53e0\u52a0\u66b4\u51fb",
+        "triggerTimeType": 3,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 0,
+        "triggerEffectList": [
+            14820101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    },
+    {
+        "id": 18820201,
+        "name": "\u9053\u5177\u6280\u80fd \u88ab\u653b\u51fb\u53cd\u5c04\u4e00\u4e2a\u653b\u51fb\u7403",
+        "describe": "\u9053\u5177\u6280\u80fd \u88ab\u653b\u51fb\u53cd\u5c04\u4e00\u4e2a\u653b\u51fb\u7403",
+        "triggerTimeType": 4,
+        "triggerIntListParam": [],
+        "triggerParam": "",
+        "triggerChance": 1000,
+        "triggerTargetType": 1,
+        "triggerEffectList": [
+            3820101
+        ],
+        "afterTriggerRemoveEffectList": [],
+        "maxTriggerCount": 0,
+        "triggerCD": 0,
+        "triggerEffectResId": 0
+    }
+]

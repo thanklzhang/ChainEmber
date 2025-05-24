@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 3776530108
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ff6582b629c2ce51e657c997239dada5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Material/OutlineEffect.mat
+Dependencies:
+- D:/GameProjects/KalGame/001_GameFramework_Client/Assets/StreamingAssets/assets/buildres/shader.ab

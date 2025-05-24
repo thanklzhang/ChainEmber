@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1280671554
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1cb85c1b999d3303f5cd0e0bfdde0dd5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_electric_001.mp3
+Dependencies: []

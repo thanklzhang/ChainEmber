@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2622673735
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a969a923b9615466a88d0d80ae2a265
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Textures/Cursor/cursor_select_attack_001.png
+Dependencies: []

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2500201,
+        "name": "\u602a\u7269 \u6280\u80fd2 \u77e9\u5f62 \u8f68\u8ff9",
+        "describe": "\u602a\u7269 \u6247\u5f62 \u8f68\u8ff9",
+        "startTimeType": 1,
+        "type": 2,
+        "directType": 1,
+        "angle": 120,
+        "startPosType": 1,
+        "length": 5000,
+        "width": 5000,
+        "isFollow": 0,
+        "endTimeType": 1,
+        "delayEndTime": 0,
+        "effectResId": 15008203,
+        "showColorType": 1,
+        "progressFinishTime": 1000
+    }
+]

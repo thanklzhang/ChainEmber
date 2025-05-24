@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1475099603
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eba781b926fb37df1efeeef0069b6b9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_explosion_003.mp3
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2358138842
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3642e6152296130859a10215e384868c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8907662ca760ac63b4e947d703c66dc0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Prefabs/UI/CUI.prefab
+Dependencies: []

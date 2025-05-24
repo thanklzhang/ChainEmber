@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 3644531678
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 68a5fbebe7e63244f1c21549b939722c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20c3cddd6d59f0f3b5958df578843874
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aff071da9bba47a4382e2dd6909c99c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0d8e675f84dfd144a0ae14f00ea3311, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Prefabs/Scene/scene_ogre_001.prefab
+Dependencies: []

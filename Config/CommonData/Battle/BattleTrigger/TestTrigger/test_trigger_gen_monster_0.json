@@ -1,0 +1,1779 @@
+
+{
+    "triggerEvent" : {
+        "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "__TYPE__"     : "Battle.BattleTrigger.Config.BattleStartEvent"
+    },
+    "executeGroup" : [
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+            "delayTime"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 0.200000002980232
+                }
+            }
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.LoopNode",
+            "loopCount"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 5.0
+                }
+            },
+            "loopExecuteGroup" : [
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 15.0,
+                                    "y"        : 0.0,
+                                    "z"        : 21.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 1.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 22.0,
+                                    "y"        : 0.0,
+                                    "z"        : 16.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 1.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 15.0,
+                                    "y"        : 0.0,
+                                    "z"        : 7.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 1.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 7.0,
+                                    "y"        : 0.0,
+                                    "z"        : 16.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 1.0
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}}      "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}      "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+            "delayTime"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 5.0
+                }
+            }
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.LoopNode",
+            "loopCount"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 1.0
+                }
+            },
+            "loopExecuteGroup" : [
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 35.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+            "delayTime"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 5.0
+                }
+            }
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.LoopNode",
+            "loopCount"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 1.0
+                }
+            },
+            "loopExecuteGroup" : [
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 35.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+            "delayTime"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 5.0
+                }
+            }
+        },
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.LoopNode",
+            "loopCount"    : {
+                "__TYPE__" : "NumberVarField",
+                "getType"  : 0,
+                "numberVar" : {
+                    "__TYPE__" : "FloatFixedVar",
+                    "value"    : 1.0
+                }
+            },
+            "loopExecuteGroup" : [
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 35.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 45.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 25.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000201
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 5.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 25.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.DelayTimeNode",
+                    "delayTime"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 0,
+                        "numberVar" : {
+                            "__TYPE__" : "FloatFixedVar",
+                            "value"    : 1.0
+                        }
+                    }
+                },
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.CreateEntityNode",
+                    "count"        : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 1
+                        }
+                    },
+                    "entityType"   : {
+                        "configId" : 1000202
+                    },
+                    "createPosition" : {
+                        "__TYPE__" : "Vector3VarField",
+                        "getType"  : 21,
+                        "vector3Var" : {
+                            "__TYPE__" : "Vector3CircleRandVar",
+                            "center"   : {
+                                "__TYPE__" : "Vector3VarField",
+                                "getType"  : 0,
+                                "vector3Var" : {
+                                    "__TYPE__" : "Vector3FixedVar",
+                                    "x"        : 5.0,
+                                    "y"        : 0.0,
+                                    "z"        : 45.0
+                                }
+                            },
+                            "radius"   : {
+                                "__TYPE__" : "NumberVarField",
+                                "getType"  : 0,
+                                "numberVar" : {
+                                    "__TYPE__" : "FloatFixedVar",
+                                    "value"    : 2.0
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

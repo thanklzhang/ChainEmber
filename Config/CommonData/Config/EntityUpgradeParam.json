@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "upgradeExpPerStarLevel": [
+            0,
+            1,
+            2,
+            4,
+            8
+        ],
+        "decomposeExpPerStarLevel": [
+            1,
+            2,
+            4,
+            8,
+            16
+        ]
+    }
+]

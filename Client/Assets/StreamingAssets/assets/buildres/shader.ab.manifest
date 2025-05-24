@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2762748060
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: db1d008801adf0bd71b0c1657feef0fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Shader/OutlineEffect.shader
+Dependencies: []

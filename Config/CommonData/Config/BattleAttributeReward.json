@@ -1,0 +1,18 @@
+[
+    {
+        "id": 10001,
+        "name": "\u6b8b\u8840\u7206\u53d1\u589e\u52a0\u653b\u51fblv1",
+        "describe": "\u6b8b\u8840\u7206\u53d1\uff08\u88ab\u52a8\uff09lv1",
+        "addedAttrGroup": [
+            1001
+        ],
+        "addedValueGroup": [
+            [
+                30,
+                2000,
+                1
+            ]
+        ],
+        "isAddedAttrGroupContinuous": []
+    }
+]

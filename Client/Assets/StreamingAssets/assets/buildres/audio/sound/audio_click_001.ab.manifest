@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1479559447
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 152d4ac70b639f02c320cb5d149e00cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Audio/Sound/audio_click_001.wav
+Dependencies: []

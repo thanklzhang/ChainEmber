@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 527039916
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b68b34661a6efa7abefea6a31a44ccc0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 71634d11c1696d028530024ed31d6aac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Prefabs/Effects/eft_buff_002.prefab
+Dependencies:
+- D:/GameProjects/KalGame/001_GameFramework_Client/Assets/StreamingAssets/assets/buildres/audio/mixer/battleaudio.ab
+- D:/GameProjects/KalGame/001_GameFramework_Client/Assets/StreamingAssets/assets/buildres/audio/sound/audio_buff_fire_001.ab

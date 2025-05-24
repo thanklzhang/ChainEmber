@@ -1,0 +1,31 @@
+/*
+ * generate by tool
+*/
+//using System.Collections;
+using System.Collections.Generic;
+using Config;
+namespace Battle
+{
+    {# 创建变量#}
+    {% macro create_fields(n) -%}
+        {% for n2 in n %}
+        /// <summary>
+        ///{{n2.comment}}
+        /// </summary>
+        public {{ n2.type }} {{ n2.up_name }} => config.{{ n2.up_name }};
+        {% endfor %}
+    {%- endmacro %}
+ 
+    public class {{ name }}_Impl : I{{ name }}
+    {
+        private Config.{{ name }} config;
+        
+        public void Init(int id)
+        {
+            config = ConfigManager.Instance.GetById<Config.{{ name }}>(id);
+        }
+        
+        public int Id => config.Id;
+        {{create_fields(list)}}
+    } 
+}

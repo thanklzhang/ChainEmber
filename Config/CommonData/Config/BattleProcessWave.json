@@ -1,0 +1,341 @@
+[
+    {
+        "id": 101,
+        "describe": "\u7b2c 1 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 1,
+        "waveNodeIdList": [
+            1001
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 60000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100001,
+        "passType": 1,
+        "passRewardId": 100101
+    },
+    {
+        "id": 102,
+        "describe": "\u7b2c 2 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 2,
+        "waveNodeIdList": [
+            1002
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 62000,
+        "readyAddPopulationCount": 1,
+        "readyRewardId": 100002,
+        "passType": 1,
+        "passRewardId": 100102
+    },
+    {
+        "id": 103,
+        "describe": "\u7b2c 3 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 3,
+        "waveNodeIdList": [
+            1003,
+            1203
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 64000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100003,
+        "passType": 1,
+        "passRewardId": 100103
+    },
+    {
+        "id": 104,
+        "describe": "\u7b2c 4 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 4,
+        "waveNodeIdList": [
+            1004,
+            1204
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 66000,
+        "readyAddPopulationCount": 1,
+        "readyRewardId": 100004,
+        "passType": 1,
+        "passRewardId": 100104
+    },
+    {
+        "id": 105,
+        "describe": "\u7b2c 5 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 5,
+        "waveNodeIdList": [
+            1005,
+            1205
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 68000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100005,
+        "passType": 1,
+        "passRewardId": 100105
+    },
+    {
+        "id": 106,
+        "describe": "\u7b2c 6 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 6,
+        "waveNodeIdList": [
+            1006,
+            1206
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 70000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100006,
+        "passType": 1,
+        "passRewardId": 100106
+    },
+    {
+        "id": 107,
+        "describe": "\u7b2c 7 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 7,
+        "waveNodeIdList": [
+            1007,
+            1207
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 72000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100007,
+        "passType": 1,
+        "passRewardId": 100107
+    },
+    {
+        "id": 108,
+        "describe": "\u7b2c 8 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 8,
+        "waveNodeIdList": [
+            1008,
+            1208
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 74000,
+        "readyAddPopulationCount": 1,
+        "readyRewardId": 100008,
+        "passType": 1,
+        "passRewardId": 100108
+    },
+    {
+        "id": 109,
+        "describe": "\u7b2c 9 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 9,
+        "waveNodeIdList": [
+            1009,
+            1209
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 76000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100009,
+        "passType": 1,
+        "passRewardId": 100109
+    },
+    {
+        "id": 110,
+        "describe": "\u7b2c 10 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 10,
+        "waveNodeIdList": [
+            1010,
+            1210
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 78000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100010,
+        "passType": 1,
+        "passRewardId": 100110
+    },
+    {
+        "id": 111,
+        "describe": "\u7b2c 11 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 11,
+        "waveNodeIdList": [
+            1011,
+            1211
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 80000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100011,
+        "passType": 1,
+        "passRewardId": 100111
+    },
+    {
+        "id": 112,
+        "describe": "\u7b2c 12 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 12,
+        "waveNodeIdList": [
+            1012,
+            1212
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 85000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100012,
+        "passType": 1,
+        "passRewardId": 100112
+    },
+    {
+        "id": 113,
+        "describe": "\u7b2c 13 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 13,
+        "waveNodeIdList": [
+            1013,
+            1213
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 90000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100013,
+        "passType": 1,
+        "passRewardId": 100113
+    },
+    {
+        "id": 114,
+        "describe": "\u7b2c 14 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 14,
+        "waveNodeIdList": [
+            1014,
+            1214
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 95000,
+        "readyAddPopulationCount": 1,
+        "readyRewardId": 100014,
+        "passType": 1,
+        "passRewardId": 100114
+    },
+    {
+        "id": 115,
+        "describe": "\u7b2c 15 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 15,
+        "waveNodeIdList": [
+            1015,
+            1215
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 100000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100015,
+        "passType": 1,
+        "passRewardId": 100115
+    },
+    {
+        "id": 116,
+        "describe": "\u7b2c 16 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 16,
+        "waveNodeIdList": [
+            1016,
+            1216
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 105000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100016,
+        "passType": 1,
+        "passRewardId": 100116
+    },
+    {
+        "id": 117,
+        "describe": "\u7b2c 17 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 17,
+        "waveNodeIdList": [
+            1017,
+            1217
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 110000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100017,
+        "passType": 1,
+        "passRewardId": 100117
+    },
+    {
+        "id": 118,
+        "describe": "\u7b2c 18 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 18,
+        "waveNodeIdList": [
+            1018,
+            1218
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 115000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100018,
+        "passType": 1,
+        "passRewardId": 100118
+    },
+    {
+        "id": 119,
+        "describe": "\u7b2c 19 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 19,
+        "waveNodeIdList": [
+            1019,
+            1219
+        ],
+        "waveType": 0,
+        "readyTime": 999999999,
+        "limitTime": 120000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100019,
+        "passType": 1,
+        "passRewardId": 100119
+    },
+    {
+        "id": 120,
+        "describe": "\u7b2c 20 \u6ce2 \u7eaf\u672c\u5730\u6218\u6597",
+        "processId": 101,
+        "waveIndex": 20,
+        "waveNodeIdList": [
+            1020,
+            1220,
+            1320
+        ],
+        "waveType": 2,
+        "readyTime": 999999999,
+        "limitTime": 180000,
+        "readyAddPopulationCount": 0,
+        "readyRewardId": 100020,
+        "passType": 1,
+        "passRewardId": 100120
+    }
+]

@@ -1,0 +1,123 @@
+[
+    {
+        "id": 29005101,
+        "name": "\u8427\u7389 q\u6280\u80fd \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u961f\u53cb\u5c31\u52a0\u8840",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 1,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005201
+        ]
+    },
+    {
+        "id": 29005201,
+        "name": "\u8427\u7389 q\u6280\u80fd \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u654c\u4eba\u5c31\u8d39\u8840",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 2,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005301
+        ]
+    },
+    {
+        "id": 29005202,
+        "name": "\u8427\u7389 q\u6280\u80fd \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u654c\u4eba\u5c31\u8d39\u8840",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 2,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005302
+        ]
+    },
+    {
+        "id": 29005203,
+        "name": "\u8427\u7389 q\u6280\u80fd \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u654c\u4eba\u5c31\u8d39\u8840",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 2,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005303
+        ]
+    },
+    {
+        "id": 29005204,
+        "name": "\u8427\u7389 q\u6280\u80fd \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u654c\u4eba\u5c31\u8d39\u8840",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 2,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005304
+        ]
+    },
+    {
+        "id": 29005205,
+        "name": "\u8427\u7389 q\u6280\u80fd \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u654c\u4eba\u5c31\u8d39\u8840",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 2,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005305
+        ]
+    },
+    {
+        "id": 29005301,
+        "name": "\u8427\u7389 \u5927\u62db \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u961f\u53cb\u5c31\u52a0\u62a4\u7532",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 1,
+        "actionType": 1,
+        "actionParamIntList": [
+            14005101,
+            27005101
+        ]
+    },
+    {
+        "id": 29005401,
+        "name": "\u8427\u7389 \u5927\u62db \u5b9e\u4f53\u5173\u7cfb\u6761\u4ef6 \u654c\u4eba\u5c31\u6536\u5230\u4f24\u5bb3",
+        "condition": 201,
+        "conditionParamIntList": [
+            0,
+            1
+        ],
+        "operate": "==",
+        "opIntValue": 2,
+        "actionType": 1,
+        "actionParamIntList": [
+            4005501
+        ]
+    }
+]

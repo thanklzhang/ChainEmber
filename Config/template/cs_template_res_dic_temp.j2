@@ -1,0 +1,16 @@
+/*
+ * generate by tool
+*/
+using System.Collections;
+using System;
+using System.Collections.Generic;
+namespace Config
+{
+	public enum ResIds
+	{
+		{% for n2 in list %}
+		{{n2.name}} = {{n2.id}},
+        {% endfor %}
+	
+	}  
+}

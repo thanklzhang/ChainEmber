@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1394789352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e742001944e3f5afdd5c4a7b109cce19
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildRes/Atlas/LobbyUI/img_lobby_up_black.png
+- Assets/BuildRes/Atlas/LobbyUI/img_lobby_show_role.png
+- Assets/BuildRes/Atlas/LobbyUI/img_lobby_avatar_bg.png
+- Assets/BuildRes/Atlas/LobbyUI/img_lobby_bg.png
+- Assets/BuildRes/Atlas/LobbyUI/img_lobby_func_bg.png
+Dependencies: []
