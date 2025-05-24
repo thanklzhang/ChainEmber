@@ -12,7 +12,7 @@ import shutil
 config_input_dir = 'data_config'
 
 # 客户端 cs define 文件输出目录
-client_cs_out_dir = "../Assets/Script/Config/ConfigDefine"
+client_cs_out_dir = "../Client/Assets/Scripts/Config/ConfigDefine"
 # 客户端 json 文件输出目录
 # client_json_out_dir = "../001_GameFramework_Client/Assets/BuildRes/TableData"
 
@@ -29,10 +29,10 @@ client_cs_out_dir = "../Assets/Script/Config/ConfigDefine"
 # pure_battle_logic_table_json_path = "../001_GameFramework_Battle/BattleProject/bin/Debug/netcoreapp3.1/Resource/Table"
 
 # 战斗配置接口定义 cs define 文件输出目录
-battle_config_define_cs_out_dir = "../Client/Assets/Script/Battle/LocalBattleLogic/BattleLogic/BattleCore/Config/ConfigDefine"
+battle_config_define_cs_out_dir = "../Client/Assets/Scripts/Battle/LocalBattleLogic/BattleLogic/BattleCore/Config/ConfigDefine"
 
 # 战斗配置接口定义(客户端实现) cs define 文件输出目录
-battle_config_client_impl_define_cs_out_dir = "../Client/Assets/Script/Battle/LocalBattleLogic/Executer/Impl/ConfigImpl/ConfigDefineImpl"
+battle_config_client_impl_define_cs_out_dir = "../Client/Assets/Scripts/Battle/LocalBattleLogic/Executer/Impl/ConfigImpl/ConfigDefineImpl"
 
 # config 数据 前端用
 common_json_out_dir = "../Client/Assets/BuildRes/Config"
