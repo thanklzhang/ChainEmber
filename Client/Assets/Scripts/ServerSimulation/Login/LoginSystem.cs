@@ -40,6 +40,7 @@ namespace ServerSimulation
             // 有后台用户且用户名匹配，尝试登录
             if (account != null && account.Username == username)
             {
+                Debug.Log($"[LoginSystem] 登录类型: 已有用户");
                 // 如果密码为空，说明是自动登录，跳过密码检查
                 if (!string.IsNullOrEmpty(password) && account.Password != password)
                 {
@@ -68,6 +69,7 @@ namespace ServerSimulation
             }
             else
             {
+                Debug.Log($"[LoginSystem] 登录类型: 新用户（自动注册）");
                 // 没有后台用户或用户名不匹配，自动注册并登录
                 return Register(username, password);
             }

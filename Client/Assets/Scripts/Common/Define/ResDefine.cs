@@ -233,6 +233,10 @@ namespace Config
         
 		icon_buff_hero_0061 = 15003261,
         
+		img_player_avatar_001 = 15003401,
+        
+		img_player_avatar_002 = 15003402,
+        
 		img_avatar_001 = 15003501,
         
 		img_avatar_002 = 15003502,

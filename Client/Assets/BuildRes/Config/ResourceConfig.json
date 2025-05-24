@@ -1009,7 +1009,7 @@
     },
     {
         "id": 15003401,
-        "name": "img_avatar_001",
+        "name": "img_player_avatar_001",
         "des": "\u73a9\u5bb6\u5934\u50cf",
         "path": "UI/Atlas/Common/PlayerAvatar",
         "ext": "png",
@@ -1018,74 +1018,11 @@
     },
     {
         "id": 15003402,
-        "name": "img_avatar_002",
+        "name": "img_player_avatar_002",
         "des": "\u73a9\u5bb6\u5934\u50cf",
         "path": "UI/Atlas/Common/PlayerAvatar",
         "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003403,
-        "name": "img_avatar_003",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003404,
-        "name": "img_avatar_004",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003405,
-        "name": "img_avatar_005",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003406,
-        "name": "img_avatar_006",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003407,
-        "name": "img_avatar_007",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003408,
-        "name": "img_avatar_008",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
-        "tag": ""
-    },
-    {
-        "id": 15003409,
-        "name": "img_avatar_009",
-        "des": "\u73a9\u5bb6\u5934\u50cf",
-        "path": "UI/Atlas/Common/PlayerAvatar",
-        "ext": "png",
-        "type": 2,
+        "type": 3,
         "tag": ""
     },
     {

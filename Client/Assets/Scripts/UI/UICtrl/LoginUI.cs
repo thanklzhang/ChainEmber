@@ -14,7 +14,7 @@ public class LoginUI : BaseUI
         this.uiResId = (int)ResIds.LoginUI;
         this.uiShowLayer = UIShowLayer.Floor_0; 
     }
-    
+ 
     //登录主界面
     private Text userAccountText;
     private Button btn_login;
@@ -23,7 +23,7 @@ public class LoginUI : BaseUI
 
     //登录/注册界面 - 不再需要，但保留界面引用防止空引用错误
     private GameObject loginRootObj;
-    
+
     protected override void OnLoadFinish()
     { 
         //登录相关
@@ -45,7 +45,7 @@ public class LoginUI : BaseUI
             //切换用户按钮 - 现在变为重置用户按钮
             this.OnResetUserBtnClick();
         });
-        
+
         // 隐藏登录/注册界面，显示主界面
         this.SetLoginRegisterUIShow(false);
         this.SetStateText("准备登录...");
@@ -84,7 +84,7 @@ public class LoginUI : BaseUI
     /// 使用设备ID自动登录
     /// </summary>
     private void AutoLoginWithDeviceId()
-    {
+        {
         string deviceId = GetDeviceIdentifier();
         Debug.Log($"[LoginUI] 使用设备ID登录: {deviceId}");
         

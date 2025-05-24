@@ -121,6 +121,52 @@ public class OpenPersistentDataPathTool
         }
     }
     
+    [MenuItem("Tools/Clear Persistent Data (清档)")]
+    public static void ClearPersistentDataFolder()
+    {
+        string path = Application.persistentDataPath;
+        if (!Directory.Exists(path))
+        {
+            Debug.Log("[清档] 持久化数据目录不存在，无需清理。");
+            // 仍然清除PlayerPrefs
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
+            Debug.Log("[清档] PlayerPrefs 已清空。");
+            EditorUtility.DisplayDialog("清档完成", "PlayerPrefs 已清空！", "确定");
+            return;
+        }
+        
+        // 弹窗确认
+        if (!EditorUtility.DisplayDialog("清档确认", $"确定要清空持久化数据目录并清除PlayerPrefs？\n{path}", "确定清档", "取消"))
+        {
+            return;
+        }
+        
+        try
+        {
+            var dirInfo = new DirectoryInfo(path);
+            foreach (var file in dirInfo.GetFiles())
+            {
+                file.Delete();
+            }
+            foreach (var dir in dirInfo.GetDirectories())
+            {
+                dir.Delete(true);
+            }
+            // 清除PlayerPrefs
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
+            Debug.Log($"[清档] 已清空持久化数据目录: {path}");
+            Debug.Log("[清档] PlayerPrefs 已清空。");
+            EditorUtility.DisplayDialog("清档完成", "持久化数据目录和PlayerPrefs已清空！", "确定");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"[清档] 清空持久化数据目录失败: {e.Message}");
+            EditorUtility.DisplayDialog("清档失败", $"清空失败：{e.Message}", "确定");
+        }
+    }
+    
     // [MenuItem("Tools/Create Test File in Persistent Data Path")]
     // public static void CreateTestFile()
     // {
