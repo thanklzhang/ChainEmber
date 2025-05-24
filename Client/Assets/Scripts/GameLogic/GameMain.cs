@@ -23,11 +23,17 @@ public class GameMain : MonoBehaviour
     public GameObject tempModelAsset;
     public Transform gameObjectRoot;
     bool isLoadFinish;
+    public GameObject initLoadingGo;
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        // DontDestroyOnLoad(this.gameObject);
 
         Instance = this;
+    }
+
+    public void CloseInitLoadingUI()
+    {
+        Destroy(initLoadingGo);
     }
 
     public IEnumerator GameInit()
