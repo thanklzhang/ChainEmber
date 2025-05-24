@@ -1,0 +1,638 @@
+[
+    {
+        "id": 100001,
+        "describe": "\u7b2c 1 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [
+            401,
+            402
+        ],
+        "randBoxWeightList": [
+            1,
+            1
+        ],
+        "randBoxCount": 2
+    },
+    {
+        "id": 100002,
+        "describe": "\u7b2c 2 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [
+            401,
+            402
+        ],
+        "randBoxWeightList": [
+            1,
+            1
+        ],
+        "randBoxCount": 3
+    },
+    {
+        "id": 100003,
+        "describe": "\u7b2c 3 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [
+            401,
+            402
+        ],
+        "randBoxWeightList": [
+            1,
+            1
+        ],
+        "randBoxCount": 4
+    },
+    {
+        "id": 100004,
+        "describe": "\u7b2c 4 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100005,
+        "describe": "\u7b2c 5 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100006,
+        "describe": "\u7b2c 6 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100007,
+        "describe": "\u7b2c 7 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100008,
+        "describe": "\u7b2c 8 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100009,
+        "describe": "\u7b2c 9 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100010,
+        "describe": "\u7b2c 10 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100011,
+        "describe": "\u7b2c 11 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100012,
+        "describe": "\u7b2c 12 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100013,
+        "describe": "\u7b2c 13 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100014,
+        "describe": "\u7b2c 14 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100015,
+        "describe": "\u7b2c 15 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100016,
+        "describe": "\u7b2c 16 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100017,
+        "describe": "\u7b2c 17 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100018,
+        "describe": "\u7b2c 18 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100019,
+        "describe": "\u7b2c 19 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100020,
+        "describe": "\u7b2c 20 \u6ce2\u51c6\u5907\u5956\u52b1",
+        "itemIdList": [],
+        "itemCountList": [],
+        "fixedBoxIdList": [
+            100001
+        ],
+        "fixedBoxCountList": [
+            1
+        ],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100101,
+        "describe": "\u7b2c 1 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            300
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [
+            401,
+            402
+        ],
+        "randBoxWeightList": [
+            1,
+            1
+        ],
+        "randBoxCount": 2
+    },
+    {
+        "id": 100102,
+        "describe": "\u7b2c 2 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            350
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [
+            401,
+            402
+        ],
+        "randBoxWeightList": [
+            1,
+            1
+        ],
+        "randBoxCount": 3
+    },
+    {
+        "id": 100103,
+        "describe": "\u7b2c 3 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            400
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [
+            401,
+            402
+        ],
+        "randBoxWeightList": [
+            1,
+            1
+        ],
+        "randBoxCount": 4
+    },
+    {
+        "id": 100104,
+        "describe": "\u7b2c 4 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            450
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100105,
+        "describe": "\u7b2c 5 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            500
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100106,
+        "describe": "\u7b2c 6 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            550
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100107,
+        "describe": "\u7b2c 7 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            600
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100108,
+        "describe": "\u7b2c 8 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            650
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100109,
+        "describe": "\u7b2c 9 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            700
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100110,
+        "describe": "\u7b2c 10 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            750
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100111,
+        "describe": "\u7b2c 11 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            800
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100112,
+        "describe": "\u7b2c 12 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            850
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100113,
+        "describe": "\u7b2c 13 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            900
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100114,
+        "describe": "\u7b2c 14 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            950
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100115,
+        "describe": "\u7b2c 15 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            1000
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100116,
+        "describe": "\u7b2c 16 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            1050
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100117,
+        "describe": "\u7b2c 17 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            1100
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100118,
+        "describe": "\u7b2c 18 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            1150
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100119,
+        "describe": "\u7b2c 19 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            1200
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    },
+    {
+        "id": 100120,
+        "describe": "\u7b2c 20 \u6ce2\u901a\u8fc7\u5956\u52b1",
+        "itemIdList": [
+            500001
+        ],
+        "itemCountList": [
+            1250
+        ],
+        "fixedBoxIdList": [],
+        "fixedBoxCountList": [],
+        "randBoxIdList": [],
+        "randBoxWeightList": [],
+        "randBoxCount": 0
+    }
+]

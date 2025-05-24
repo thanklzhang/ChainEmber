@@ -1,0 +1,498 @@
+[
+    {
+        "id": 13001101,
+        "name": "\u9690\u58a8\u5927\u62db\u7fa4\u653b\u533a\u57df\u9009\u62e9",
+        "describe": "\u9690\u58a8\u5927\u62db\u7fa4\u653b\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 1,
+        "randSelectCount": 0,
+        "effectList": [
+            3001101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13003101,
+        "name": "\u5510\u4f9d\u5927\u62db\u7fa4\u653b\u533a\u57df\u9009\u62e9",
+        "describe": "\u5510\u4f9d\u5927\u62db\u7fa4\u653b\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 4,
+        "effectList": [
+            3003301
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13004101,
+        "name": "\u591c\u9b42q\u88ab\u52a8\u7fa4\u653b\u533a\u57df\u9009\u62e9",
+        "describe": "\u591c\u9b42q\u88ab\u52a8\u7fa4\u653b\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4004201
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13004201,
+        "name": "\u591c\u9b42q \u5927\u62db\u533a\u57df\u9009\u62e9",
+        "describe": "\u591c\u9b42q \u5927\u62db\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            14004501,
+            4004401
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13005101,
+        "name": "\u8427\u7389q \u88ab\u52a8\u653b\u51fb\u6cbb\u7597\u968f\u673a\u533a\u57df\u9009\u62e9",
+        "describe": "\u8427\u7389q \u88ab\u52a8\u653b\u51fb\u6cbb\u7597\u968f\u673a\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 3,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 1,
+        "effectList": [
+            4005201
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13005201,
+        "name": "\u8427\u7389\u5927\u62db\u533a\u57df\u533a\u57df\u9009\u62e9",
+        "describe": "\u8427\u7389\u5927\u62db\u533a\u57df\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 4,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            29005301,
+            29005401
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13006101,
+        "name": "\u627f\u7075 q \u6280\u80fd\u88ab\u52a8 \u9020\u6210\u4f24\u5bb3\u7ed9\u53ec\u5524\u517d\u52a0\u8840\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u627f\u7075 q \u6280\u80fd\u88ab\u52a8 \u9020\u6210\u4f24\u5bb3\u7ed9\u53ec\u5524\u517d\u52a0\u8840\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 6,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4006301
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13007101,
+        "name": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "describe": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4007201,
+            14007101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13007102,
+        "name": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "describe": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4007202,
+            14007101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13007103,
+        "name": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "describe": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4007203,
+            14007101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13007104,
+        "name": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "describe": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4007204,
+            14007101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13007105,
+        "name": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "describe": "\u6797\u6e05\u8fdcq\u6280\u80fd\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4007205,
+            14007101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13101101,
+        "name": "\u602a\u7269 \u6280\u80fd \u9009\u62e9 3 \u8fde\u51fb\u533a\u57df\u4f24\u5bb3",
+        "describe": "\u602a\u7269 \u6280\u80fd \u9009\u62e9 3 \u8fde\u51fb\u533a\u57df\u4f24\u5bb3",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 20,
+        "startPosShiftDistance": 1500,
+        "rangeParam": [
+            1500
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4102101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13101201,
+        "name": "\u602a\u7269 \u6280\u80fd \u9009\u62e9 3 \u8fde\u51fb\u533a\u57df\u4f24\u5bb3",
+        "describe": "\u602a\u7269 \u6280\u80fd \u9009\u62e9 3 \u8fde\u51fb\u533a\u57df\u4f24\u5bb3",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 20,
+        "startPosShiftDistance": 3200,
+        "rangeParam": [
+            1500
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4102101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13101301,
+        "name": "\u602a\u7269 \u6280\u80fd \u9009\u62e9 3 \u8fde\u51fb\u533a\u57df\u4f24\u5bb3",
+        "describe": "\u602a\u7269 \u6280\u80fd \u9009\u62e9 3 \u8fde\u51fb\u533a\u57df\u4f24\u5bb3",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 20,
+        "startPosShiftDistance": 5000,
+        "rangeParam": [
+            1500
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4102101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13102101,
+        "name": "\u602a\u7269 \u6280\u80fd \u6247\u5f62\u533a\u57df\u4f24\u5bb3\u9009\u62e9",
+        "describe": "\u602a\u7269 \u6280\u80fd \u6247\u5f62\u533a\u57df\u4f24\u5bb3\u9009\u62e9",
+        "areaType": 2,
+        "startPosType": 0,
+        "startPosShiftDirType": 1,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000,
+            120
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            4102101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13501101,
+        "name": "\u627f\u7075\u5927\u62db\u53ec\u5524\u7269\u7684\u653b\u51fb\u88ab\u52a8\u533a\u57df\u9009\u62e9",
+        "describe": "\u627f\u7075\u5927\u62db\u53ec\u5524\u7269\u7684\u653b\u51fb\u88ab\u52a8\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 1,
+        "randSelectCount": 0,
+        "effectList": [
+            3502101
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13801101,
+        "name": "\u968f\u673a\u6280\u80fd \u53ec\u5524\u7269\u81ea\u7206\u4eba\u81ea\u7206\u6280\u80fd\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u968f\u673a\u6280\u80fd \u53ec\u5524\u7269\u81ea\u7206\u4eba\u81ea\u7206\u6280\u80fd\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 1,
+        "randSelectCount": 0,
+        "effectList": [
+            4801301
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13801201,
+        "name": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            14801601,
+            4804301
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13801202,
+        "name": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            14801601,
+            4804302
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13801203,
+        "name": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            14801601,
+            4804303
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13801204,
+        "name": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            14801601,
+            4804304
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    },
+    {
+        "id": 13801205,
+        "name": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "describe": "\u968f\u673a\u6280\u80fd \u5468\u4e3a\u5355\u4f4d\u51fb\u6655\u7684\u533a\u57df\u9009\u62e9",
+        "areaType": 0,
+        "startPosType": 0,
+        "startPosShiftDirType": 0,
+        "startPosShiftDistance": 0,
+        "rangeParam": [
+            5000
+        ],
+        "entityRelationFilterType": 0,
+        "filterEntityType": 0,
+        "excludeEntityType": 0,
+        "randSelectCount": 0,
+        "effectList": [
+            14801601,
+            4804305
+        ],
+        "groupEffectList": [],
+        "effectResId": 0
+    }
+]

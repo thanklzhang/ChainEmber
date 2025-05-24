@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "\u4e3b\u754c\u9762",
+        "describe": "\u4e3b\u754c\u9762",
+        "titleRes": 0,
+        "titleName": "",
+        "resList": [
+            22000001
+        ],
+        "isShowCloseBtn": 0,
+        "isShowBg": 0,
+        "isShowLine": 0
+    },
+    {
+        "id": 2,
+        "name": "\u4fa0\u5ba2",
+        "describe": "\u4fa0\u5ba2",
+        "titleRes": 0,
+        "titleName": "\u4fa0\u5ba2",
+        "resList": [
+            22000001
+        ],
+        "isShowCloseBtn": 1,
+        "isShowBg": 1,
+        "isShowLine": 1
+    },
+    {
+        "id": 3,
+        "name": "\u7ec4\u961f\u623f\u95f4\u5217\u8868",
+        "describe": "\u7ec4\u961f\u623f\u95f4",
+        "titleRes": 0,
+        "titleName": "\u7ec4\u961f",
+        "resList": [
+            22000001
+        ],
+        "isShowCloseBtn": 1,
+        "isShowBg": 1,
+        "isShowLine": 1
+    },
+    {
+        "id": 4,
+        "name": "\u7ec4\u961f\u623f\u95f4\u4fe1\u606f",
+        "describe": "\u7ec4\u961f\u623f\u95f4\u4fe1\u606f",
+        "titleRes": 0,
+        "titleName": "\u623f\u95f4\u4fe1\u606f",
+        "resList": [],
+        "isShowCloseBtn": 1,
+        "isShowBg": 1,
+        "isShowLine": 1
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 6001001,
+        "name": "\u4e3b\u7ebf\u7b2c 1 \u573a\u6218\u6597\u89e6\u53d1\u5668",
+        "scriptPath": "BattleTrigger/TestTrigger"
+    },
+    {
+        "id": 6001002,
+        "name": "\u4e3b\u7ebf\u7b2c 2 \u573a\u6218\u6597\u89e6\u53d1\u5668",
+        "scriptPath": "BattleTrigger/TestTrigger"
+    },
+    {
+        "id": 6002001,
+        "name": "\u7ec4\u961f\u7b2c\u4e00\u4e2a\u6218\u6597\u89e6\u53d1\u5668",
+        "scriptPath": "BattleTrigger/TestTrigger"
+    },
+    {
+        "id": 6003001,
+        "name": "\u6d4b\u8bd5\u6218\u6597\u89e6\u53d1\u5668",
+        "scriptPath": "BattleTrigger/TestTrigger"
+    }
+]

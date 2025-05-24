@@ -1,0 +1,90 @@
+[
+    {
+        "id": 21000101,
+        "chapterId": 20001001,
+        "des_": "1",
+        "name": "\u4e3b\u7ebf 1-1",
+        "describe": "\u4e3b\u7ebf 1-1",
+        "battleId": 5001011
+    },
+    {
+        "id": 21000102,
+        "chapterId": 20001001,
+        "des_": "1",
+        "name": "\u4e3b\u7ebf 1-2",
+        "describe": "\u4e3b\u7ebf 1-2",
+        "battleId": 5001012
+    },
+    {
+        "id": 21000103,
+        "chapterId": 20001001,
+        "des_": "1",
+        "name": "\u4e3b\u7ebf 1-3",
+        "describe": "\u4e3b\u7ebf 1-3",
+        "battleId": 5001013
+    },
+    {
+        "id": 21000104,
+        "chapterId": 20001001,
+        "des_": "1",
+        "name": "\u4e3b\u7ebf 1-4",
+        "describe": "\u4e3b\u7ebf 1-4",
+        "battleId": 5001014
+    },
+    {
+        "id": 21000105,
+        "chapterId": 20001001,
+        "des_": "1",
+        "name": "\u4e3b\u7ebf 1-5",
+        "describe": "\u4e3b\u7ebf 1-5",
+        "battleId": 5001015
+    },
+    {
+        "id": 21000201,
+        "chapterId": 20001002,
+        "des_": "2",
+        "name": "\u4e3b\u7ebf 2-1",
+        "describe": "\u4e3b\u7ebf 2-1",
+        "battleId": 5001021
+    },
+    {
+        "id": 21000202,
+        "chapterId": 20001002,
+        "des_": "2",
+        "name": "\u4e3b\u7ebf 2-2",
+        "describe": "\u4e3b\u7ebf 2-2",
+        "battleId": 5001022
+    },
+    {
+        "id": 21000203,
+        "chapterId": 20001002,
+        "des_": "2",
+        "name": "\u4e3b\u7ebf 2-3",
+        "describe": "\u4e3b\u7ebf 2-3",
+        "battleId": 5001023
+    },
+    {
+        "id": 21000301,
+        "chapterId": 20001003,
+        "des_": "3",
+        "name": "\u4e3b\u7ebf 3-1",
+        "describe": "\u4e3b\u7ebf 3-1",
+        "battleId": 5001031
+    },
+    {
+        "id": 21000302,
+        "chapterId": 20001003,
+        "des_": "3",
+        "name": "\u4e3b\u7ebf 3-2",
+        "describe": "\u4e3b\u7ebf 3-2",
+        "battleId": 5001032
+    },
+    {
+        "id": 21000303,
+        "chapterId": 20001003,
+        "des_": "3",
+        "name": "\u4e3b\u7ebf 3-3",
+        "describe": "\u4e3b\u7ebf 3-3",
+        "battleId": 5001033
+    }
+]

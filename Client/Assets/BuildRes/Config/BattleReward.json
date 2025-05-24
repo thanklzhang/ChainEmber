@@ -1,0 +1,74 @@
+[
+    {
+        "id": 10101,
+        "name": "\u901a\u7528 \u81ea\u5df1\u83b7\u5f97\u4e00\u4e2a\u968f\u673a\u6280\u80fd",
+        "describe": "\u901a\u7528 \u81ea\u5df1\u83b7\u5f97\u4e00\u4e2a\u968f\u673a\u6280\u80fd",
+        "iconResId": 15003751,
+        "rewardEffectOptionIds": [
+            100101
+        ],
+        "count": 1,
+        "makeSureRewardOccasion": 1,
+        "maxAcquireCount": 0
+    },
+    {
+        "id": 30101,
+        "name": "\u901a\u7528 \u83b7\u5f97\u4e00\u4e2a\u88c5\u5907",
+        "describe": "\u901a\u7528 \u83b7\u5f97\u4e00\u4e2a\u88c5\u5907",
+        "iconResId": 15003751,
+        "rewardEffectOptionIds": [
+            300101
+        ],
+        "count": 1,
+        "makeSureRewardOccasion": 1,
+        "maxAcquireCount": 0
+    },
+    {
+        "id": 40101,
+        "name": "\u901a\u7528 \u968f\u673a\u7ed9\u82f1\u96c4",
+        "describe": "\u901a\u7528 \u968f\u673a\u7ed9\u82f1\u96c4",
+        "iconResId": 15003751,
+        "rewardEffectOptionIds": [
+            400101
+        ],
+        "count": 1,
+        "makeSureRewardOccasion": 1,
+        "maxAcquireCount": 0
+    },
+    {
+        "id": 40201,
+        "name": "\u901a\u7528 \u968f\u673a\u4e00\u4e2a\u961f\u53cb\u83b7\u5f97\u4e00\u4e2a\u968f\u673a\u5c5e\u6027",
+        "describe": "\u901a\u7528 \u968f\u673a\u4e00\u4e2a\u961f\u53cb\u83b7\u5f97\u4e00\u4e2a\u968f\u673a\u5c5e\u6027",
+        "iconResId": 15003751,
+        "rewardEffectOptionIds": [
+            400201
+        ],
+        "count": 1,
+        "makeSureRewardOccasion": 1,
+        "maxAcquireCount": 0
+    },
+    {
+        "id": 50101,
+        "name": "\u901a\u7528 \u81ea\u5df1\u83b7\u5f97\u968f\u673a\u5c5e\u6027",
+        "describe": "\u901a\u7528 \u81ea\u5df1\u83b7\u5f97\u968f\u673a\u5c5e\u6027",
+        "iconResId": 15003751,
+        "rewardEffectOptionIds": [
+            500101
+        ],
+        "count": 1,
+        "makeSureRewardOccasion": 1,
+        "maxAcquireCount": 0
+    },
+    {
+        "id": 60101,
+        "name": "\u901a\u7528 \u83b7\u5f97\u968f\u673a\u6218\u94f6",
+        "describe": "\u901a\u7528 \u83b7\u5f97\u968f\u673a\u6218\u94f6",
+        "iconResId": 15003751,
+        "rewardEffectOptionIds": [
+            600101
+        ],
+        "count": 1,
+        "makeSureRewardOccasion": 1,
+        "maxAcquireCount": 0
+    }
+]

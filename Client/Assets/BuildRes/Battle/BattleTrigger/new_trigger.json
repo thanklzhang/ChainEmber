@@ -1,0 +1,52 @@
+{
+	"triggerEvent": {
+		"__ASSEMBLY__": "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+		"__TYPE__": "Battle.BattleTrigger.Config.BattleStartEvent"
+	},
+	"executeGroup": [
+		{
+			"__ASSEMBLY__": "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+			"__TYPE__": "Battle.BattleTrigger.Config.DelayTimeNode",
+			"delayTime": {
+				"__TYPE__": "NumberVarField",
+				"getType": 2,
+				"numberVar": {
+					"__TYPE__": "CalculateExpressionVar",
+					"aField": {
+						"__TYPE__": "NumberVarField",
+						"getType": 0,
+						"numberVar": {
+							"__TYPE__": "FloatFixedVar",
+							"value": 1.0
+						}
+					},
+					"op": 0,
+					"bField": {
+						"__TYPE__": "NumberVarField",
+						"getType": 2,
+						"numberVar": {
+							"__TYPE__": "CalculateExpressionVar",
+							"aField": {
+								"__TYPE__": "NumberVarField",
+								"getType": 0,
+								"numberVar": {
+									"__TYPE__": "FloatFixedVar",
+									"value": 0.0
+								}
+							},
+							"op": 0,
+							"bField": {
+								"__TYPE__": "NumberVarField",
+								"getType": 0,
+								"numberVar": {
+									"__TYPE__": "FloatFixedVar",
+									"value": 5.0
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

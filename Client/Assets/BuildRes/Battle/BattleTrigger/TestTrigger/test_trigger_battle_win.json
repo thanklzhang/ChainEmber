@@ -1,0 +1,52 @@
+
+{
+    "triggerEvent" : {
+        "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "__TYPE__"     : "Battle.BattleTrigger.Config.EntityEventEvent",
+        "entityEventType" : 20
+    },
+    "executeGroup" : [
+        {
+            "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "Battle.BattleTrigger.Config.ConditionNode",
+            "conditionCheckType" : 2,
+            "check"              : {
+                "__TYPE__" : "EntityType_Check",
+                "aField"   : {
+                    "__TYPE__" : "EntityTypeVarField",
+                    "getType"  : 1,
+                    "entityTypeVar" : {
+                        "__TYPE__" : "EntityTypeTriggerVar",
+                        "entityType" : 25
+                    }
+                },
+                "op"       : 0,
+                "bField"   : {
+                    "__TYPE__" : "EntityTypeVarField",
+                    "getType"  : 0,
+                    "entityTypeVar" : {
+                        "__TYPE__" : "EntityTypeByConfigIdVar",
+                        "configId" : 1000210
+                    }
+                }
+            },
+            "aExecuteGroup"      : [
+                {
+                    "__ASSEMBLY__" : "BattleServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "Battle.BattleTrigger.Config.BattleEndNode",
+                    "teamIndex"    : {
+                        "__TYPE__" : "NumberVarField",
+                        "getType"  : 1,
+                        "numberVar" : {
+                            "__TYPE__" : "IntFixedVar",
+                            "value"    : 0
+                        }
+                    },
+                    "endType"      : 0
+                }
+            ],
+            "bExecuteGroup"      : [
+            ]
+        }
+    ]
+}

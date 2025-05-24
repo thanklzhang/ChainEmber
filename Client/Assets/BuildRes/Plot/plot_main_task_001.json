@@ -1,0 +1,106 @@
+
+{
+    "trackDataList" : [
+        {
+            "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "PlotDesigner.Runtime.AnimationTrack",
+            "trackNodeList" : [
+                {
+                    "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "PlotDesigner.Runtime.AnimationTrackNode",
+                    "aniName"      : "walk",
+                    "isLoop"       : true,
+                    "id"           : 1,
+                    "resId"        : 15011001,
+                    "startTime"    : 0,
+                    "endTime"      : 8.5
+                }
+            ]
+        },
+        {
+            "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "PlotDesigner.Runtime.TransformTrack",
+            "trackNodeList" : [
+                {
+                    "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "PlotDesigner.Runtime.TransformTrackNode",
+                    "startPos"     : {
+                        "x" : 0.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "endPos"       : {
+                        "x" : 10.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "startForward" : {
+                        "x" : 1.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "endForward"   : {
+                        "x" : 1.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "id"           : 1,
+                    "resId"        : 0,
+                    "startTime"    : 0,
+                    "endTime"      : 8.440001
+                }
+            ]
+        },
+        {
+            "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "PlotDesigner.Runtime.WordTrack",
+            "trackNodeList" : [
+                {
+                    "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "PlotDesigner.Runtime.WordTrackNode",
+                    "word"         : "\u5F00\u59CB\u51FA\u53D1                    ",
+                    "showType"     : 1,
+                    "id"           : 0,
+                    "resId"        : 0,
+                    "startTime"    : 1,
+                    "endTime"      : 4.42
+                }
+            ]
+        },
+        {
+            "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "__TYPE__"     : "PlotDesigner.Runtime.TransformTrack",
+            "trackNodeList" : [
+                {
+                    "__ASSEMBLY__" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "__TYPE__"     : "PlotDesigner.Runtime.CameraTrackNode",
+                    "testId"       : 0,
+                    "startPos"     : {
+                        "x" : -2.0,
+                        "y" : 0.920000016689301,
+                        "z" : -2.03999996185303
+                    },
+                    "endPos"       : {
+                        "x" : -2.0,
+                        "y" : 6.0,
+                        "z" : 0.0
+                    },
+                    "startForward" : {
+                        "x" : 1.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "endForward"   : {
+                        "x" : 1.0,
+                        "y" : 0.0,
+                        "z" : 0.0
+                    },
+                    "id"           : 0,
+                    "resId"        : 0,
+                    "startTime"    : 0,
+                    "endTime"      : 8.54
+                }
+            ]
+        }
+    ]
+}

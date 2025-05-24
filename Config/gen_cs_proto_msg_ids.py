@@ -134,7 +134,7 @@ def main():
         # 根据 proto 文件生成消息枚举文件
         GenMsgFile(inputPath, fileProtoList, outFile)
 
-        protoIdsPath = "..\\001_GameFramework_Client\\Assets\\Script\\Common"
+        protoIdsPath = "..\\Client\\Assets\\Script\\Common"
         shutil.copy("ProtoIDs.cs", protoIdsPath)
  
         os.system("pause")
