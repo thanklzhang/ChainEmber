@@ -137,7 +137,7 @@ namespace Battle_Client
 
             //玩家信息
             var userDataStore = GameDataManager.Instance.UserData;
-            var localPlayerUid = (int)userDataStore.Uid;
+            var localPlayerUid = 1;//(int)userDataStore.Uid
             playerDic = new Dictionary<int, ClientPlayer>();
             playerList = new List<ClientPlayer>();
             foreach (var serverPlayer in battleInit.clientPlayers)

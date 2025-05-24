@@ -52,7 +52,7 @@ namespace Battle_Client
         {
             Logx.Log(LogxType.Game, "StartLoad_PureLocal : start laod");
 
-            GameDataManager.Instance.UserData.Uid = 1;
+            GameDataManager.Instance.UserData.Uid = "1";
             var uid = GameDataManager.Instance.UserData.Uid;
 
             //地图数据由本地加载
@@ -65,7 +65,7 @@ namespace Battle_Client
             Logx.Log(LogxType.Game, "StartLoad_PureLocal : load map config finish");
 
             //获得申请战斗参数
-            var applyArg = ApplyBattleUtil.MakePureLocalApplyBattleArg(battleConfigId, (int)uid,mapSaveData);
+            var applyArg = ApplyBattleUtil.MakePureLocalApplyBattleArg(battleConfigId, uid,mapSaveData);
 
             MapInitArg mapInitData = new MapInitArg();
             mapInitData.mapList = mapSaveData.mapList;
@@ -240,6 +240,29 @@ namespace Battle_Client
             //填充客户端所需组件
             MsgSender = new BattleClient_MsgSender_Local(battleLogic);
         }
+
+        // // 初始化本地战斗
+        // public void InitLocalBattle(int mapType, LocalBattleArg arg)
+        // {
+        //     SetState(BattleState.Loading);
+        //     //TODO: init logic
+        //     this.mapType = mapType;
+        //
+        //     BattleLoadData loadData = arg.loadData;
+        //
+        //     isBattleReplay = arg.isBattleReplay;
+        //     battleType = arg.battleType;
+        //     localBattleLogic = arg.logic;
+        //
+        //     //默认加载地图类型，从地图配置获取
+        //     //mapType = 0; // TODO:从地图配置获取
+        //
+        //     //设置本地战斗数据
+        //     Logx.Log(LogxType.Battle, " battle load init uid: ");
+        //     GameDataManager.Instance.UserData.Uid = "1";
+        //     var uid = GameDataManager.Instance.UserData.Uid;
+        //     Logx.Log(LogxType.Battle, " battle load init uid: " + uid);
+        // }
 
     }
 }

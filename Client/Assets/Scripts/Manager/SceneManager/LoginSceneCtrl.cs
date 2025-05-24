@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using Config;
+using ServerSimulation.Services;
 
 //using Unity.Services.Core;
 using UnityEngine.SceneManagement;
@@ -49,6 +50,54 @@ public class LoginSceneCtrl : BaseSceneCtrl
     {
         //close loading UI
         UIManager.Instance.Close<LoadingUICtrl>();
+    }
+
+    /// <summary>
+    /// 处理登录逻辑
+    /// </summary>
+    /// <param name="username">用户名</param>
+    /// <param name="password">密码</param>
+    /// <param name="callback">登录结果回调</param>
+    public static void HandleLogin(string username, string password, Action<bool, string> callback)
+    {
+        // 使用LoginService进行登录
+        LoginService.Instance.Login(username, password, (success, userId, errorMessage) =>
+        {
+            if (success)
+            {
+                // 登录成功，回调
+                callback?.Invoke(true, null);
+            }
+            else
+            {
+                // 登录失败，回调错误信息
+                callback?.Invoke(false, errorMessage);
+            }
+        });
+    }
+
+    /// <summary>
+    /// 处理注册逻辑
+    /// </summary>
+    /// <param name="username">用户名</param>
+    /// <param name="password">密码</param>
+    /// <param name="callback">注册结果回调</param>
+    public static void HandleRegister(string username, string password, Action<bool, string> callback)
+    {
+        // 使用LoginService进行注册
+        LoginService.Instance.Register(username, password, (success, userId, errorMessage) =>
+        {
+            if (success)
+            {
+                // 注册成功，回调
+                callback?.Invoke(true, null);
+            }
+            else
+            {
+                // 注册失败，回调错误信息
+                callback?.Invoke(false, errorMessage);
+            }
+        });
     }
 
     // public override void Exit(Action action)

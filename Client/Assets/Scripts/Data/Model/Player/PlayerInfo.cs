@@ -11,7 +11,7 @@ namespace GameData
 {
     public class PlayerInfo
     {
-        public int uid;
+        public string uid;
         public string name;
         public string avatarURL;
         public int level;

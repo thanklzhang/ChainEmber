@@ -361,10 +361,12 @@ public partial class BattleUI : BaseUI
 
     void OnPlayerReadyState(int uid, bool isReady)
     {
-        var myUid = (int)GameDataManager.Instance.UserData.Uid;
+        // 将字符串Uid转换为整数进行比较
+        var myUid = int.TryParse(GameDataManager.Instance.UserData.Uid, out int uidValue) ? uidValue : 0;
 
         if (myUid == uid)
         {
+            // 是自己
             SetReadyBtnShowState(isReady);
         }
     }

@@ -274,7 +274,7 @@ public class TeamRoomPlayerUIShowObj // : BaseUIShowObj<TeamRoomInfoUIPre>
     public void OnClickChangeHeroBtn()
     {
         var uid = this.playerData.playerInfo.uid;
-        if (uid == (int)GameData.GameDataManager.Instance.UserData.Uid)
+        if (uid.ToString() == GameData.GameDataManager.Instance.UserData.Uid)
         {
             SelectHeroUIArgs args = new SelectHeroUIArgs();
 
@@ -357,7 +357,7 @@ public class TeamRoomPlayerUIShowObj // : BaseUIShowObj<TeamRoomInfoUIPre>
         heroNameText.text = "" + heroConfig.Name;
 
         var userStore = GameData.GameDataManager.Instance.UserData;
-        var isSelf = (int)userStore.Uid == this.playerData.playerInfo.uid;
+        var isSelf = userStore.Uid == this.playerData.playerInfo.uid.ToString();
         changeHeroBtn.gameObject.SetActive(isSelf);
 
         if (isSelf)

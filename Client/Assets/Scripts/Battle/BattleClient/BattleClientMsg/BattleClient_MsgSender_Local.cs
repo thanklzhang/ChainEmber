@@ -46,6 +46,9 @@ namespace Battle_Client
                 progress = progress
             };
 
+            var myUidStr = GameDataManager.Instance.UserData.Uid;
+            var myUid = int.TryParse(myUidStr, out int uidValue) ? uidValue : 0;
+
             battle.OnRecvBattleMsg<PlayerLoadProgress_BattleMsg>(
                 hero.playerIndex, arg);
             //battle.PlayerMsgReceiver.On_PlayerLoadProgress((long)myUid, progress);
@@ -60,7 +63,8 @@ namespace Battle_Client
         IEnumerator DelayBattleReadyFinish()
         {
             yield return new WaitForSeconds(0.1f);
-            var myUid = GameDataManager.Instance.UserData.Uid;
+            var myUidStr = GameDataManager.Instance.UserData.Uid;
+            var myUid = int.TryParse(myUidStr, out int uidValue) ? uidValue : 0;
 
             var hero = BattleManager.Instance.GetLocalCtrlHero();
 

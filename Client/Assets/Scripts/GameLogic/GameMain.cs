@@ -14,7 +14,7 @@ using Battle_Client;
 using BattleClient.Debug;
 using Config;
 using UnityEditor;
-
+using ServerSimulation;
 
 public class GameMain : MonoBehaviour
 {
@@ -87,6 +87,9 @@ public class GameMain : MonoBehaviour
         GlobalUIMgr.Instance.Init();
         yield return UIManager.Instance.LoadGlobalCtrlReq();
 
+        // 初始化服务器模拟系统
+        InitServerSimulation();
+        
         GameDataManager.Instance.Init();
         // ServiceManager.Instance.Init();
 
@@ -112,6 +115,25 @@ public class GameMain : MonoBehaviour
         Logx.Log(LogxType.Game, "game init finish");
 
         isLoadFinish = true;
+    }
+
+    // 初始化服务器模拟系统
+    private void InitServerSimulation()
+    {
+        // 创建ServerSimulationManager并初始化
+        // var serverSimObj = new GameObject("ServerSimulationManager");
+        // ServerSimulationManager simulationManager = serverSimObj.AddComponent<ServerSimulationManager>();
+        // DontDestroyOnLoad(serverSimObj);
+        ServerSimulationManager.Instance.Init();
+        
+        // 创建并初始化ServerServiceManager
+        // var serviceObj = new GameObject("ServerServiceManager");
+        // ServerServiceManager serviceManager = serviceObj.AddComponent<ServerServiceManager>();
+        // DontDestroyOnLoad(serviceObj);
+        // serviceManager.InitAllServices();
+        ServerServiceManager.Instance.InitAllServices();
+        
+        Logx.Log(LogxType.Game, "ServerSimulation system initialized");
     }
 
     //有互相引用的初始化 在 Init 结束后 在这里初始化

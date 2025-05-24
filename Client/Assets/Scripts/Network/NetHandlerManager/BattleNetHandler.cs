@@ -73,11 +73,12 @@ public class BattleNetHandler : NetHandler
         // Logx.Log("TransitionBattleMsg : send true cmd : " + cmd);
         csTransitionBattle tranBattleMsg = new csTransitionBattle();
 
-        var myUid = GameDataManager.Instance.UserData.Uid;
+        var myUidStr = GameDataManager.Instance.UserData.Uid;
+        var myUid = int.TryParse(myUidStr, out int uidValue) ? uidValue : 0;
         ClientProtoHead head = new ClientProtoHead()
         {
             cmd = (ushort)cmd,
-            uid = myUid
+            uid = (ulong)myUid
         };
 
         var clientData = ProtoMsgUtil.MakeClientMsgBytes(msg.ToByteArray(), head);

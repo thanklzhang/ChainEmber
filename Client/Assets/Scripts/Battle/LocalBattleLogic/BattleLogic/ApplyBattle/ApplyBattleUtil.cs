@@ -196,7 +196,7 @@ public class ApplyBattleUtil
 
     //获得申请战斗参数 （给客户端纯本地战斗使用）
     public static ApplyBattleArg MakePureLocalApplyBattleArg(int battleConfigId,
-        int uid, MapSaveData mapSaveData)
+        string uid, MapSaveData mapSaveData)
     {
         var applyBattleArg = new ApplyBattleArg();
         applyBattleArg.BattleRoomId = 0;
@@ -268,7 +268,8 @@ public class ApplyBattleUtil
                 if (0 == pIndex)
                 {
                     //单机自己玩家索引固定为 0
-                    playerInfo.Uid = uid;
+                    // playerInfo.Uid = uid;
+                    playerInfo.Uid = 1;
                     entityInfo.IsPlayerCtrl = true;
                 }
 

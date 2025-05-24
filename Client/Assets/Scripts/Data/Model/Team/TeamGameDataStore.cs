@@ -93,7 +93,7 @@ namespace GameData
 
         public void RemovePlayer(int uid)
         {
-            playerList.RemoveAll(p => p.playerInfo.uid == uid);
+            //playerList.RemoveAll(p => p.playerInfo.uid == uid);
         }
 
     }
