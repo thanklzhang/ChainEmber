@@ -78,6 +78,24 @@ public class HeroInfoUI : BaseUI
         {
             titleBarId = 2
         });
+        
+        // 添加英雄数据更新事件监听
+        EventDispatcher.AddListener(EventIDs.OnRefreshHeroListData, OnHeroDataRefreshed);
+    }
+    
+    // 响应英雄数据刷新事件
+    private void OnHeroDataRefreshed()
+    {
+        // 获取最新的英雄数据
+        HeroGameData heroGameData = GameData.GameDataManager.Instance.HeroData;
+        HeroData updatedHeroData = heroGameData.GetDataByGuid(heroData.guid);
+        
+        if (updatedHeroData != null)
+        {
+            heroData = updatedHeroData;
+            RefreshUI();
+            Debug.Log($"[HeroInfoUI] 英雄数据已更新并刷新UI: ID={heroData.guid}, 等级={heroData.level}");
+        }
     }
     
     private void RefreshUI()
@@ -151,22 +169,43 @@ public class HeroInfoUI : BaseUI
     
     private void UpgradeHero()
     {
+        // 显示加载中状态
+        upgradeButton.interactable = false;
+        
         // 调用英雄服务来升级英雄
         var heroService = ServerServiceManager.Instance.HeroService;
-        bool success = heroService.LevelUpHero(heroData.guid);
         
-        if (success)
-        {
-            // 刷新UI显示新的等级
-            heroData.level += 1;
-            RefreshUI();
-        }
+        // 使用回调方式处理升级结果
+        heroService.LevelUpHero(heroData.guid, (success, updatedHero) => {
+            // 恢复按钮状态
+            upgradeButton.interactable = true;
+            
+            if (success && updatedHero != null)
+            {
+                // 因为HeroService已经在回调中更新了客户端数据，
+                // 并触发了OnRefreshHeroListData事件，所以这里不需要手动更新数据，
+                // 只需要显示操作成功的提示
+                Debug.Log($"[HeroInfoUI] 英雄升级成功: ID={updatedHero.Guid}, 新等级={updatedHero.Level}");
+                
+                // 这里可以添加升级成功的UI反馈，比如动画或提示
+            }
+            else
+            {
+                // 显示升级失败的提示
+                Debug.LogError($"[HeroInfoUI] 英雄升级失败: ID={heroData.guid}");
+                
+                // 这里可以添加升级失败的UI反馈，比如提示框
+            }
+        });
     }
     
     protected override void OnClose()
     {
         // closeButton.onClick.RemoveAllListeners();
         upgradeButton.onClick.RemoveAllListeners();
+        
+        // 移除事件监听
+        EventDispatcher.RemoveListener(EventIDs.OnRefreshHeroListData, OnHeroDataRefreshed);
         
         // 清理属性项
         foreach (var item in attributeItems)

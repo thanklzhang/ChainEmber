@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using ServerSimulation.Account.Models;
 using UnityEngine;
 using System;
+using System.Linq;
+using GameData;
 
 namespace ServerSimulation
 {
@@ -72,6 +74,126 @@ namespace ServerSimulation
             player.LastUpdateTime = DateTime.Now;
             currentPlayer = player;
             SaveAccount();
+            return true;
+        }
+        
+        /// <summary>
+        /// 升级英雄等级
+        /// </summary>
+        /// <param name="heroId">英雄唯一ID</param>
+        /// <returns>操作是否成功</returns>
+        public bool LevelUpHero(int heroId)
+        {
+            if (currentPlayer == null || currentPlayer.Heroes == null)
+            {
+                Debug.LogError("[AccountSystem] 升级英雄失败，未找到当前玩家数据或英雄列表");
+                return false;
+            }
+            
+            var hero = currentPlayer.Heroes.FirstOrDefault(h => h.Guid == heroId);
+            if (hero == null)
+            {
+                Debug.LogError($"[AccountSystem] 升级英雄失败，未找到英雄ID: {heroId}");
+                return false;
+            }
+            
+            hero.Level += 1;
+            hero.Experience = 0; // 升级后经验清零
+            
+            currentPlayer.LastUpdateTime = DateTime.Now;
+            SaveAccount();
+            
+            Debug.Log($"[AccountSystem] 英雄(ID: {heroId}, 配置ID: {hero.ConfigId})升级到{hero.Level}级");
+            
+            return true;
+        }
+        
+        /// <summary>
+        /// 升级英雄星级
+        /// </summary>
+        /// <param name="heroId">英雄唯一ID</param>
+        /// <returns>操作是否成功</returns>
+        public bool UpgradeHeroStar(int heroId)
+        {
+            if (currentPlayer == null || currentPlayer.Heroes == null)
+            {
+                Debug.LogError("[AccountSystem] 英雄升星失败，未找到当前玩家数据或英雄列表");
+                return false;
+            }
+            
+            var hero = currentPlayer.Heroes.FirstOrDefault(h => h.Guid == heroId);
+            if (hero == null)
+            {
+                Debug.LogError($"[AccountSystem] 英雄升星失败，未找到英雄ID: {heroId}");
+                return false;
+            }
+            
+            hero.Star += 1;
+            
+            currentPlayer.LastUpdateTime = DateTime.Now;
+            SaveAccount();
+            
+            Debug.Log($"[AccountSystem] 英雄(ID: {heroId}, 配置ID: {hero.ConfigId})升到{hero.Star}星");
+            
+            return true;
+        }
+        
+        /// <summary>
+        /// 添加英雄到玩家账户
+        /// </summary>
+        /// <param name="configId">英雄配置ID</param>
+        /// <param name="level">初始等级</param>
+        /// <param name="star">初始星级</param>
+        /// <returns>添加的英雄对象</returns>
+        public UserHero AddHero(int configId, int level = 1, int star = 1)
+        {
+            if (currentPlayer == null)
+            {
+                Debug.LogError("[AccountSystem] 添加英雄失败，未找到当前玩家数据");
+                return null;
+            }
+            
+            var newHero = new UserHero(configId, level, star);
+            if (currentPlayer.Heroes == null)
+            {
+                currentPlayer.Heroes = new List<UserHero>();
+            }
+            
+            currentPlayer.Heroes.Add(newHero);
+            currentPlayer.LastUpdateTime = DateTime.Now;
+            SaveAccount();
+            
+            Debug.Log($"[AccountSystem] 玩家 {currentPlayer.Nickname} 获得了新英雄，配置ID: {configId}，唯一ID: {newHero.Guid}");
+            
+            return newHero;
+        }
+        
+        /// <summary>
+        /// 从玩家账户移除英雄
+        /// </summary>
+        /// <param name="heroId">英雄唯一ID</param>
+        /// <returns>操作是否成功</returns>
+        public bool RemoveHero(int heroId)
+        {
+            if (currentPlayer == null || currentPlayer.Heroes == null)
+            {
+                Debug.LogError("[AccountSystem] 移除英雄失败，未找到当前玩家数据或英雄列表");
+                return false;
+            }
+            
+            var hero = currentPlayer.Heroes.FirstOrDefault(h => h.Guid == heroId);
+            if (hero == null)
+            {
+                Debug.LogError($"[AccountSystem] 移除英雄失败，未找到英雄ID: {heroId}");
+                return false;
+            }
+            
+            currentPlayer.Heroes.Remove(hero);
+            currentPlayer.LastUpdateTime = DateTime.Now;
+            SaveAccount();
+            
+            Debug.Log($"[AccountSystem] 已移除英雄(ID: {heroId}, 配置ID: {hero.ConfigId})");
+            
             return true;
         }
 
