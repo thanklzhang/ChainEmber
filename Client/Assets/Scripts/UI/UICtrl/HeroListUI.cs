@@ -82,6 +82,11 @@ public class HeroListUI : BaseUI
             heroShowObjList.Add(heroItem);
             heroItem.Init(go);
             heroItem.Refresh(data);
+            
+            // 添加点击事件打开英雄详情界面
+            heroItem.AddClickListener(() => {
+                UIManager.Instance.Open<HeroInfoUI>(new HeroInfoUIArgs(heroItem.data));
+            });
         }
         
         // Hide unused items
@@ -123,6 +128,7 @@ public class HeroListItemShowObj
     private TextMeshProUGUI levelText;
     // private TextMeshProUGUI descriptionText;
     private Image bodyImg;
+    private Button clickBtn;
     
     public void Init(GameObject go)
     {
@@ -138,6 +144,15 @@ public class HeroListItemShowObj
         levelText = transform.Find("levelBg/level").GetComponent<TextMeshProUGUI>();
         // descriptionText = transform.Find("descriptionText").GetComponent<TextMeshProUGUI>();
         
+        // 添加点击按钮
+        clickBtn = gameObject.GetComponent<Button>();
+        
+        // // 如果没有Image组件（用于按钮响应），添加一个透明的
+        // if (clickBtn.GetComponent<Image>() == null)
+        // {
+        //     Image btnImage = gameObject.AddComponent<Image>();
+        //     btnImage.color = new Color(0, 0, 0, 0.01f); // 几乎透明
+        // }
     }
     
     public void Refresh(HeroData data)
@@ -154,8 +169,23 @@ public class HeroListItemShowObj
         });
     }
     
+    public void AddClickListener(Action callback)
+    {
+        if (clickBtn != null)
+        {
+            clickBtn.onClick.RemoveAllListeners();
+            clickBtn.onClick.AddListener(() => {
+                callback?.Invoke();
+            });
+        }
+    }
+    
     public void Release()
     {
         // avatar.Release();
+        if (clickBtn != null)
+        {
+            clickBtn.onClick.RemoveAllListeners();
+        }
     }
 }
