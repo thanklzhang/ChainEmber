@@ -51,7 +51,7 @@ public class LoginUI : BaseUI
         this.SetStateText("准备登录...");
         
         // 显示设备ID
-        this.RefreshDeviceIdShow();
+        this.RefreshDeviceIdShow(); 
         
         // 自动开始登录流程
         this.SetStateText("正在自动登录...");

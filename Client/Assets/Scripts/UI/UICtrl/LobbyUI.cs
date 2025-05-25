@@ -33,7 +33,7 @@ public class LobbyUI : BaseUI
         playerIconImg = this.transform.Find("heroInfo/avatarBg/avatar").GetComponent<Image>();
 
         // closeBtn.onClick.AddListener(() => { onClickCloseBtn?.Invoke(); });
-        // heroListBtn.onClick.AddListener(() => { onClickHeroListBtn?.Invoke(); });
+        heroListBtn.onClick.AddListener(OnClickHeroListBtn);
         // mainTaskBtn.onClick.AddListener(() => { onClickMainTaskBtn?.Invoke(); });
         teamBtn.onClick.AddListener(OnClickTeamBtn);
     }
@@ -139,7 +139,7 @@ public class LobbyUI : BaseUI
 
     public void OnClickHeroListBtn()
     {
-        //CtrlManager.Instance.Enter<HeroListCtrlPre>();
+        UIManager.Instance.Open<HeroListUI>();
     }
 
     public void OnClickMainTaskBtn()
