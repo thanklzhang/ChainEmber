@@ -131,22 +131,92 @@ public class HeroInfoUI : BaseUI
         var baseAttrId = heroConfig.BaseAttrId;
         var baseAttr = ConfigManager.Instance.GetById<EntityAttrBase>(baseAttrId);
         
+        // 获取英雄的等级属性
+        var levelAttrId = heroConfig.LevelAttrId;
+        var levelAttrTemplateId = levelAttrId;
+        
+        // 查找当前等级的等级属性
+        EntityAttrLevel levelAttr = null;
+        var allLevelAttrs = ConfigManager.Instance.GetList<EntityAttrLevel>();
+        
+        foreach (var attr in allLevelAttrs)
+        {
+            if (attr.TemplateId == levelAttrTemplateId && attr.Level == heroData.level)
+            {
+                levelAttr = attr;
+                break;
+            }
+        }
+        
         if (baseAttr != null)
         {
-            // 显示所有属性
-            AddAttributeItem("生命值", baseAttr.Health + (heroData.level - 1) * 100);
-            AddAttributeItem("攻击力", baseAttr.Attack + (heroData.level - 1) * 10);
-            AddAttributeItem("防御力", baseAttr.Defence + (heroData.level - 1) * 5);
-            AddAttributeItem("攻击速度", baseAttr.AttackSpeed / 1000f);
-            AddAttributeItem("移动速度", baseAttr.MoveSpeed / 1000f);
-            AddAttributeItem("攻击范围", baseAttr.AttackRange / 1000f);
-            AddAttributeItem("暴击率", baseAttr.CritRate / 10f + "%");
-            AddAttributeItem("暴击伤害", (100 + baseAttr.CritDamage / 10f) + "%");
-            AddAttributeItem("输出伤害率", baseAttr.OutputDamageRate / 10f + "%");
-            AddAttributeItem("承受伤害率", baseAttr.InputDamageRate / 10f + "%");
-            AddAttributeItem("技能冷却", baseAttr.SkillCD + "秒");
+            // 基础生命值 + 等级附加生命值
+            int healthAdd = levelAttr != null ? levelAttr.Health : 0;
+            AddAttributeItem("生命值", baseAttr.Health + healthAdd);
+            
+            // 基础攻击力 + 等级附加攻击力
+            int attackAdd = levelAttr != null ? levelAttr.Attack : 0;
+            AddAttributeItem("攻击力", baseAttr.Attack + attackAdd);
+            
+            // 基础防御力 + 等级附加防御力
+            int defenceAdd = levelAttr != null ? levelAttr.Defence : 0;
+            AddAttributeItem("防御力", baseAttr.Defence + defenceAdd);
+            
+            // 攻击速度 (可能会随等级提升)
+            int attackSpeedAdd = levelAttr != null ? levelAttr.AttackSpeed : 0;
+            float attackSpeed = (baseAttr.AttackSpeed + attackSpeedAdd) / 1000f;
+            AddAttributeItem("攻击速度", attackSpeed);
+            
+            // 移动速度 (可能会随等级提升)
+            int moveSpeedAdd = levelAttr != null ? levelAttr.MoveSpeed : 0;
+            float moveSpeed = (baseAttr.MoveSpeed + moveSpeedAdd) / 1000f;
+            AddAttributeItem("移动速度", moveSpeed);
+            
+            // 攻击范围 (可能会随等级提升)
+            int attackRangeAdd = levelAttr != null ? levelAttr.AttackRange : 0;
+            float attackRange = (baseAttr.AttackRange + attackRangeAdd) / 1000f;
+            AddAttributeItem("攻击范围", attackRange);
+            
+            // 暴击率 (可能会随等级提升)
+            int critRateAdd = levelAttr != null ? levelAttr.CritRate : 0;
+            float critRate = (baseAttr.CritRate + critRateAdd) / 10f;
+            AddAttributeItem("暴击率", critRate + "%");
+            
+            // 暴击伤害 (可能会随等级提升)
+            int critDamageAdd = levelAttr != null ? levelAttr.CritDamage : 0;
+            float critDamage = (100 + (baseAttr.CritDamage + critDamageAdd) / 10f);
+            AddAttributeItem("暴击伤害", critDamage + "%");
+            
+            // 输出伤害率 (可能会随等级提升)
+            int outputDamageRateAdd = levelAttr != null ? levelAttr.OutputDamageRate : 0;
+            float outputDamageRate = (baseAttr.OutputDamageRate + outputDamageRateAdd) / 10f;
+            AddAttributeItem("输出伤害率", outputDamageRate + "%");
+            
+            // 承受伤害率 (可能会随等级提升)
+            int inputDamageRateAdd = levelAttr != null ? levelAttr.InputDamageRate : 0;
+            float inputDamageRate = (baseAttr.InputDamageRate + inputDamageRateAdd) / 10f;
+            AddAttributeItem("承受伤害率", inputDamageRate + "%");
+            
+            // 技能冷却 (可能会随等级提升)
+            int skillCDAdd = levelAttr != null ? levelAttr.SkillCD : 0;
+            float skillCD = baseAttr.SkillCD + skillCDAdd;
+            AddAttributeItem("技能冷却", skillCD + "秒");
+            
+            // 治疗比率 (通常不随等级变化)
             AddAttributeItem("治疗比率", baseAttr.TreatmentRate / 10f + "%");
+            
+            // 生命恢复速度 (通常不随等级变化)
             AddAttributeItem("生命恢复速度", baseAttr.HealthRecoverSpeed / 1000f + "/秒");
+            
+            // 如果找到了等级属性数据，记录日志
+            if (levelAttr != null)
+            {
+                Debug.Log($"[HeroInfoUI] 应用了等级{heroData.level}的属性加成: 生命+{levelAttr.Health}, 攻击+{levelAttr.Attack}, 防御+{levelAttr.Defence}");
+            }
+            else
+            {
+                Debug.LogWarning($"[HeroInfoUI] 未找到英雄(ID:{heroData.guid}, 配置ID:{heroData.configId})等级{heroData.level}的属性数据");
+            }
         }
     }
     
