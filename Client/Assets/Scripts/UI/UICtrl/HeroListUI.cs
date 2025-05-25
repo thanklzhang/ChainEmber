@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Config;
 using GameData;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -117,10 +118,11 @@ public class HeroListItemShowObj
     public Transform transform;
     public HeroData data;
     
-    private HeroAvatar avatar;
-    private Text nameText;
-    private Text levelText;
-    private Text descriptionText;
+    // private HeroAvatar avatar;
+    private TextMeshProUGUI nameText;
+    private TextMeshProUGUI levelText;
+    // private TextMeshProUGUI descriptionText;
+    private Image bodyImg;
     
     public void Init(GameObject go)
     {
@@ -128,28 +130,32 @@ public class HeroListItemShowObj
         transform = gameObject.transform;
         
         // Initialize UI components
-        var avatarRootGo = transform.Find("HeroAvatar").gameObject;
-        avatar = new HeroAvatar();
-        avatar.Init(avatarRootGo);
+        bodyImg = transform.Find("bg/rolePic").GetComponent<Image>();
+        // avatar = new HeroAvatar();
+        // avatar.Init(avatarRootGo);
+        // var config = ConfigManager.Instance.GetById<EntityInfo>(data.configId);
+        nameText = transform.Find("nameBg/name").GetComponent<TextMeshProUGUI>();
+        levelText = transform.Find("levelBg/level").GetComponent<TextMeshProUGUI>();
+        // descriptionText = transform.Find("descriptionText").GetComponent<TextMeshProUGUI>();
         
-        nameText = transform.Find("nameText").GetComponent<Text>();
-        levelText = transform.Find("levelText").GetComponent<Text>();
-        descriptionText = transform.Find("descriptionText").GetComponent<Text>();
     }
     
     public void Refresh(HeroData data)
     {
         this.data = data;
-        avatar.Refresh(data);
         
         var config = ConfigManager.Instance.GetById<EntityInfo>(data.configId);
         nameText.text = config.Name;
         levelText.text = "Lv." + data.level;
-        descriptionText.text = config.Describe;
+        // descriptionText.text = config.Describe;
+        ResourceManager.Instance.GetObject<Sprite>(config.AllBodyResId, (sprite) =>
+        {
+            bodyImg.sprite = sprite;
+        });
     }
     
     public void Release()
     {
-        avatar.Release();
+        // avatar.Release();
     }
 }

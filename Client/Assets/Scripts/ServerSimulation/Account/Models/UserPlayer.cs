@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace ServerSimulation.Account.Models
@@ -13,10 +14,12 @@ namespace ServerSimulation.Account.Models
         public string AvatarId;
         public DateTime CreateTime;
         public DateTime LastUpdateTime;
+        public List<UserHero> Heroes; // 玩家拥有的英雄列表
 
         // 空构造函数，用于反序列化
         public UserPlayer() 
         {
+            Heroes = new List<UserHero>();
         }
         
         public UserPlayer(string userId, string nickname = "")
@@ -28,6 +31,7 @@ namespace ServerSimulation.Account.Models
             AvatarId = "default";
             CreateTime = DateTime.Now;
             LastUpdateTime = DateTime.Now;
+            Heroes = new List<UserHero>(); // 初始化英雄列表
         }
     }
 } 

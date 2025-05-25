@@ -2,6 +2,8 @@ using System;
 using UnityEngine;
 using GameData;
 using ServerSimulation.Account.Models;
+using System.Collections.Generic;
+using Google.Protobuf.Collections;
 
 namespace ServerSimulation.Services
 {
@@ -152,6 +154,12 @@ namespace ServerSimulation.Services
                     userData.PlayerInfo = GameData.PlayerConvert.ToPlayerInfo(response.UserPlayer, response.UserId);
                     
                     Debug.Log($"[LoginService] 已同步玩家数据: Name={userData.PlayerInfo.name}, Level={userData.PlayerInfo.level}");
+                    
+                    // 注意：初始英雄的创建应该完全由后台完成，这里只进行数据同步
+                    // 登录时 LoginSystem 会检查是否为新账号并自动添加初始英雄
+                    
+                    // 同步英雄数据到客户端
+                    SyncHeroDataToClient(response.UserPlayer);
                 }
                 else
                 {
@@ -163,6 +171,38 @@ namespace ServerSimulation.Services
             catch (Exception ex)
             {
                 Debug.LogError($"[LoginService] 更新游戏数据失败: {ex.Message}");
+            }
+        }
+        
+        /// <summary>
+        /// 同步英雄数据到客户端
+        /// </summary>
+        private void SyncHeroDataToClient(UserPlayer userPlayer)
+        {
+            try
+            {
+                if (userPlayer == null || userPlayer.Heroes == null || userPlayer.Heroes.Count == 0)
+                {
+                    Debug.Log("[LoginService] 无英雄数据可同步");
+                    return;
+                }
+                
+                // 获取客户端的HeroGameData
+                var heroGameData = GameDataManager.Instance.HeroData;
+                if (heroGameData == null)
+                {
+                    Debug.LogError("[LoginService] 英雄数据同步失败，HeroData为空");
+                    return;
+                }
+
+                // 使用HeroGameData封装的方法同步数据
+                heroGameData.SyncHeroDataFromBackend(userPlayer.Heroes);
+                
+                Debug.Log($"[LoginService] 已将 {userPlayer.Heroes.Count} 个英雄数据同步到客户端");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError($"[LoginService] 英雄数据同步失败: {ex.Message}");
             }
         }
     }

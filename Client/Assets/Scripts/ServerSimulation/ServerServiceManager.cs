@@ -73,6 +73,11 @@ namespace ServerSimulation
         public LoginService LoginService => LoginService.Instance;
 
         /// <summary>
+        /// 英雄服务
+        /// </summary>
+        public HeroService HeroService => HeroService.Instance;
+
+        /// <summary>
         /// 通用的服务获取方法
         /// </summary>
         /// <typeparam name="T">服务类型</typeparam>
@@ -86,6 +91,10 @@ namespace ServerSimulation
             else if (typeof(T) == typeof(LoginService))
             {
                 return LoginService as T;
+            }
+            else if (typeof(T) == typeof(HeroService))
+            {
+                return HeroService as T;
             }
             
             // 添加更多服务类型的判断

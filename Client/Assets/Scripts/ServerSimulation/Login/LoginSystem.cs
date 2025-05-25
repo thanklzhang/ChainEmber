@@ -111,6 +111,12 @@ namespace ServerSimulation
             var account = accountSystem.CreateOrUpdateAccount(username, password);
             var userPlayer = accountSystem.GetCurrentPlayer();
             
+            // 为新用户添加初始英雄
+            AddInitialHeroes(userPlayer);
+            
+            // 保存更新后的玩家数据
+            accountSystem.UpdateUserPlayer(userPlayer);
+            
             return new LoginResponse
             {
                 Success = true,
@@ -119,6 +125,46 @@ namespace ServerSimulation
                 UserPlayer = userPlayer,
                 LoginTime = DateTime.Now
             };
+        }
+        
+        /// <summary>
+        /// 为新玩家添加初始英雄
+        /// </summary>
+        private void AddInitialHeroes(UserPlayer player)
+        {
+            if (player == null)
+            {
+                Debug.LogError("[LoginSystem] 添加初始英雄失败，玩家数据为空");
+                return;
+            }
+            
+            // 如果玩家已经有英雄了，则不添加初始英雄
+            if (player.Heroes != null && player.Heroes.Count > 0)
+            {
+                Debug.Log($"[LoginSystem] 玩家 {player.Nickname} 已经有英雄，不添加初始英雄");
+                return;
+            }
+            
+            Debug.Log($"[LoginSystem] 为新玩家 {player.Nickname} 添加初始英雄");
+            
+            // 初始英雄配置ID列表，可以根据游戏需求自行配置
+            int[] initialHeroIds = { 1000001,1000002,1000003,1000007 }; // 假设1001, 1002是初始英雄的配置ID
+            
+            // 确保Heroes列表已初始化
+            if (player.Heroes == null)
+            {
+                player.Heroes = new System.Collections.Generic.List<UserHero>();
+            }
+            
+            // 添加所有初始英雄
+            foreach (var configId in initialHeroIds)
+            {
+                var newHero = new UserHero(configId);
+                player.Heroes.Add(newHero);
+                Debug.Log($"[LoginSystem] 玩家 {player.Nickname} 获得了新英雄，配置ID: {configId}，唯一ID: {newHero.Guid}");
+            }
+            
+            Debug.Log($"[LoginSystem] 玩家 {player.Nickname} 获得了 {initialHeroIds.Length} 个初始英雄");
         }
         
         /// <summary>
