@@ -34,8 +34,8 @@ public class LobbyUI : BaseUI
 
         // closeBtn.onClick.AddListener(() => { onClickCloseBtn?.Invoke(); });
         heroListBtn.onClick.AddListener(OnClickHeroListBtn);
-        // mainTaskBtn.onClick.AddListener(() => { onClickMainTaskBtn?.Invoke(); });
-        teamBtn.onClick.AddListener(OnClickTeamBtn);
+        mainTaskBtn.onClick.AddListener(OnClickMainTaskBtn);
+        // teamBtn.onClick.AddListener(OnClickTeamBtn);
     }
 
     protected override void OnOpen(UICtrlArgs args)
@@ -144,13 +144,15 @@ public class LobbyUI : BaseUI
 
     public void OnClickMainTaskBtn()
     {
-        // CtrlManager.Instance.Enter<MainTaskCtrlPre>();
+        UIManager.Instance.Open<BattleEmbattleUI>();
     }
 
-    public void OnClickTeamBtn()
-    {
-        UIManager.Instance.Open<TeamRoomListUI>();
-    }
+    // public void OnClickTeamBtn()
+    // {
+    //     UIManager.Instance.Open<TeamRoomListUI>();
+    // }
+
+    
 
     protected override void OnInactive()
     {

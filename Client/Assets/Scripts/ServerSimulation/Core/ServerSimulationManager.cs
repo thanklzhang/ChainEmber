@@ -30,6 +30,7 @@ namespace ServerSimulation
         public AccountSystem AccountSystem { get; private set; }
         public LoginSystem LoginSystem { get; private set; }
         public DataStorage DataStorage { get; private set; }
+        public BattleSystem BattleSystem { get; private set; }
         
         // 是否初始化完成
         public bool IsInitialized { get; private set; }
@@ -59,6 +60,7 @@ namespace ServerSimulation
             
             AccountSystem = new AccountSystem(DataStorage);
             LoginSystem = new LoginSystem(AccountSystem);
+            BattleSystem = new BattleSystem();
             
             IsInitialized = true;
             

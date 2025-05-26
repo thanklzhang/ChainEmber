@@ -180,7 +180,7 @@ namespace Battle_Client
 
         #region 创建战斗
 
-        //创建远端战斗
+        //创建远端战斗(现在是本地服务模拟战斗)
         public void CreateRemoteBattle(BattleClient_CreateBattleArgs battleClientArgs)
         {
             battleType = BattleType.Remote;

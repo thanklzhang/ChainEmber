@@ -1191,7 +1191,7 @@ GameObject:
   - component: {fileID: 2123659288278274888}
   - component: {fileID: 5906256597604848919}
   m_Layer: 5
-  m_Name: mainTaskBtn
+  m_Name: mainTaskBtn_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2115,7 +2115,7 @@ GameObject:
   - component: {fileID: 6754068167954536893}
   - component: {fileID: 3637392427854929598}
   m_Layer: 5
-  m_Name: battleBtn
+  m_Name: mainTaskBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

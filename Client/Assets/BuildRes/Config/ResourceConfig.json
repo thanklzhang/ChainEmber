@@ -144,6 +144,15 @@
         "tag": ""
     },
     {
+        "id": 15000017,
+        "name": "BattleEmbattleUI",
+        "des": "",
+        "path": "UI/Prefabs",
+        "ext": "prefab",
+        "type": 1,
+        "tag": ""
+    },
+    {
         "id": 15000501,
         "name": "BattleReplaceSkillUI",
         "des": "",
