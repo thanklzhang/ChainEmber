@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Config;
 using GameData;
-
+using ServerSimulation.Services;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -69,7 +69,7 @@ public class BattleEmbattleUI : BaseUI
 
     public void StartBattle()
     {
-        
+        BattleService.Instance.StartBattle(currSelectHeroGuid);
     }
 
     private List<HeroData> heroDataList;

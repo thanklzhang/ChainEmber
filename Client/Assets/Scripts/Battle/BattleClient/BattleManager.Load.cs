@@ -13,16 +13,43 @@ namespace Battle_Client
     {
         public IEnumerator StartLoad()
         {
+            // if (this.battleType == BattleType.Remote)
+            // {
+            //     yield return StartLoad_Remote();
+            // }
+            // else if (this.battleType == BattleType.PureLocal)
+            // {
+            //     yield return StartLoad_PureLocal();
+            // }
+
             if (this.battleType == BattleType.Remote)
             {
-                yield return StartLoad_Remote();
+                yield return StartLoad_SimulateServer();
             }
             else if (this.battleType == BattleType.PureLocal)
             {
                 yield return StartLoad_PureLocal();
             }
 
+
             OnLoadFinish();
+        }
+
+        /// <summary>
+        /// 远端战斗加载(模拟后端)
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerator StartLoad_SimulateServer()
+        {
+            //填充客户端所需组件
+            // MsgSender = new BattleClient_MsgSender_Remote();
+            // msgReceiver = new BattleClient_MsgReceiver_Impl();
+
+            //创建战斗数据
+            CreateBattleData(battleClientArgs);
+
+            //根据数据开始加载通用战斗资源
+            yield return StartLoad_Common();
         }
 
         /// <summary>
@@ -42,7 +69,7 @@ namespace Battle_Client
             yield return StartLoad_Common();
         }
 
-        private MapSaveData mapSaveData;
+        public MapSaveData mapSaveData;
 
         /// <summary>
         /// 纯本地战斗加载
@@ -65,7 +92,7 @@ namespace Battle_Client
             Logx.Log(LogxType.Game, "StartLoad_PureLocal : load map config finish");
 
             //获得申请战斗参数
-            var applyArg = ApplyBattleUtil.MakePureLocalApplyBattleArg(battleConfigId, uid,mapSaveData);
+            var applyArg = ApplyBattleUtil.MakePureLocalApplyBattleArg(battleConfigId, uid, mapSaveData);
 
             MapInitArg mapInitData = new MapInitArg();
             mapInitData.mapList = mapSaveData.mapList;
@@ -129,7 +156,7 @@ namespace Battle_Client
             yield return SceneLoadManager.Instance.LoadRequest(sceneResTb.Name);
             SetSceneInfo();
             SetCameraInfo();
-            
+
             Logx.Log(LogxType.Game, "StartLoad_Common : scene load finish");
 
             //加载 UI 并打开
@@ -181,7 +208,7 @@ namespace Battle_Client
         #region 创建战斗
 
         //创建远端战斗(现在是本地服务模拟战斗)
-        public void CreateRemoteBattle(BattleClient_CreateBattleArgs battleClientArgs)
+        public void CreateSimulateRemoteBattle(BattleClient_CreateBattleArgs battleClientArgs)
         {
             battleType = BattleType.Remote;
 
@@ -263,6 +290,5 @@ namespace Battle_Client
         //     var uid = GameDataManager.Instance.UserData.Uid;
         //     Logx.Log(LogxType.Battle, " battle load init uid: " + uid);
         // }
-
     }
 }

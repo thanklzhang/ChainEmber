@@ -27,7 +27,7 @@ namespace Battle_Client
         BattleEntity_Client localCtrlEntity;
         public BattleState BattleState;
         public BattleProcessState processState;
-        LocalBattleLogic_Executer localBattleExecuter;
+        public LocalBattleLogic_Executer localBattleExecuter;
         public IBattleClientMsgSender MsgSender;
         // public IBattleClientMsgReceiver MsgReceiver;
         public BattleType battleType;

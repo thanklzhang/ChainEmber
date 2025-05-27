@@ -30,7 +30,7 @@ namespace Battle_Client
         public int playerIndex;
         public int team;
         public long uid;
-        // public int ctrlHeroGuid;
+        public int ctrlHeroGuid;
 
 
         public BattleClientMsg_BoxShop boxShop;

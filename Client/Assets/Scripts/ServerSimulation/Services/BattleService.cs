@@ -13,15 +13,15 @@ namespace ServerSimulation.Services
     /// </summary>
     public class BattleService
     {
-        private static HeroService instance;
+        private static BattleService instance;
 
-        public static HeroService Instance
+        public static BattleService Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new HeroService();
+                    instance = new BattleService();
                 }
 
                 return instance;
@@ -29,72 +29,74 @@ namespace ServerSimulation.Services
         }
         
          
-        public static void StartBattle(int selectHeroGuid)//,Action<BattleClient_CreateBattleArgs> finishAction
+        public void StartBattle(int selectHeroGuid)//,Action<BattleClient_CreateBattleArgs> finishAction
         {
             var battleSys = ServerSimulationManager.Instance.BattleSystem;
+            battleSys.ApplyCreateBattle(selectHeroGuid);
+            
 
-            var args = GenBattleCreateArgs();
-            BattleManager.Instance.CreateRemoteBattle(args);
+            // var args = GenBattleCreateArgs();
+            // BattleManager.Instance.CreateRemoteBattle(args);
         }
 
-        //生成战斗创建参数
-        public static BattleClient_CreateBattleArgs GenBattleCreateArgs(int battleConfig,int selectHeroGuid)
-        {
-            var hero = HeroService.Instance.GetHero(selectHeroGuid);
-            if (hero == null)
-            {
-                Logx.Log(LogxType.Game, $"hero is null selectHeroGuid = {selectHeroGuid}");
-                return null;
-            }
-
-            BattleClient_CreateBattleArgs battleArgs = new BattleClient_CreateBattleArgs();
-            
-            battleArgs.configId = battleConfig;
-            battleArgs.guid = 1;
-            battleArgs.roomId = 1;
-            
-            battleArgs.clientPlayers = new List<BattleClient_ClientPlayer>();
-            BattleClient_ClientPlayer player = new BattleClient_ClientPlayer()
-            {
-                uid = 1,
-                team = 0,
-                // ctrlHeroGuid = netPlayer.CtrlHeroGuid,
-                playerIndex = 0
-            };
-            battleArgs.clientPlayers.Add(player);
-            
-            
-            //entityList
-            battleArgs.entityList = new List<BattleClientMsg_Entity>();
-            foreach (var netEntity in netBattleArgs.EntityInitArg.BattleEntityInitList)
-            {
-                BattleClientMsg_Entity entity = new BattleClientMsg_Entity()
-                {
-                    guid = netEntity.Guid,
-                    configId = netEntity.ConfigId,
-                    level = netEntity.Level,
-                    playerIndex = netEntity.PlayerIndex,
-                    position = BattleConvert.ConvertToVector3(netEntity.Position),
-                };
-    
-                //entity skill list
-                entity.skills = new List<BattleClientMsg_Skill>();
-                foreach (var netSkill in netEntity.SkillInitList)
-                {
-                    BattleClientMsg_Skill skill = new BattleClientMsg_Skill()
-                    {
-                        configId = netSkill.ConfigId,
-                        level = netSkill.Level,
-                        maxCDTime = netSkill.MaxCDTime / 1000.0f
-                    };
-                    entity.skills.Add(skill);
-                }
-    
-                battleArgs.entityList.Add(entity);
-            
-            
-            return battleArgs;;
-        }
+        // //生成战斗创建参数
+        // public static BattleClient_CreateBattleArgs GenBattleCreateArgs(int battleConfig,int selectHeroGuid)
+        // {
+        //     var hero = HeroService.Instance.GetHero(selectHeroGuid);
+        //     if (hero == null)
+        //     {
+        //         Logx.Log(LogxType.Game, $"hero is null selectHeroGuid = {selectHeroGuid}");
+        //         return null;
+        //     }
+        //
+        //     BattleClient_CreateBattleArgs battleArgs = new BattleClient_CreateBattleArgs();
+        //     
+        //     battleArgs.configId = battleConfig;
+        //     battleArgs.guid = 1;
+        //     battleArgs.roomId = 1;
+        //     
+        //     battleArgs.clientPlayers = new List<BattleClient_ClientPlayer>();
+        //     BattleClient_ClientPlayer player = new BattleClient_ClientPlayer()
+        //     {
+        //         uid = 1,
+        //         team = 0,
+        //         // ctrlHeroGuid = netPlayer.CtrlHeroGuid,
+        //         playerIndex = 0
+        //     };
+        //     battleArgs.clientPlayers.Add(player);
+        //     
+        //     
+        //     //entityList
+        //     battleArgs.entityList = new List<BattleClientMsg_Entity>();
+        //     foreach (var netEntity in netBattleArgs.EntityInitArg.BattleEntityInitList)
+        //     {
+        //         BattleClientMsg_Entity entity = new BattleClientMsg_Entity()
+        //         {
+        //             guid = netEntity.Guid,
+        //             configId = netEntity.ConfigId,
+        //             level = netEntity.Level,
+        //             playerIndex = netEntity.PlayerIndex,
+        //             position = BattleConvert.ConvertToVector3(netEntity.Position),
+        //         };
+        //
+        //         //entity skill list
+        //         entity.skills = new List<BattleClientMsg_Skill>();
+        //         foreach (var netSkill in netEntity.SkillInitList)
+        //         {
+        //             BattleClientMsg_Skill skill = new BattleClientMsg_Skill()
+        //             {
+        //                 configId = netSkill.ConfigId,
+        //                 level = netSkill.Level,
+        //                 maxCDTime = netSkill.MaxCDTime / 1000.0f
+        //             };
+        //             entity.skills.Add(skill);
+        //         }
+        //
+        //         battleArgs.entityList.Add(entity);
+        //     
+        //     
+        //     return battleArgs;;
+        // }
             
             
             //根据后台申请建战斗
