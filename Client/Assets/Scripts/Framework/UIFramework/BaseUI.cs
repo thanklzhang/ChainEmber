@@ -212,6 +212,7 @@ public abstract class BaseUI
 
         // ui.Exit();
 
+        // GlobalUIMgr.Instance.Close(this.GetType());
         ResourceManager.Instance.ReturnObject(this.uiResId, this.gameObject);
         this.gameObject = null;
 

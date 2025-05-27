@@ -98,6 +98,8 @@ namespace ServerSimulation
                 isPlayerCtrl = true,
                 roleType = BattleEntityRoleType.Normal
             };
+            
+            entityInitList.Add(entityInit);
 
             this.createArg = createArg;
         }
@@ -106,13 +108,16 @@ namespace ServerSimulation
         public Battle.Battle CreateBattle(BattleCreateArg createArg )
         {
             //初始化本地战斗后台逻辑
+            var battle = new Battle.Battle();
             BattleManager.Instance.localBattleExecuter = new LocalBattleLogic_Executer();
             BattleManager.Instance.localBattleExecuter.Init();
             
             
-            battle = new Battle.Battle();
+         
+           
             int battleGuid = 1;
             battle.TimeDelta = Time.fixedDeltaTime;
+            BattleManager.Instance.localBattleExecuter.SetBattle(battle);
 
             BattleLog.RegisterLog(new BattleLog_Impl());
             battle.PlayerMsgSender = new LocalBattleLogic_MsgSender();

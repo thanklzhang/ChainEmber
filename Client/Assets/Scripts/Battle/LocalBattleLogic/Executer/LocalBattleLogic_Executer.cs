@@ -14,8 +14,16 @@ namespace Battle_Client
     {
         Battle.Battle battle;
 
+        
+
         public void Init()
         {
+            
+        }
+
+        public void SetBattle(Battle.Battle battle)
+        {
+            this.battle = battle;
         }
 
         bool isPureLocal;

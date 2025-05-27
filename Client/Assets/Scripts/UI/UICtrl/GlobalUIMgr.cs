@@ -8,12 +8,10 @@ using UnityEngine.UI;
 //全局 ctrl 游戏进程中一直存在 不受正常的 ctrl 管理
 public class GlobalUIMgr : Singleton<GlobalUIMgr>
 {
+    public Dictionary<Type, BaseUI> ctrlDic = new Dictionary<Type, BaseUI>();
 
-    public Dictionary<Type,BaseUI> ctrlDic = new  Dictionary<Type,BaseUI>();
-    
     public void Init()
     {
-        
     }
 
     //所有全局 UI
@@ -24,13 +22,13 @@ public class GlobalUIMgr : Singleton<GlobalUIMgr>
         yield return LoadUIReq<CommonTipsUI>();
     }
 
-    public IEnumerator LoadUIReq<T>() where T : BaseUI , new ()
+    public IEnumerator LoadUIReq<T>() where T : BaseUI, new()
     {
         yield return null;
 
         //标题栏
         T ctrl = new T();
-        ctrlDic.Add(ctrl.GetType(),ctrl);
+        ctrlDic.Add(ctrl.GetType(), ctrl);
         ctrl.Init();
 
         GameObject loadGo = null;
@@ -39,8 +37,8 @@ public class GlobalUIMgr : Singleton<GlobalUIMgr>
         ctrl.StartLoad((go) =>
         {
             loadGo = go;
-            
-            UIManager.Instance.SetParent(ctrl,go); 
+
+            UIManager.Instance.SetParent(ctrl, go);
             isFinishLoad = true;
         });
 
@@ -66,6 +64,7 @@ public class GlobalUIMgr : Singleton<GlobalUIMgr>
         {
             return ctrl;
         }
+
         return null;
     }
 
@@ -74,6 +73,8 @@ public class GlobalUIMgr : Singleton<GlobalUIMgr>
         var ctrl = Get<T>();
         ctrl?.Open(args);
         ctrl?.Active();
+        
+        ctrlDic.TryAdd(ctrl.GetType(), ctrl);
     }
 
     public void Update(float deltaTime)
@@ -87,16 +88,28 @@ public class GlobalUIMgr : Singleton<GlobalUIMgr>
         }
     }
 
-    public void Close<T>()where T : BaseUI
+    public void Close<T>() where T : BaseUI
     {
         var ctrl = Get<T>();
         ctrl.Inactive();
         ctrl?.Close();
-        
+        if (ctrl != null)
+        {
+            ctrlDic.Remove(typeof(T));
+        }
+    }
+
+    public void Close(Type type)
+    {
+        if (ctrlDic.TryGetValue(type, out var ctrl))
+        {
+            ctrl.Inactive();
+            ctrl?.Close();
+            ctrlDic.Remove(type);
+        }
     }
 
     public void Release()
     {
-        
     }
 }

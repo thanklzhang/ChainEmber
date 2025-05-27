@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Config;
 using GameData;
 using ServerSimulation.Services;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,9 +18,9 @@ public class BattleEmbattleUI : BaseUI
     Button confirmBtn;
     private Button closeBtn;
 
-    private Text currHeroNameText;
+    private TextMeshProUGUI currHeroNameText;
     private Image currHeroAvatarImg;
-    private Text currHeroDesText;
+    private TextMeshProUGUI currHeroDesText;
 
     Transform heroRoot;
 
@@ -44,9 +45,9 @@ public class BattleEmbattleUI : BaseUI
 
         closeBtn = this.transform.Find("closeBtn").GetComponent<Button>();
 
-        currHeroNameText = this.transform.Find("selectRoleNameText").GetComponent<Text>();
+        currHeroNameText = this.transform.Find("selectRoleNameText").GetComponent<TextMeshProUGUI>();
         currHeroAvatarImg = this.transform.Find("selectRolePic").GetComponent<Image>();
-        currHeroDesText = this.transform.Find("describeText").GetComponent<Text>();
+        currHeroDesText = this.transform.Find("describeText").GetComponent<TextMeshProUGUI>();
 
 
         confirmBtn.onClick.AddListener(() =>
@@ -197,7 +198,7 @@ public class EmbattleHeroShowObj
     public Transform transform;
 
     public HeroData data;
-    private Text nameText;
+    private TextMeshProUGUI nameText;
 
     public void Init(GameObject go)
     {
@@ -210,7 +211,7 @@ public class EmbattleHeroShowObj
         avatar.Init(avatarRootGo);
 
         //自身
-        nameText = this.transform.Find("nameText").GetComponent<Text>();
+        nameText = this.transform.Find("nameText").GetComponent<TextMeshProUGUI>();
     }
 
     public void AddClickListener(Action<int> eventClickOneHeroOption)
