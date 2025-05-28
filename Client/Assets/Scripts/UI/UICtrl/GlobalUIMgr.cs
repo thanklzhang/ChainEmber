@@ -88,26 +88,17 @@ public class GlobalUIMgr : Singleton<GlobalUIMgr>
         }
     }
 
-    public void Close<T>() where T : BaseUI
+    public void Close<T>(bool isTrueClose = false) where T : BaseUI
     {
         var ctrl = Get<T>();
         ctrl.Inactive();
-        ctrl?.Close();
-        if (ctrl != null)
+        if (isTrueClose)
         {
+            ctrl?.Close();
             ctrlDic.Remove(typeof(T));
         }
     }
 
-    public void Close(Type type)
-    {
-        if (ctrlDic.TryGetValue(type, out var ctrl))
-        {
-            ctrl.Inactive();
-            ctrl?.Close();
-            ctrlDic.Remove(type);
-        }
-    }
 
     public void Release()
     {
