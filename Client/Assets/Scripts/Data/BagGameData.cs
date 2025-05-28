@@ -8,7 +8,6 @@ using UnityEngine;
 
 namespace GameData
 {
-
     public class BagItemData
     {
         public int configId;
@@ -22,25 +21,34 @@ namespace GameData
         List<BagItemData> bagItemList = new List<BagItemData>();
         Dictionary<int, BagItemData> bagItemDic = new Dictionary<int, BagItemData>();
 
-        public List<BagItemData> BagItemList { get => bagItemList; set => bagItemList = value; }
-        public Dictionary<int, BagItemData> BagItemDic { get => bagItemDic; }
-
-        public void SetBagItemList(RepeatedField<NetProto.Item> serverItems)
+        public List<BagItemData> BagItemList
         {
-            for (int i = serverItems.Count - 1; i >= 0; --i)
-            {
-                var serverItem = serverItems[i];
-                //Logx.Log("bag : serverItem " + serverItem.ConfigId + " " + serverItem.Count);
-                UpdateItem(serverItem);
-            }
-
-            EventDispatcher.Broadcast(EventIDs.OnRefreshBagData);
+            get => bagItemList;
+            set => bagItemList = value;
         }
 
-        public void UpdateItem(NetProto.Item serverItem)
+        public Dictionary<int, BagItemData> BagItemDic
         {
-            var configId = serverItem.ConfigId;
-            var count = serverItem.Count;
+            get => bagItemDic;
+        }
+
+        // public void SetBagItemList(RepeatedField<NetProto.Item> serverItems)
+        // {
+        //     for (int i = serverItems.Count - 1; i >= 0; --i)
+        //     {
+        //         var serverItem = serverItems[i];
+        //         //Logx.Log("bag : serverItem " + serverItem.ConfigId + " " + serverItem.Count);
+        //         UpdateItem(serverItem);
+        //     }
+        //
+        //     EventDispatcher.Broadcast(EventIDs.OnRefreshBagData);
+        // }
+
+
+        public void UpdateItem(BagItemData serverItem)
+        {
+            var configId = serverItem.configId;
+            var count = serverItem.count;
             if (count > 0)
             {
                 var localItem = GetByConfig(configId);
@@ -51,8 +59,8 @@ namespace GameData
                     BagItemList.Add(localItem);
                 }
 
-                localItem.configId = serverItem.ConfigId;
-                localItem.count = serverItem.Count;
+                localItem.configId = serverItem.count;
+                localItem.count = serverItem.count;
             }
             else
             {
@@ -63,7 +71,6 @@ namespace GameData
 
                 //Logx.Log("bag : del " + bagItemList.Count + " " + BagItemDic.Count);
             }
-
         }
 
         public BagItemData GetByConfig(int configId)
@@ -88,5 +95,4 @@ namespace GameData
             return count;
         }
     }
-
 }

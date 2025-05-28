@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Config;
 using GameData;
-
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +12,7 @@ public class TitleBarUI : BaseUI
 {
     public Transform optionRoot;
     public Button closeBtn;
-    public Text nameText;
+    public TextMeshProUGUI nameText;
     public GameObject bgGo;
     public GameObject lineGo;
 
@@ -31,7 +31,7 @@ public class TitleBarUI : BaseUI
     {
         this.optionRoot = this.transform.Find("root");
         this.closeBtn = transform.Find("close").GetComponent<Button>();
-        nameText = transform.Find("funcName").GetComponent<Text>();
+        nameText = transform.Find("funcName").GetComponent<TextMeshProUGUI>();
         bgGo = transform.Find("bg").gameObject;
         lineGo = transform.Find("line01").gameObject;
 
@@ -136,33 +136,32 @@ public class TitleOptionUIData
 
 public class TitleOptionShowObj
 {
-    Text nameText;
-    Text countText;
-
+    TextMeshProUGUI nameText;
+    TextMeshProUGUI countText;
     Image iconImg;
-    // public TitleOptionUIData uiData;
+    Button addBtn;
 
     int currIconResId;
     Sprite currIconSprite;
 
     private GameObject gameObject;
     private Transform transform;
+    private int itemId;
 
     public void Init(GameObject go)
     {
         gameObject = go;
         transform = gameObject.transform;
 
-        nameText = this.transform.Find("name").GetComponent<Text>();
-        countText = this.transform.Find("count").GetComponent<Text>();
+        nameText = this.transform.Find("name").GetComponent<TextMeshProUGUI>();
+        countText = this.transform.Find("count").GetComponent<TextMeshProUGUI>();
         iconImg = this.transform.Find("icon").GetComponent<Image>();
+        addBtn = this.transform.Find("btn_add")?.GetComponent<Button>();
     }
 
     public void RefreshUI(int itemId, int count, int index)
     {
-        // this.uiData = (TitleOptionUIData)data;
-        //
-        // var configId = this.uiData.configId;
+        this.itemId = itemId;
         var itemTb = ConfigManager.Instance.GetById<Config.Item>(itemId);
         nameText.text = itemTb.Name;
         countText.text = "" + count;
@@ -170,12 +169,27 @@ public class TitleOptionShowObj
         currIconResId = itemTb.IconResId;
         ResourceManager.Instance.GetObject<Sprite>(currIconResId, (sprite) =>
         {
-            //TODO
-            //注意 这里界面关闭了还会再次执行
-            //这里应该判断是否界面界面关闭了等状态
             currIconSprite = sprite;
             iconImg.sprite = sprite;
         });
+
+        // 只为金币显示加金币按钮
+        if (addBtn != null)
+        {
+            
+            addBtn.gameObject.SetActive(itemId == ServerSimulation.Account.Models.PlayerBag.GOLD_ID);
+            addBtn.onClick.RemoveAllListeners();
+            if (itemId == ServerSimulation.Account.Models.PlayerBag.GOLD_ID)
+            {
+                addBtn.onClick.AddListener(() =>
+                {
+                    ServerSimulation.Services.AccountService.Instance.AddGold(100);
+                    // 刷新金币显示
+                    int gold = ServerSimulation.Services.AccountService.Instance.GetGold();
+                    countText.text = "" + gold;
+                });
+            }
+        }
     }
 
     public void Release()

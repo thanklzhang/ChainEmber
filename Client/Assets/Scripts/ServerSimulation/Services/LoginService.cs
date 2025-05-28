@@ -152,6 +152,16 @@ namespace ServerSimulation.Services
                 {
                     // 使用转换工具将UserPlayer转换为PlayerInfo
                     userData.PlayerInfo = GameData.PlayerConvert.ToPlayerInfo(response.UserPlayer, response.UserId);
+                    //同步货币
+                    var serverBag = response.UserPlayer.Bag;
+                    serverBag.ItemList.ForEach(item =>
+                    {
+                        GameDataManager.Instance.BagData.UpdateItem(new BagItemData()
+                        {
+                            configId = item.itemId,
+                            count = item.count
+                        });
+                    });
                     
                     Debug.Log($"[LoginService] 已同步玩家数据: Name={userData.PlayerInfo.name}, Level={userData.PlayerInfo.level}");
                     
