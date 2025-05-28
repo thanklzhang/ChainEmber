@@ -6,6 +6,7 @@ using System.Collections;
 using System.Linq;
 using Battle;
 using Battle_Client;
+using Config;
 using GameData;
 using ServerSimulation.Services;
 using Vector3 = System.Numerics.Vector3;
@@ -99,9 +100,37 @@ namespace ServerSimulation
                 roleType = BattleEntityRoleType.Normal
             };
             
+            //实体的技能
+            SetEntitySkills(entityInit);
+         
+            
             entityInitList.Add(entityInit);
 
             this.createArg = createArg;
+        }
+
+        public void SetEntitySkills(EntityInit entityInit)
+        {
+            var entityConfig = ConfigManager.Instance.GetById<Config.EntityInfo>(entityInit.configId);
+            entityInit.skillInitList = new List<SkillInit>();
+
+            foreach (var skillConfigId in entityConfig.SkillIds)
+            {
+                entityInit.skillInitList.Add(new SkillInit()
+                {
+                    configId = skillConfigId,
+                    level = 1
+                });
+            }
+            if (entityConfig.UltimateSkillId > 0)
+            {
+                entityInit.skillInitList.Add(new SkillInit()
+                {
+                    configId = entityConfig.UltimateSkillId,
+                    level = 1
+                });
+            }
+          
         }
 
 
