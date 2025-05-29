@@ -38,10 +38,10 @@ public class LoginNetHandler : NetHandler
 
     public void OnCheckLogin(MsgPack msgPack)
     {
-        scCheckLogin check = scCheckLogin.Parser.ParseFrom(msgPack.data);
-        GameDataManager.Instance.UserData.Uid = check.Uid.ToString();
-        loginResultAction?.Invoke(check);
-        loginResultAction = null;
+        // scCheckLogin check = scCheckLogin.Parser.ParseFrom(msgPack.data);
+        // GameDataManager.Instance.UserData.Uid = check.Uid.ToString();
+        // loginResultAction?.Invoke(check);
+        // loginResultAction = null;
 
     }
 
@@ -81,13 +81,13 @@ public class LoginNetHandler : NetHandler
 
     public void OnEnterGame(MsgPack msgPack)
     {
-        scEnterGame enterGame = scEnterGame.Parser.ParseFrom(msgPack.data);
-
-        var userDataStore = GameDataManager.Instance.UserData;
-        userDataStore.PlayerInfo = PlayerConvert.ToPlayerInfo(enterGame.PlayerInfo);
-
-        enterGameResultAction?.Invoke(enterGame);
-        enterGameResultAction = null;
+        // scEnterGame enterGame = scEnterGame.Parser.ParseFrom(msgPack.data);
+        //
+        // var userDataStore = GameDataManager.Instance.UserData;
+        // userDataStore.PlayerInfo = PlayerConvert.ToPlayerInfo(enterGame.PlayerInfo);
+        //
+        // enterGameResultAction?.Invoke(enterGame);
+        // enterGameResultAction = null;
     }
 
 }

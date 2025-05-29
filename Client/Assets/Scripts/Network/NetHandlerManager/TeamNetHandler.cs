@@ -47,44 +47,44 @@ public class TeamNetHandler : NetHandler
 
     public void OnGetTeamRoomList(MsgPack msgPack)
     {
-        scGetTeamRoomList scGet = scGetTeamRoomList.Parser.ParseFrom(msgPack.data);
-
-        //convert
-        List<TeamRoomData> localRoomList = new List<TeamRoomData>();
-
-        foreach (var netTeamRoom in scGet.TeamRoomList)
-        {
-            TeamRoomData localRoom = new TeamRoomData()
-            {
-                id = netTeamRoom.RoomId,
-                roomName = netTeamRoom.RoomName,
-                state = (TeamRoomState)netTeamRoom.State,
-                teamStageId = netTeamRoom.TeamStageId
-            };
-            localRoom.playerList = new List<TeamRoomPlayerData>();
-            foreach (var netPlayer in netTeamRoom.PlayerList)
-            {
-
-                //TeamRoomPlayerData localPlayer = new TeamRoomPlayerData()
-                //{
-                //    playerInfo = PlayerConvert.ToPlayerInfo(netPlayer.PlayerInfo),
-                //    isMaster = netPlayer.IsRoomMaster,
-                //    isHasReady = netPlayer.IsHasReady,
-                //    selectHeroGuid =  netPlayer.Hero
-                //};
-                //localRoom.playerList.Add(localPlayer);
-
-                var teamPlayer = TeamConvert.ToTeamPlayer(netPlayer);
-                localRoom.playerList.Add(teamPlayer);
-
-            }
-            localRoomList.Add(localRoom);
-        }
-
-        GameDataManager.Instance.TeamData.SetRoomListData(localRoomList);
-
-        event_getTeamRoomList?.Invoke();
-        event_getTeamRoomList = null;
+        // scGetTeamRoomList scGet = scGetTeamRoomList.Parser.ParseFrom(msgPack.data);
+        //
+        // //convert
+        // List<TeamRoomData> localRoomList = new List<TeamRoomData>();
+        //
+        // foreach (var netTeamRoom in scGet.TeamRoomList)
+        // {
+        //     TeamRoomData localRoom = new TeamRoomData()
+        //     {
+        //         id = netTeamRoom.RoomId,
+        //         roomName = netTeamRoom.RoomName,
+        //         state = (TeamRoomState)netTeamRoom.State,
+        //         teamStageId = netTeamRoom.TeamStageId
+        //     };
+        //     localRoom.playerList = new List<TeamRoomPlayerData>();
+        //     foreach (var netPlayer in netTeamRoom.PlayerList)
+        //     {
+        //
+        //         //TeamRoomPlayerData localPlayer = new TeamRoomPlayerData()
+        //         //{
+        //         //    playerInfo = PlayerConvert.ToPlayerInfo(netPlayer.PlayerInfo),
+        //         //    isMaster = netPlayer.IsRoomMaster,
+        //         //    isHasReady = netPlayer.IsHasReady,
+        //         //    selectHeroGuid =  netPlayer.Hero
+        //         //};
+        //         //localRoom.playerList.Add(localPlayer);
+        //
+        //         var teamPlayer = TeamConvert.ToTeamPlayer(netPlayer);
+        //         localRoom.playerList.Add(teamPlayer);
+        //
+        //     }
+        //     localRoomList.Add(localRoom);
+        // }
+        //
+        // GameDataManager.Instance.TeamData.SetRoomListData(localRoomList);
+        //
+        // event_getTeamRoomList?.Invoke();
+        // event_getTeamRoomList = null;
     }
 
 
@@ -101,14 +101,14 @@ public class TeamNetHandler : NetHandler
 
     public void OnCreateTeamRoom(MsgPack msgPack)
     {
-        scCreateTeamRoom scCreate = scCreateTeamRoom.Parser.ParseFrom(msgPack.data);
-        // Logx.Log("OnCreateTeamRoom : " + scCreate.ToString());
-
-        var resultRoom = TeamConvert.ToTeamRoom(scCreate.TeamRoom);
-        GameDataManager.Instance.TeamData.SetCurrEnterRoomData(resultRoom);
-
-        event_createTeamRoom?.Invoke();
-        event_createTeamRoom = null;
+        // scCreateTeamRoom scCreate = scCreateTeamRoom.Parser.ParseFrom(msgPack.data);
+        // // Logx.Log("OnCreateTeamRoom : " + scCreate.ToString());
+        //
+        // var resultRoom = TeamConvert.ToTeamRoom(scCreate.TeamRoom);
+        // GameDataManager.Instance.TeamData.SetCurrEnterRoomData(resultRoom);
+        //
+        // event_createTeamRoom?.Invoke();
+        // event_createTeamRoom = null;
     }
 
     public void SendEnterTeamRoom(int roomId, Action action)
@@ -124,13 +124,13 @@ public class TeamNetHandler : NetHandler
 
     public void OnEnterTeamRoom(MsgPack msgPack)
     {
-        scEnterTeamRoom scEnter = scEnterTeamRoom.Parser.ParseFrom(msgPack.data);
-
-        var resultRoom = TeamConvert.ToTeamRoom(scEnter.TeamRoom);
-        GameDataManager.Instance.TeamData.SetCurrEnterRoomData(resultRoom);
-
-        event_enterTeamRoom?.Invoke();
-        event_enterTeamRoom = null;
+        // scEnterTeamRoom scEnter = scEnterTeamRoom.Parser.ParseFrom(msgPack.data);
+        //
+        // var resultRoom = TeamConvert.ToTeamRoom(scEnter.TeamRoom);
+        // GameDataManager.Instance.TeamData.SetCurrEnterRoomData(resultRoom);
+        //
+        // event_enterTeamRoom?.Invoke();
+        // event_enterTeamRoom = null;
     }
 
     public void SendChangeReadyStateInTeamRoom(int roomId, bool isReady, Action action)
@@ -224,29 +224,29 @@ public class TeamNetHandler : NetHandler
 
     public void OnNotifyChangePlayerInfoInTeamRoom(MsgPack msgPack)
     {
-        scNotifyChangePlayerInfoInTeamRoom sc = scNotifyChangePlayerInfoInTeamRoom.Parser.ParseFrom(msgPack.data);
-        // Logx.Log("OnNotifyChangePlayerInfoInTeamRoom : " + sc.ToString());
-        var player = sc.Player;
-
-        //data handler
-        var resultPlayer = TeamConvert.ToTeamPlayer(player);
-        //Logx.Log("log test : isHasReady : " + resultPlayer.isHasReady);
-        var room = GameDataManager.Instance.TeamData.currEnterRoomData;
-        room.UpdateRoomPlayerData(resultPlayer);
-
-        //dispatch refresh player event 
-        EventDispatcher.Broadcast(EventIDs.OnPlayerChangeInfoInTeamRoom);
+        // scNotifyChangePlayerInfoInTeamRoom sc = scNotifyChangePlayerInfoInTeamRoom.Parser.ParseFrom(msgPack.data);
+        // // Logx.Log("OnNotifyChangePlayerInfoInTeamRoom : " + sc.ToString());
+        // var player = sc.Player;
+        //
+        // //data handler
+        // var resultPlayer = TeamConvert.ToTeamPlayer(player);
+        // //Logx.Log("log test : isHasReady : " + resultPlayer.isHasReady);
+        // var room = GameDataManager.Instance.TeamData.currEnterRoomData;
+        // room.UpdateRoomPlayerData(resultPlayer);
+        //
+        // //dispatch refresh player event 
+        // EventDispatcher.Broadcast(EventIDs.OnPlayerChangeInfoInTeamRoom);
     }
 
     public void OnNotiyRoomLeaveRoom(MsgPack msgPack)
     {
-        scNotifyLeaveTeamRoom leave = scNotifyLeaveTeamRoom.Parser.ParseFrom(msgPack.data);
-        // Logx.Log("OnNotiyRoomLeaveRoom : " + leave.ToString());
-        var uid = leave.PlayerUid;
-
-        GameDataManager.Instance.TeamData.RemovePlayer(uid);
-
-        EventDispatcher.Broadcast(EventIDs.OnPlayerLeaveTeamRoom, uid);
+        // scNotifyLeaveTeamRoom leave = scNotifyLeaveTeamRoom.Parser.ParseFrom(msgPack.data);
+        // // Logx.Log("OnNotiyRoomLeaveRoom : " + leave.ToString());
+        // var uid = leave.PlayerUid;
+        //
+        // GameDataManager.Instance.TeamData.RemovePlayer(uid);
+        //
+        // EventDispatcher.Broadcast(EventIDs.OnPlayerLeaveTeamRoom, uid);
     }
 
     //TODO :

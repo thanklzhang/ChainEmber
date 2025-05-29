@@ -3,16 +3,16 @@ using GameData;
 
 public class HeroService : Singleton<HeroService>
 {
-    public HeroData heroData;
+    public HeroListData heroListData;
 
-    public void Init(HeroData heroData)
+    public void Init(HeroListData heroListData)
     {
-        this.heroData = heroData;
+        this.heroListData = heroListData;
     }
 
     public void AddHero(int configId, int level = 1, int star = 1)
     {
-        var hero = heroData.heroList.Find(x => x.configId == configId);
+        var hero = heroListData.heroList.Find(x => x.configId == configId);
         if (hero != null)
         {
             hero.level = level;
@@ -20,20 +20,29 @@ public class HeroService : Singleton<HeroService>
         }
         else
         {
-            heroData.heroList.Add(new HeroItemData() { configId = configId, level = level, star = star });
+            var guid = heroListData.maxGuid + 1;
+            heroListData.heroList.Add(new HeroData() { guid = guid, configId = configId, level = level, star = star });
+
+            heroListData.maxGuid++;
         }
 
         SaveData();
     }
 
-    public void RemoveHero(int configId)
+    public void RemoveHero(int guid)
     {
-        var hero = heroData.heroList.Find(x => x.configId == configId);
+        var hero = heroListData.heroList.Find(x => x.guid == guid);
         if (hero != null)
         {
-            heroData.heroList.Remove(hero);
+            heroListData.heroList.Remove(hero);
             SaveData();
         }
+    }
+
+    public HeroData GetHero(int guid)
+    {
+        var hero = heroListData.heroList.Find(x => x.guid == guid);
+        return hero;
     }
 
     public void SaveData()

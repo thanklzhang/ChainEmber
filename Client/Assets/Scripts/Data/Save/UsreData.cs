@@ -6,7 +6,7 @@ namespace GameData
     public class UserData
     {
         public BagData bagData;
-        public HeroData heroData;
+        public HeroListData heroListData;
 
     }
 }

@@ -3,16 +3,18 @@ using System.Collections.Generic;
 
 namespace GameData
 {
-    public class HeroItemData
+    public class HeroData
     {
+        public int guid;
         public int configId;
         public int level;
         public int star;
     }
 
     [Serializable]
-    public class HeroData
+    public class HeroListData
     {
-        public List<HeroItemData> heroList;
+        public List<HeroData> heroList;
+        public int maxGuid;
     }
 }

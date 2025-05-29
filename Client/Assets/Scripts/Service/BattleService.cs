@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using ServerSimulation.Account.Models;
 using UnityEngine;
 using System;
 using System.Collections;
@@ -8,7 +7,6 @@ using Battle;
 using Battle_Client;
 using Config;
 using GameData;
-using ServerSimulation.Services;
 using Vector3 = System.Numerics.Vector3;
 
 namespace ServerSimulation
@@ -20,11 +18,11 @@ namespace ServerSimulation
     }
     
     //后台战斗 目前没有状态 只是模拟创建 真正的逻辑在前端
-    public class BattleSystem
+    public class BattleService : Singleton<BattleService>
     {
         private Battle.Battle battle;
         
-        public BattleSystem()
+        public BattleService()
         {
         }
 
@@ -91,11 +89,11 @@ namespace ServerSimulation
             var  entityInitList = createArg.entityInitArg.entityInitList;
             var entityInit = new EntityInit()
             {
-                configId = heroData.ConfigId,
-                level = heroData.Level,
+                configId = heroData.configId,
+                level = heroData.level,
                 playerIndex = 0,
                 position = mapInit.playerInitPosList[0],
-                star = heroData.Star,
+                star = heroData.star,
                 isPlayerCtrl = true,
                 roleType = BattleEntityRoleType.Normal
             };

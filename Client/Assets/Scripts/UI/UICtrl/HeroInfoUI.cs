@@ -87,8 +87,7 @@ public class HeroInfoUI : BaseUI
     private void OnHeroDataRefreshed()
     {
         // 获取最新的英雄数据
-        HeroGameData heroGameData = GameData.GameDataManager.Instance.HeroData;
-        HeroData updatedHeroData = heroGameData.GetDataByGuid(heroData.guid);
+        HeroData updatedHeroData = HeroService.Instance.GetHero(heroData.guid);
         
         if (updatedHeroData != null)
         {

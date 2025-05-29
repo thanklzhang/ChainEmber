@@ -20,7 +20,7 @@ public class UserService : Singleton<UserService>
     {
         this.userData = userData;
 
-        HeroService.Instance.Init(userData.heroData);
+        HeroService.Instance.Init(userData.heroListData);
         BagService.Instance.Init(userData.bagData);
     }
 

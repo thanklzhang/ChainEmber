@@ -362,7 +362,8 @@ public partial class BattleUI : BaseUI
     void OnPlayerReadyState(int uid, bool isReady)
     {
         // 将字符串Uid转换为整数进行比较
-        var myUid = int.TryParse(GameDataManager.Instance.UserData.Uid, out int uidValue) ? uidValue : 0;
+        // var myUid = int.TryParse(GameDataManager.Instance.UserData.Uid, out int uidValue) ? uidValue : 0;
+        var myUid = 1;
 
         if (myUid == uid)
         {

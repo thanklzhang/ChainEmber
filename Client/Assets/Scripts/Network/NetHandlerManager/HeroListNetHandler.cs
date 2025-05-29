@@ -31,10 +31,10 @@ public class HeroListNetHandler : NetHandler
 
     public void OnSyncHeroList(MsgPack msgPack)
     {
-        scSyncHeroList sync = scSyncHeroList.Parser.ParseFrom(msgPack.data);
-
-        var dataStore = GameDataManager.Instance.HeroData;
-        dataStore.SetHeroDataList(sync.HeroList);
+        // scSyncHeroList sync = scSyncHeroList.Parser.ParseFrom(msgPack.data);
+        //
+        // var dataStore = GameDataManager.Instance.HeroData;
+        // dataStore.SetHeroDataList(sync.HeroList);
 
     }
 

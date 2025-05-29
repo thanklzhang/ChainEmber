@@ -90,7 +90,7 @@ public class GameMain : MonoBehaviour
         // 初始化服务器模拟系统
         InitServerSimulation();
         
-        GameDataManager.Instance.Init();
+        // GameDataManager.Instance.Init();
         // ServiceManager.Instance.Init();
 
         SceneLoadManager.Instance.Init();
@@ -124,14 +124,14 @@ public class GameMain : MonoBehaviour
         // var serverSimObj = new GameObject("ServerSimulationManager");
         // ServerSimulationManager simulationManager = serverSimObj.AddComponent<ServerSimulationManager>();
         // DontDestroyOnLoad(serverSimObj);
-        ServerSimulationManager.Instance.Init();
+        // ServerSimulationManager.Instance.Init();
         
         // 创建并初始化ServerServiceManager
         // var serviceObj = new GameObject("ServerServiceManager");
         // ServerServiceManager serviceManager = serviceObj.AddComponent<ServerServiceManager>();
         // DontDestroyOnLoad(serviceObj);
         // serviceManager.InitAllServices();
-        ServerServiceManager.Instance.InitAllServices();
+        // ServerServiceManager.Instance.InitAllServices();
         
         Logx.Log(LogxType.Game, "ServerSimulation system initialized");
     }

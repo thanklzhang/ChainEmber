@@ -11,14 +11,14 @@ namespace GameData
 {
     public class HeroConvert
     {
-        public static HeroData ToHeroData(NetProto.HeroProto serverHero)
-        {
-            HeroData hero = new HeroData();
-            hero.guid = serverHero.Guid;
-            hero.configId = serverHero.ConfigId;
-            hero.level = serverHero.Level;
-
-            return hero;
-        }
+        // public static HeroData ToHeroData(NetProto.HeroProto serverHero)
+        // {
+        //     HeroData hero = new HeroData();
+        //     hero.guid = serverHero.Guid;
+        //     hero.configId = serverHero.ConfigId;
+        //     hero.level = serverHero.Level;
+        //
+        //     return hero;
+        // }
     }
 }

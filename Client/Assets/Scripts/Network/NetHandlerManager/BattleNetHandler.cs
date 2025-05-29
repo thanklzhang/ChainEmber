@@ -70,22 +70,22 @@ public class BattleNetHandler : NetHandler
     //统一转发战斗消息
     public void TransitionBattleMsg(ProtoIDs cmd, IMessage msg)
     {
-        // Logx.Log("TransitionBattleMsg : send true cmd : " + cmd);
-        csTransitionBattle tranBattleMsg = new csTransitionBattle();
-
-        var myUidStr = GameDataManager.Instance.UserData.Uid;
-        var myUid = int.TryParse(myUidStr, out int uidValue) ? uidValue : 0;
-        ClientProtoHead head = new ClientProtoHead()
-        {
-            cmd = (ushort)cmd,
-            uid = (ulong)myUid
-        };
-
-        var clientData = ProtoMsgUtil.MakeClientMsgBytes(msg.ToByteArray(), head);
-
-        tranBattleMsg.Cmd = (int)cmd;
-        tranBattleMsg.Data = ByteString.CopyFrom(clientData);
-        NetworkManager.Instance.SendMsg(ProtoIDs.TransitionBattle, tranBattleMsg.ToByteArray());
+        // // Logx.Log("TransitionBattleMsg : send true cmd : " + cmd);
+        // csTransitionBattle tranBattleMsg = new csTransitionBattle();
+        //
+        // var myUidStr = GameDataManager.Instance.UserData.Uid;
+        // var myUid = int.TryParse(myUidStr, out int uidValue) ? uidValue : 0;
+        // ClientProtoHead head = new ClientProtoHead()
+        // {
+        //     cmd = (ushort)cmd,
+        //     uid = (ulong)myUid
+        // };
+        //
+        // var clientData = ProtoMsgUtil.MakeClientMsgBytes(msg.ToByteArray(), head);
+        //
+        // tranBattleMsg.Cmd = (int)cmd;
+        // tranBattleMsg.Data = ByteString.CopyFrom(clientData);
+        // NetworkManager.Instance.SendMsg(ProtoIDs.TransitionBattle, tranBattleMsg.ToByteArray());
     }
 
     //统一接受战斗消息并解析为客户端需要的结构
