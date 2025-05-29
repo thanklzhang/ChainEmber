@@ -8,10 +8,10 @@ using UnityEngine;
 
 namespace GameData
 {
-    public class HeroData
-    {
-        public int guid;
-        public int configId;
-        public int level;
-    }
+    // public class HeroData
+    // {
+    //     public int guid;
+    //     public int configId;
+    //     public int level;
+    // }
 }

@@ -55,49 +55,63 @@ public class LoginUI : BaseUI
         
         // 自动开始登录流程
         this.SetStateText("正在自动登录...");
-        this.AutoLoginWithDeviceId();
+        this.AutoLogin();
     }
 
-    /// <summary>
-    /// 获取设备唯一标识符
-    /// </summary>
-    private string GetDeviceIdentifier()
-    {
-        // 使用SystemInfo.deviceUniqueIdentifier获取设备唯一标识符
-        // 实际项目中可能需要更复杂的处理来确保跨设备唯一性
-        string deviceId = SystemInfo.deviceUniqueIdentifier;
-        
-        // 为防止ID过长，可以截取或Hash处理
-        if (deviceId.Length > 20)
-        {
-            deviceId = deviceId.Substring(0, 20);
-        }
-        
-        // 添加前缀区分设备类型
-        string prefix = Application.platform == RuntimePlatform.Android ? "AD_" : 
-                         Application.platform == RuntimePlatform.IPhonePlayer ? "IOS_" : "PC_";
-                         
-        return prefix + deviceId;
-    }
+    // /// <summary>
+    // /// 获取设备唯一标识符
+    // /// </summary>
+    // private string GetDeviceIdentifier()
+    // {
+    //     // 使用SystemInfo.deviceUniqueIdentifier获取设备唯一标识符
+    //     // 实际项目中可能需要更复杂的处理来确保跨设备唯一性
+    //     string deviceId = SystemInfo.deviceUniqueIdentifier;
+    //     
+    //     // 为防止ID过长，可以截取或Hash处理
+    //     if (deviceId.Length > 20)
+    //     {
+    //         deviceId = deviceId.Substring(0, 20);
+    //     }
+    //     
+    //     // 添加前缀区分设备类型
+    //     string prefix = Application.platform == RuntimePlatform.Android ? "AD_" : 
+    //                      Application.platform == RuntimePlatform.IPhonePlayer ? "IOS_" : "PC_";
+    //                      
+    //     return prefix + deviceId;
+    // }
     
     /// <summary>
     /// 使用设备ID自动登录
     /// </summary>
-    private void AutoLoginWithDeviceId()
-        {
-        string deviceId = GetDeviceIdentifier();
-        Debug.Log($"[LoginUI] 使用设备ID登录: {deviceId}");
+    private void AutoLogin()
+    {
+        // string deviceId = GetDeviceIdentifier();
+        // Debug.Log($"[LoginUI] 使用设备ID登录: {deviceId}");
         
-        // 使用设备ID作为用户名，空密码（后端会处理）
-        LoginService.Instance.Login(deviceId, "", (success, userId, errorMessage) => {
-            if (success)
+        // // 使用设备ID作为用户名，空密码（后端会处理）
+        // LoginService.Instance.Login(deviceId, "", (success, userId, errorMessage) => {
+        //     if (success)
+        //     {
+        //         this.SetStateText("登录成功");
+        //         this.StartToEnterGame();
+        //     }
+        //     else
+        //     {
+        //         this.SetStateText($"登录失败: {errorMessage}，请点击登录按钮重试");
+        //     }
+        // });
+        
+        UserService.Instance.Login((response) =>
+        {
+            if (response.err == ErrorCode.Success)
             {
+                // 登录成功，回调
                 this.SetStateText("登录成功");
                 this.StartToEnterGame();
             }
             else
             {
-                this.SetStateText($"登录失败: {errorMessage}，请点击登录按钮重试");
+                this.SetStateText($"登录失败: {response.err}，请点击登录按钮重试");
             }
         });
     }
@@ -105,7 +119,7 @@ public class LoginUI : BaseUI
     public void RefreshDeviceIdShow()
     {
         // 显示设备ID（可能会截断）
-        string deviceId = GetDeviceIdentifier();
+        string deviceId = UserUtil.GetDeviceIdentifier();
         userAccountText.text = deviceId;
     }
 
@@ -130,7 +144,7 @@ public class LoginUI : BaseUI
     public void OnClickLoginBtn()
     {
         this.SetStateText("正在登录...");
-        this.AutoLoginWithDeviceId();
+        this.AutoLogin();
     }
 
     private void OnResetUserBtnClick()
@@ -141,7 +155,7 @@ public class LoginUI : BaseUI
         this.SetStateText("已重置用户数据，正在重新登录...");
         
         // 重新登录
-        this.AutoLoginWithDeviceId();
+        this.AutoLogin();
     }
 
     private void StartToEnterGame()
