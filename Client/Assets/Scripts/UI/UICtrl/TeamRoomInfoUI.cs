@@ -64,10 +64,10 @@ public class TeamRoomInfoUI : BaseUI
 
     public void OnClickStartBattleBtn()
     {
-        var net = NetHandlerManager.Instance.GetHandler<BattleEntranceNetHandler>();
-        var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
-        var tamRoomId = enterRoomData.id;
-        net.ApplyTeamBattle(tamRoomId, () => { });
+        // var net = NetHandlerManager.Instance.GetHandler<BattleEntranceNetHandler>();
+        // var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
+        // var tamRoomId = enterRoomData.id;
+        // net.ApplyTeamBattle(tamRoomId, () => { });
     }
 
     public TeamRoomData currRoomData;
@@ -82,25 +82,25 @@ public class TeamRoomInfoUI : BaseUI
 
     protected override void OnActive()
     {
-        // TeamRoomInfoUIArgs roomInfoArgs = (TeamRoomInfoUIArgs)args;
-        EventDispatcher.AddListener(EventIDs.OnPlayerChangeInfoInTeamRoom, OnPlayerChangeInfoInTamRoom);
-
-        UIManager.Instance.Open<TitleBarUI>(new TitleBarUIArgs()
-        {
-            titleBarId = 4
-        });
-        currRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
-
-
-        var stageConfig = ConfigManager.Instance.GetById<Config.TeamStage>(currRoomData.teamStageId);
-        // roomPlayerDataList = roomInfoArgs.playerUIDataList;
-        roomName = currRoomData.roomName;
-        stageName = stageConfig.Name;
-        stageDesText.text = stageConfig.Describe;
-        ResourceManager.Instance.GetObject<Sprite>(stageConfig.IconResId,
-            (sprite) => { stageIconImg.sprite = sprite; });
-
-        this.RefreshRoomInfo();
+        // // TeamRoomInfoUIArgs roomInfoArgs = (TeamRoomInfoUIArgs)args;
+        // EventDispatcher.AddListener(EventIDs.OnPlayerChangeInfoInTeamRoom, OnPlayerChangeInfoInTamRoom);
+        //
+        // UIManager.Instance.Open<TitleBarUI>(new TitleBarUIArgs()
+        // {
+        //     titleBarId = 4
+        // });
+        // currRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
+        //
+        //
+        // var stageConfig = ConfigManager.Instance.GetById<Config.TeamStage>(currRoomData.teamStageId);
+        // // roomPlayerDataList = roomInfoArgs.playerUIDataList;
+        // roomName = currRoomData.roomName;
+        // stageName = stageConfig.Name;
+        // stageDesText.text = stageConfig.Describe;
+        // ResourceManager.Instance.GetObject<Sprite>(stageConfig.IconResId,
+        //     (sprite) => { stageIconImg.sprite = sprite; });
+        //
+        // this.RefreshRoomInfo();
     }
 
     public void RefreshRoomInfo()
@@ -260,76 +260,76 @@ public class TeamRoomPlayerUIShowObj // : BaseUIShowObj<TeamRoomInfoUIPre>
 
     public void OnClickReadyBtn()
     {
-        var net = NetHandlerManager.Instance.GetHandler<TeamNetHandler>();
-        var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
-        var player = enterRoomData.playerList.Find(p => p.playerInfo.uid == this.playerData.playerInfo.uid);
-        var roomId = enterRoomData.id;
-        var opReady = !player.isHasReady;
-
-        net.SendChangeReadyStateInTeamRoom(roomId, opReady, OnChangeReadyStateCallback);
+        // var net = NetHandlerManager.Instance.GetHandler<TeamNetHandler>();
+        // var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
+        // var player = enterRoomData.playerList.Find(p => p.playerInfo.uid == this.playerData.playerInfo.uid);
+        // var roomId = enterRoomData.id;
+        // var opReady = !player.isHasReady;
+        //
+        // net.SendChangeReadyStateInTeamRoom(roomId, opReady, OnChangeReadyStateCallback);
     }
 
     private int currSelectHeroGuid;
 
     public void OnClickChangeHeroBtn()
     {
-        var uid = this.playerData.playerInfo.uid;
-        if (uid.ToString() == GameData.GameDataManager.Instance.UserData.Uid)
-        {
-            SelectHeroUIArgs args = new SelectHeroUIArgs();
-
-            args.heroDataList = new List<HeroData>();
-            var heroList = GameData.GameDataManager.Instance.HeroData.HeroList;
-            var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
-            var playerInfo = enterRoomData.playerList.Find(p => p.playerInfo.uid == uid);
-            for (int i = 0; i < heroList.Count; i++)
-            {
-                var hero = heroList[i];
-
-                // HeroData uiData = hero;
-                args.heroDataList.Add(hero);
-
-                if (playerInfo.selectHeroData.guid == hero.guid)
-                {
-                    currSelectHeroGuid = hero.guid;
-                }
-            }
-
-            // //默认选择第一个
-            // if (0 == currSelectHeroGuid)
-            // {
-            //     currSelectHeroGuid = heroList[0].guid;
-            // }
-
-            args.event_ClickConfirmBtn = (curr) =>
-            {
-                //send net
-                // CtrlManager.Instance.GlobalCtrlPre.HideSelectHeroUI();
-
-                NetProto.csSelectUseHeroInTeamRoom csSelect = new NetProto.csSelectUseHeroInTeamRoom();
-                var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
-
-                var net = NetHandlerManager.Instance.GetHandler<TeamNetHandler>();
-                currSelectHeroGuid = curr;
-                // CtrlManager.Instance.GlobalCtrlPre.SelectHero(currSelectHeroGuid);
-
-                net.SendSelectUseHeroInTeamRoom(enterRoomData.id, currSelectHeroGuid);
-            };
-
-            args.event_ClickOneHeroOption = (guid) =>
-            {
-                currSelectHeroGuid = guid;
-                this.contextCtrl?.RefreshRoomInfo();
-
-                // CtrlManager.Instance.GlobalCtrlPre.SelectHero(currSelectHeroGuid);
-                contextCtrl?.RefreshRoomInfo();
-            };
-
-            args.currSelectHeroGuid = currSelectHeroGuid;
-
-            // CtrlManager.Instance.GlobalCtrlPre.ShowSelectHeroUI(args);
-            UIManager.Instance.Open<SelectHeroUI>(args);
-        }
+        // var uid = this.playerData.playerInfo.uid;
+        // if (uid.ToString() == GameData.GameDataManager.Instance.UserData.Uid)
+        // {
+        //     SelectHeroUIArgs args = new SelectHeroUIArgs();
+        //
+        //     args.heroDataList = new List<HeroData>();
+        //     var heroList = GameData.GameDataManager.Instance.HeroData.HeroList;
+        //     var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
+        //     var playerInfo = enterRoomData.playerList.Find(p => p.playerInfo.uid == uid);
+        //     for (int i = 0; i < heroList.Count; i++)
+        //     {
+        //         var hero = heroList[i];
+        //
+        //         // HeroData uiData = hero;
+        //         args.heroDataList.Add(hero);
+        //
+        //         if (playerInfo.selectHeroData.guid == hero.guid)
+        //         {
+        //             currSelectHeroGuid = hero.guid;
+        //         }
+        //     }
+        //
+        //     // //默认选择第一个
+        //     // if (0 == currSelectHeroGuid)
+        //     // {
+        //     //     currSelectHeroGuid = heroList[0].guid;
+        //     // }
+        //
+        //     args.event_ClickConfirmBtn = (curr) =>
+        //     {
+        //         //send net
+        //         // CtrlManager.Instance.GlobalCtrlPre.HideSelectHeroUI();
+        //
+        //         NetProto.csSelectUseHeroInTeamRoom csSelect = new NetProto.csSelectUseHeroInTeamRoom();
+        //         var enterRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
+        //
+        //         var net = NetHandlerManager.Instance.GetHandler<TeamNetHandler>();
+        //         currSelectHeroGuid = curr;
+        //         // CtrlManager.Instance.GlobalCtrlPre.SelectHero(currSelectHeroGuid);
+        //
+        //         net.SendSelectUseHeroInTeamRoom(enterRoomData.id, currSelectHeroGuid);
+        //     };
+        //
+        //     args.event_ClickOneHeroOption = (guid) =>
+        //     {
+        //         currSelectHeroGuid = guid;
+        //         this.contextCtrl?.RefreshRoomInfo();
+        //
+        //         // CtrlManager.Instance.GlobalCtrlPre.SelectHero(currSelectHeroGuid);
+        //         contextCtrl?.RefreshRoomInfo();
+        //     };
+        //
+        //     args.currSelectHeroGuid = currSelectHeroGuid;
+        //
+        //     // CtrlManager.Instance.GlobalCtrlPre.ShowSelectHeroUI(args);
+        //     UIManager.Instance.Open<SelectHeroUI>(args);
+        // }
     }
 
 
@@ -343,68 +343,68 @@ public class TeamRoomPlayerUIShowObj // : BaseUIShowObj<TeamRoomInfoUIPre>
 
     public void Refresh(TeamRoomPlayerData data)
     {
-        this.playerData = data;
-        //var teamStageId = this.uiPlayerData.teamStageId;
-        //var currTeamStageTb = Config.ConfigManager.Instance.GetById<Config.TeamStage>(teamStageId);
-
-        idText.text = "" + playerData.playerInfo.uid;
-        nameText.text = playerData.playerInfo.name;
-        levelText.text = "" + playerData.playerInfo.level;
-
-        var heroConfigId = playerData.selectHeroData.configId;
-        var heroConfig = ConfigManager.Instance.GetById<Config.EntityInfo>(heroConfigId);
-        heroLevelText.text = "" + playerData.selectHeroData.level;
-        heroNameText.text = "" + heroConfig.Name;
-
-        var userStore = GameData.GameDataManager.Instance.UserData;
-        var isSelf = userStore.Uid == this.playerData.playerInfo.uid.ToString();
-        changeHeroBtn.gameObject.SetActive(isSelf);
-
-        if (isSelf)
-        {
-            if (playerData.isHasReady)
-            {
-                noReadyText.gameObject.SetActive(false);
-                hasReadyText.gameObject.SetActive(false);
-                readyBtn.gameObject.SetActive(true);
-
-                readyBtnText.text = "取消";
-            }
-            else
-            {
-                noReadyText.gameObject.SetActive(false);
-                hasReadyText.gameObject.SetActive(false);
-                readyBtn.gameObject.SetActive(true);
-
-                readyBtnText.text = "准备";
-            }
-        }
-        else
-        {
-            if (playerData.isHasReady)
-            {
-                noReadyText.gameObject.SetActive(false);
-                hasReadyText.gameObject.SetActive(true);
-                readyBtn.gameObject.SetActive(false);
-            }
-            else
-            {
-                noReadyText.gameObject.SetActive(true);
-                hasReadyText.gameObject.SetActive(false);
-                readyBtn.gameObject.SetActive(false);
-            }
-        }
-
-        //玩家图标
-        var playerAvatarResId = int.Parse(playerData.playerInfo.avatarURL);
-        ResourceManager.Instance.GetObject<Sprite>(playerAvatarResId, (sprite) => { playerAvatarImg.sprite = sprite; });
-
-        //英雄图标
-        ResourceManager.Instance.GetObject<Sprite>(heroConfig.AllBodyResId,
-            (sprite) => { heroAvatarImg.sprite = sprite; });
-
-        var isMaster = this.playerData.isMaster;
-        masterFlagGo.SetActive(isMaster);
+        // this.playerData = data;
+        // //var teamStageId = this.uiPlayerData.teamStageId;
+        // //var currTeamStageTb = Config.ConfigManager.Instance.GetById<Config.TeamStage>(teamStageId);
+        //
+        // idText.text = "" + playerData.playerInfo.uid;
+        // nameText.text = playerData.playerInfo.name;
+        // levelText.text = "" + playerData.playerInfo.level;
+        //
+        // var heroConfigId = playerData.selectHeroData.configId;
+        // var heroConfig = ConfigManager.Instance.GetById<Config.EntityInfo>(heroConfigId);
+        // heroLevelText.text = "" + playerData.selectHeroData.level;
+        // heroNameText.text = "" + heroConfig.Name;
+        //
+        // var userStore = GameData.GameDataManager.Instance.UserData;
+        // var isSelf = userStore.Uid == this.playerData.playerInfo.uid.ToString();
+        // changeHeroBtn.gameObject.SetActive(isSelf);
+        //
+        // if (isSelf)
+        // {
+        //     if (playerData.isHasReady)
+        //     {
+        //         noReadyText.gameObject.SetActive(false);
+        //         hasReadyText.gameObject.SetActive(false);
+        //         readyBtn.gameObject.SetActive(true);
+        //
+        //         readyBtnText.text = "取消";
+        //     }
+        //     else
+        //     {
+        //         noReadyText.gameObject.SetActive(false);
+        //         hasReadyText.gameObject.SetActive(false);
+        //         readyBtn.gameObject.SetActive(true);
+        //
+        //         readyBtnText.text = "准备";
+        //     }
+        // }
+        // else
+        // {
+        //     if (playerData.isHasReady)
+        //     {
+        //         noReadyText.gameObject.SetActive(false);
+        //         hasReadyText.gameObject.SetActive(true);
+        //         readyBtn.gameObject.SetActive(false);
+        //     }
+        //     else
+        //     {
+        //         noReadyText.gameObject.SetActive(true);
+        //         hasReadyText.gameObject.SetActive(false);
+        //         readyBtn.gameObject.SetActive(false);
+        //     }
+        // }
+        //
+        // //玩家图标
+        // var playerAvatarResId = int.Parse(playerData.playerInfo.avatarURL);
+        // ResourceManager.Instance.GetObject<Sprite>(playerAvatarResId, (sprite) => { playerAvatarImg.sprite = sprite; });
+        //
+        // //英雄图标
+        // ResourceManager.Instance.GetObject<Sprite>(heroConfig.AllBodyResId,
+        //     (sprite) => { heroAvatarImg.sprite = sprite; });
+        //
+        // var isMaster = this.playerData.isMaster;
+        // masterFlagGo.SetActive(isMaster);
     }
 
 

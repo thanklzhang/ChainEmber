@@ -43,6 +43,8 @@ public class TitleBarUI : BaseUI
 
     protected override void OnOpen(UICtrlArgs args)
     {
+        EventDispatcher.AddListener<int>(EventIDs.OnRefreshItemData, OnRefreshItemData);
+
         clickCloseBtnAction = null;
         TitleBarUIArgs titleBarListArgs = (TitleBarUIArgs)args;
 
@@ -61,6 +63,21 @@ public class TitleBarUI : BaseUI
         if (null == clickCloseBtnAction)
         {
             clickCloseBtnAction = DefaultClose;
+        }
+    }
+
+    private void OnRefreshItemData(int itemConfigId)
+    {
+        var item = BagService.Instance.GetItem(itemConfigId);
+        var count = item.count;
+
+        for (int i = 0; i < showObjList.Count; i++)
+        {
+            var showObj = showObjList[i];
+            if (showObj.itemId == itemConfigId)
+            {
+                showObj.RefreshUI(itemConfigId, count, i);
+            }
         }
     }
 
@@ -96,7 +113,8 @@ public class TitleBarUI : BaseUI
             showObj.Init(go);
 
 
-            var count = GameDataManager.Instance.BagData.GetCountByConfigId(itemId);
+            var item = BagService.Instance.GetItem(itemId);
+            var count = item.count;
             showObj.RefreshUI(itemId, count, i);
         }
 
@@ -113,6 +131,8 @@ public class TitleBarUI : BaseUI
     {
         clickCloseBtnAction = null;
         this.closeBtn.onClick.RemoveAllListeners();
+
+        EventDispatcher.RemoveListener<int>(EventIDs.OnRefreshItemData, OnRefreshItemData);
     }
 }
 
@@ -146,7 +166,7 @@ public class TitleOptionShowObj
 
     private GameObject gameObject;
     private Transform transform;
-    private int itemId;
+    public int itemId;
 
     public void Init(GameObject go)
     {
@@ -176,21 +196,22 @@ public class TitleOptionShowObj
         // 只为金币显示加金币按钮
         if (addBtn != null)
         {
-            
-            addBtn.gameObject.SetActive(itemId == ServerSimulation.Account.Models.PlayerBag.GOLD_ID);
+            addBtn.gameObject.SetActive(itemId == ItemIds.CoinId);
             addBtn.onClick.RemoveAllListeners();
-            if (itemId == ServerSimulation.Account.Models.PlayerBag.GOLD_ID)
+            if (itemId == ItemIds.CoinId)
             {
                 addBtn.onClick.AddListener(() =>
                 {
-                    ServerSimulation.Services.AccountService.Instance.AddGold(100);
-                    // 刷新金币显示
-                    int gold = ServerSimulation.Services.AccountService.Instance.GetGold();
-                    countText.text = "" + gold;
+                    //test
+                    BagService.Instance.AddItem(ItemIds.CoinId, 75);
+                    // // 刷新金币显示
+                    // int gold = ServerSimulation.Services.AccountService.Instance.GetGold();
+                    // countText.text = "" + gold;
                 });
             }
         }
     }
+
 
     public void Release()
     {

@@ -55,7 +55,7 @@ namespace Battle_Client
             //Logx.Log("OnPlayerClickGround : clickPos : " + clickPos);
             var battleNet = NetHandlerManager.Instance.GetHandler<BattleNetHandler>();
 
-            var myUid = GameDataManager.Instance.UserData.Uid;
+            // var myUid = GameDataManager.Instance.UserData.Uid;
 
             var guid = 1; //目前这个不用发 因为 1 个玩家只控制一个英雄实体 服务器已经记录 这里先保留 entity guid
             //battleNet.SendMoveEntity(guid, clickPos);

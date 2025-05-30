@@ -3,7 +3,6 @@ using Config;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using ServerSimulation.Services;
 
 //登录 ctrl
 
@@ -150,7 +149,7 @@ public class LoginUI : BaseUI
     private void OnResetUserBtnClick()
     {
         // 清除后台存储的用户（重置用户）
-        LoginService.Instance.ClearLocalUser();
+        //LoginService.Instance.ClearLocalUser();
         
         this.SetStateText("已重置用户数据，正在重新登录...");
         

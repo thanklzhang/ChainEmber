@@ -15,6 +15,7 @@ namespace GameData
         public string name;
         public string avatarURL;
         public int level;
+        
     }
 
 }

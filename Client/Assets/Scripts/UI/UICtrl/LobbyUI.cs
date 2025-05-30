@@ -66,7 +66,7 @@ public class LobbyUI : BaseUI
         ////title
         //RefreshTitleBarUI();
         //lobby
-        var playerInfo = GameDataManager.Instance.UserData.PlayerInfo;
+        var playerInfo = UserService.Instance.userData;
 
         var playerNameStr = playerInfo.name;
         this.playerNameText.text = playerNameStr;

@@ -30,7 +30,7 @@ public class BagService : Singleton<BagService>
 
         SaveData();
 
-
+        EventDispatcher.Broadcast(EventIDs.OnRefreshItemData,  itemId);
     }
 
     public void RemoveItem(int itemId, int count)
@@ -49,7 +49,15 @@ public class BagService : Singleton<BagService>
             }
 
             SaveData();
+            
+            EventDispatcher.Broadcast(EventIDs.OnRefreshItemData,  itemId);
         }
+    }
+    
+    public BagItem GetItem(int itemId)
+    {
+        var item = bagData.bagItemList.Find(x => x.configId == itemId);
+        return item;
     }
 
     public void SaveData()

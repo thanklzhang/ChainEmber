@@ -25,4 +25,10 @@ public class UserUtil
                          
         return prefix + deviceId;
     }
+
+    public static int GetRandomUid(string deviceId)
+    {
+        //根据设备ID生成随机UID
+        return deviceId.GetHashCode();
+    }
 }

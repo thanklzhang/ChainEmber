@@ -16,13 +16,19 @@ public enum EventIDs
     OnUpgradeHeroLevel = 100001,
     OnRefreshAllMainTaskData = 100051,
     OnPlotEnd = 100071,
-    OnRefreshHeroListData = 100101,
+    // OnRefreshHeroListData = 100101,
     OnRefreshBagData = 100102,
+    
+    //hero
+    OnRefreshHeroData = 100101,
 
+    //item
+    OnRefreshItemData = 100201,
+    
     //team
-    OnPlayerEnterTeamRoom = 100131,
-    OnPlayerChangeInfoInTeamRoom = 100132,
-    OnPlayerLeaveTeamRoom = 100133,
+    OnPlayerEnterTeamRoom = 100801,
+    OnPlayerChangeInfoInTeamRoom = 100802,
+    OnPlayerLeaveTeamRoom = 100803,
 
     //title
     OnTitleBarClickCloseBtn = 100900,

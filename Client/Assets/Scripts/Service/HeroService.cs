@@ -44,9 +44,35 @@ public class HeroService : Singleton<HeroService>
         var hero = heroListData.heroList.Find(x => x.guid == guid);
         return hero;
     }
+    
+    public void UpgradeHero(int guid,Action<ServiceResponse> callback)
+    {
+        var hero = heroListData.heroList.Find(x => x.guid == guid);
+        if (hero != null)
+        {
+            if (hero.level >= HeroConst.MaxHeroLevel)
+            {
+                callback?.Invoke(ServiceResponse.New(ErrorCode.UpgradeHeroMaxLevel));
+            }
+            hero.level++;
+            
+            SaveData();
+            
+            EventDispatcher.Broadcast(EventIDs.OnRefreshHeroData,  hero.guid);
+        
+            callback?.Invoke(ServiceResponse.Success);
+        }
+
+      
+    }
 
     public void SaveData()
     {
         UserService.Instance.SaveData();
     }
+}
+
+public class HeroConst
+{
+    public const int MaxHeroLevel = 30;
 }

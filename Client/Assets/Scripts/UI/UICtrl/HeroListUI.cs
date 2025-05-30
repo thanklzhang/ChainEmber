@@ -13,7 +13,7 @@ public class HeroListUI : BaseUI
     private Button closeBtn;
     // private Text titleText;
 
-    private List<HeroData> heroDataList;
+    // private List<HeroData> heroDataList;
     private List<HeroListItemShowObj> heroShowObjList;
 
     protected override void OnInit()
@@ -42,8 +42,8 @@ public class HeroListUI : BaseUI
         HeroListUIArgs heroListUIArgs = (HeroListUIArgs)args;
         
         // Get hero data from game data
-        HeroGameData heroGameData = GameData.GameDataManager.Instance.HeroData;
-        heroDataList = heroGameData.HeroList;
+       
+        //heroDataList = HeroService.Instance.heroListData.heroList;
         
         // titleText.text = "英雄列表";
         
@@ -60,6 +60,8 @@ public class HeroListUI : BaseUI
     {
         // Clear existing list
         heroShowObjList = new List<HeroListItemShowObj>();
+        
+        var heroDataList = HeroService.Instance.heroListData.heroList;
         
         for (int i = 0; i < heroDataList.Count; i++)
         {

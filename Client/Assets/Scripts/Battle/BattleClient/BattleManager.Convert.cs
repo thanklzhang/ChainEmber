@@ -136,7 +136,7 @@ namespace Battle_Client
             this.battleRoomId = battleInit.roomId;
 
             //玩家信息
-            var userDataStore = GameDataManager.Instance.UserData;
+            // var userDataStore = GameDataManager.Instance.UserData;
             var localPlayerUid = 1;//(int)userDataStore.Uid
             playerDic = new Dictionary<int, ClientPlayer>();
             playerList = new List<ClientPlayer>();

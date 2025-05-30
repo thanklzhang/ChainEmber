@@ -36,13 +36,13 @@ public class TeamRoomListUI : BaseUI
         });
         createBtn.onClick.AddListener(() =>
         {
-            //event_onClickCreateBtn?.Invoke();
-            var net = NetHandlerManager.Instance.GetHandler<TeamNetHandler>();
-            net.SendCreateTeamRoom(() =>
-            {
-                var creatRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
-                this.OnEnterRoomInfoUI(creatRoomData);
-            });
+            // //event_onClickCreateBtn?.Invoke();
+            // var net = NetHandlerManager.Instance.GetHandler<TeamNetHandler>();
+            // net.SendCreateTeamRoom(() =>
+            // {
+            //     var creatRoomData = GameDataManager.Instance.TeamData.currEnterRoomData;
+            //     this.OnEnterRoomInfoUI(creatRoomData);
+            // });
         });
 
         // roomDataList = new List<TeamRoomUIData>();
@@ -112,46 +112,46 @@ public class TeamRoomListUI : BaseUI
     public Dictionary<int, TeamRoomUIShowObj> showObjDic = new Dictionary<int, TeamRoomUIShowObj>();
     void RefreshRoomList()
     {
-        //列表
-        List<TeamRoomData> roomList = GameDataManager.Instance.TeamData.RoomList;
-        if (null == roomList)
-        {
-            roomList = new List<TeamRoomData>();
-        }
-
-        for (int i = 0; i < roomList.Count; i++)
-        {
-            var roomData = roomList[i];
-            GameObject go = null;
-            if (i < this.roomRoot.childCount)
-            {
-                go = this.roomRoot.GetChild(i).gameObject;
-            }
-            else
-            {
-                go = GameObject.Instantiate(this.roomRoot.GetChild(0).gameObject, this.roomRoot, false);
-            }
-            
-            TeamRoomUIShowObj showObj = null;
-            if (showObjDic.ContainsKey(i))
-            {
-                showObj = showObjDic[i];
-            }
-            else
-            {
-                showObj = new TeamRoomUIShowObj();
-                showObjDic.Add(i,showObj);
-                showObj.Init(go);
-            }
-            
-            showObj.Refresh(roomData, i);
-            go.SetActive(true);
-        }
-
-        for (int i = roomList.Count; i < this.roomRoot.childCount; i++)
-        {
-            this.roomRoot.GetChild(i).gameObject.SetActive(false);
-        }
+        // //列表
+        // List<TeamRoomData> roomList = GameDataManager.Instance.TeamData.RoomList;
+        // if (null == roomList)
+        // {
+        //     roomList = new List<TeamRoomData>();
+        // }
+        //
+        // for (int i = 0; i < roomList.Count; i++)
+        // {
+        //     var roomData = roomList[i];
+        //     GameObject go = null;
+        //     if (i < this.roomRoot.childCount)
+        //     {
+        //         go = this.roomRoot.GetChild(i).gameObject;
+        //     }
+        //     else
+        //     {
+        //         go = GameObject.Instantiate(this.roomRoot.GetChild(0).gameObject, this.roomRoot, false);
+        //     }
+        //     
+        //     TeamRoomUIShowObj showObj = null;
+        //     if (showObjDic.ContainsKey(i))
+        //     {
+        //         showObj = showObjDic[i];
+        //     }
+        //     else
+        //     {
+        //         showObj = new TeamRoomUIShowObj();
+        //         showObjDic.Add(i,showObj);
+        //         showObj.Init(go);
+        //     }
+        //     
+        //     showObj.Refresh(roomData, i);
+        //     go.SetActive(true);
+        // }
+        //
+        // for (int i = roomList.Count; i < this.roomRoot.childCount; i++)
+        // {
+        //     this.roomRoot.GetChild(i).gameObject.SetActive(false);
+        // }
     }
 
     public void OnClickSingleRoomJoinBtn(int roomId)
