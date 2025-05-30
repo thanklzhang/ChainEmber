@@ -15,10 +15,10 @@ public class BagService : Singleton<BagService>
     //     this.bagData = bagData;
     // }
     //
-    public void AddItem(int itemId, int count)
-    { 
+    public void AddItem(int itemId, int count, bool isSave = true)
+    {
         var item = bagData.bagItemList.Find(x => x.configId == itemId);
-        
+
         if (item != null)
         {
             item.count += count;
@@ -28,12 +28,16 @@ public class BagService : Singleton<BagService>
             bagData.bagItemList.Add(new BagItem() { configId = itemId, count = count });
         }
 
-        SaveData();
+        if (isSave)
+        {
+            SaveData();
+        }
 
-        EventDispatcher.Broadcast(EventIDs.OnRefreshItemData,  itemId);
+
+        EventDispatcher.Broadcast(EventIDs.OnRefreshItemData, itemId);
     }
 
-    public void RemoveItem(int itemId, int count)
+    public void RemoveItem(int itemId, int count, bool isSave = true)
     {
         var item = bagData.bagItemList.Find(x => x.configId == itemId);
 
@@ -48,21 +52,29 @@ public class BagService : Singleton<BagService>
                 item.count = 0;
             }
 
-            SaveData();
-            
-            EventDispatcher.Broadcast(EventIDs.OnRefreshItemData,  itemId);
+            if (isSave)
+            {
+                SaveData();
+            }
+
+            EventDispatcher.Broadcast(EventIDs.OnRefreshItemData, itemId);
         }
     }
-    
+
     public BagItem GetItem(int itemId)
     {
         var item = bagData.bagItemList?.Find(x => x.configId == itemId);
         return item;
     }
 
+    public int GetCountByItemId(int itemId)
+    {
+        var item = GetItem(itemId);
+        return item?.count ?? 0;
+    }
+
     public void SaveData()
     {
         UserService.Instance.SaveData();
     }
-
 }

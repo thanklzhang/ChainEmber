@@ -45,19 +45,34 @@ public class HeroService : Singleton<HeroService>
         return hero;
     }
     
-    public void UpgradeHero(int guid,Action<ServiceResponse> callback)
+    public void UpgradeHero(int guid,Action<ServiceResponse> callback,bool isSave = true)
     {
         var hero = heroListData.heroList.Find(x => x.guid == guid);
         if (hero != null)
         {
+            //判断消耗
+            var consumeCount = GetUpgradeConsumeCount(hero.level);
+            var myCount =  BagService.Instance.GetCountByItemId(ItemIds.CoinId);            
+            if (myCount < consumeCount)
+            {
+                callback?.Invoke(ServiceResponse.New(ErrorCode.UpgradeHeroNotEnoughConsume));
+                return;
+            }
+            
             if (hero.level >= HeroConst.MaxHeroLevel)
             {
                 callback?.Invoke(ServiceResponse.New(ErrorCode.UpgradeHeroMaxLevel));
+                return;
             }
             hero.level++;
             
-            SaveData();
-            
+            BagService.Instance.RemoveItem(ItemIds.CoinId, consumeCount,false);
+
+            if (isSave)
+            {
+                SaveData();    
+            }
+
             EventDispatcher.Broadcast(EventIDs.OnRefreshHeroData,  hero.guid);
         
             callback?.Invoke(ServiceResponse.Success);
@@ -69,6 +84,12 @@ public class HeroService : Singleton<HeroService>
     public void SaveData()
     {
         UserService.Instance.SaveData();
+    }
+
+    public int GetUpgradeConsumeCount(int heroDataLevel)
+    {
+        //弄个简单的就行
+        return heroDataLevel * 80;
     }
 }
 

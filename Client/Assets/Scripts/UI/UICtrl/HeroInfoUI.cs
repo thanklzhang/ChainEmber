@@ -21,6 +21,8 @@ public class HeroInfoUI : BaseUI
     private TextMeshProUGUI descriptionText;
     private TextMeshProUGUI levelText;
     private Button upgradeButton;
+
+    private TextMeshProUGUI consumeCountText;
     // private Button closeButton;
 
     // 属性UI元素
@@ -44,6 +46,7 @@ public class HeroInfoUI : BaseUI
         descriptionText = root.Find("describe").GetComponent<TextMeshProUGUI>();
         levelText = root.Find("Info/level").GetComponent<TextMeshProUGUI>();
         upgradeButton = root.Find("Info/upgradeBtn").GetComponent<Button>();
+        consumeCountText = upgradeButton.transform.Find("consumeRoot/consumeCountText").GetComponent<TextMeshProUGUI>();
         //closeButton = root.Find("closeBtn").GetComponent<Button>();
 
         // 获取属性部分
@@ -107,6 +110,25 @@ public class HeroInfoUI : BaseUI
 
         // 刷新属性
         RefreshAttributes();
+
+        if (heroData.level >= HeroConst.MaxHeroLevel)
+        {
+            consumeCountText.text = "已满级";
+        }
+        else
+        {
+            // 计算升级消耗
+            var consumeCount = HeroService.Instance.GetUpgradeConsumeCount(heroData.level);
+            var myCount = BagService.Instance.GetItem(ItemIds.CoinId)?.count ?? 0;
+            if (myCount < consumeCount)
+            {
+                consumeCountText.text = $"<color=#FF0000>{myCount}</color>/{consumeCount}";
+            }
+            else
+            {
+                consumeCountText.text = $"<color=#00FF00>{myCount}</color>/{consumeCount}";
+            }
+        }
     }
 
     private void RefreshAttributes()
