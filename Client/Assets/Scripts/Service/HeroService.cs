@@ -3,12 +3,12 @@ using GameData;
 
 public class HeroService : Singleton<HeroService>
 {
-    public HeroListData heroListData;
+    public HeroListData heroListData =>  UserService.Instance.userData.heroListData;
 
-    public void Init(HeroListData heroListData)
-    {
-        this.heroListData = heroListData;
-    }
+    // public void SetData(HeroListData heroListData)
+    // {
+    //     this.heroListData = heroListData;
+    // }
 
     public void AddHero(int configId, int level = 1, int star = 1)
     {

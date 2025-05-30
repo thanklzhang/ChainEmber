@@ -69,7 +69,11 @@ public class TitleBarUI : BaseUI
     private void OnRefreshItemData(int itemConfigId)
     {
         var item = BagService.Instance.GetItem(itemConfigId);
-        var count = item.count;
+        var count = 0;
+        if (item != null)
+        {
+            count = item.count;
+        }
 
         for (int i = 0; i < showObjList.Count; i++)
         {
@@ -114,8 +118,14 @@ public class TitleBarUI : BaseUI
 
 
             var item = BagService.Instance.GetItem(itemId);
-            var count = item.count;
+            var count = 0;
+            if (item != null)
+            { 
+                count = item.count;    
+            }
             showObj.RefreshUI(itemId, count, i);
+            
+            showObjList.Add(showObj);
         }
 
         // UIListArgs<TitleOptionShowObj, TitleBarUIPre> args = new

@@ -8,13 +8,13 @@ public class ItemIds
 
 public class BagService : Singleton<BagService>
 {
-    public BagData bagData;
+    public BagData bagData => UserService.Instance.userData.bagData;
 
-    public void Init(BagData bagData)
-    {
-        this.bagData = bagData;
-    }
-    
+    //public void SetData(BagData bagData)
+    // {
+    //     this.bagData = bagData;
+    // }
+    //
     public void AddItem(int itemId, int count)
     { 
         var item = bagData.bagItemList.Find(x => x.configId == itemId);
@@ -56,7 +56,7 @@ public class BagService : Singleton<BagService>
     
     public BagItem GetItem(int itemId)
     {
-        var item = bagData.bagItemList.Find(x => x.configId == itemId);
+        var item = bagData.bagItemList?.Find(x => x.configId == itemId);
         return item;
     }
 

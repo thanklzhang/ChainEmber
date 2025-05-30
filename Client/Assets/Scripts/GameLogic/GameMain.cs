@@ -107,6 +107,8 @@ public class GameMain : MonoBehaviour
         //全局 ctrl
         // yield return CtrlManager.Instance.EnterGlobalCtrl();
 
+        UserService.Instance.Init();
+        
         OperateViewManager.Instance.Init();
         OperateViewManager.Instance.StartLoad();
 

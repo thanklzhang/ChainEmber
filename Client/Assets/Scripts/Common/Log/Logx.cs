@@ -90,7 +90,7 @@ public class Logx
         {LogxType.CheckAndUpdateResource,new LogxConfigInfo() { enable = true }},
         {LogxType.Asset,new LogxConfigInfo() { enable = false }},
         {LogxType.AB,new LogxConfigInfo() { enable = false }},
-        {LogxType.Ctrl,new LogxConfigInfo() { enable = true }},
+        {LogxType.Ctrl,new LogxConfigInfo() { enable = false }},
         {LogxType.SceneCtrl,new LogxConfigInfo() { enable = true }},
         {LogxType.BattleProcess,new LogxConfigInfo() { enable = false }},
         {LogxType.BattleSkill,new LogxConfigInfo() { enable = true }},
