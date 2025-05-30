@@ -12,6 +12,7 @@ public class HeroStateName
     Transform transform;
 
     public TextMeshProUGUI valueText;
+    public TextMeshProUGUI levelText;
 
     HeroStateUIMgr stateUIMgr;
 
@@ -29,9 +30,12 @@ public class HeroStateName
         this.transform = this.gameObject.transform;
 
         valueText = this.transform.Find("valueText").GetComponent<TextMeshProUGUI>();
+        levelText = valueText.transform.Find("level").GetComponent<TextMeshProUGUI>();
 
         var entityConfig = ConfigManager.Instance.GetById<Config.EntityInfo>(entity.configId);
         valueText.text = entityConfig != null ? entityConfig.Name : entity.configId.ToString();
+
+        levelText.text = $"Lv.{entity.level}";
 
         this.valueText.gameObject.SetActive(true);
     }

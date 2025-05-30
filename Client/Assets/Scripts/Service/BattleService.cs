@@ -32,14 +32,20 @@ namespace ServerSimulation
             CoroutineManager.Instance.StartCoroutine(_ApplyCreateBattle(currSelectHeroGuid));
         }
 
+        //申请战斗
         IEnumerator _ApplyCreateBattle(int currSelectHeroGuid)
         {
+            //生成战斗所需的战斗创建参数
             yield return GenBattleCreateArg(currSelectHeroGuid);
             
+            //根据 创建参数 创建战斗后台逻辑
             var battle = CreateBattle(createArg);
             
-            var battleCreateArg = BattleManager.Instance.GetBattleClientArgs(battle);
-            BattleManager.Instance.CreateSimulateRemoteBattle(battleCreateArg);
+            //根据 战斗后台逻辑 创建客户端创建战斗参数
+            var clientBattleCreateArg = BattleManager.Instance.GetBattleClientArgs(battle);
+            
+            //根据 客户端创建战斗参数 客户端开始创建战斗
+            BattleManager.Instance.CreateSimulateRemoteBattle(clientBattleCreateArg);
         }
 
         public IEnumerator GenBattleCreateArg(int currSelectHeroGuid)
@@ -60,7 +66,7 @@ namespace ServerSimulation
                 playerIndex = 0,
                 uid = 1,
                 team = 0,
-                isPlayerCtrl = true
+                isPlayerCtrl = true,
             });
             
             //地图初始化
@@ -139,9 +145,6 @@ namespace ServerSimulation
             BattleManager.Instance.localBattleExecuter = new LocalBattleLogic_Executer();
             BattleManager.Instance.localBattleExecuter.Init();
             
-            
-         
-           
             int battleGuid = 1;
             battle.TimeDelta = Time.fixedDeltaTime;
             BattleManager.Instance.localBattleExecuter.SetBattle(battle);

@@ -39,7 +39,7 @@
         "type": 0,
         "modelId": 15011032,
         "baseAttrId": 10002,
-        "levelAttrId": 1,
+        "levelAttrId": 2,
         "starAttrId": 1,
         "skillIds": [
             2002101,
@@ -71,7 +71,7 @@
         "type": 0,
         "modelId": 15011033,
         "baseAttrId": 10003,
-        "levelAttrId": 1,
+        "levelAttrId": 3,
         "starAttrId": 1,
         "skillIds": [
             2003101,
@@ -103,7 +103,7 @@
         "type": 0,
         "modelId": 15011034,
         "baseAttrId": 10004,
-        "levelAttrId": 1,
+        "levelAttrId": 4,
         "starAttrId": 1,
         "skillIds": [
             2004101,
@@ -135,7 +135,7 @@
         "type": 0,
         "modelId": 15011035,
         "baseAttrId": 10005,
-        "levelAttrId": 1,
+        "levelAttrId": 5,
         "starAttrId": 1,
         "skillIds": [
             2005101,
@@ -167,7 +167,7 @@
         "type": 0,
         "modelId": 15011036,
         "baseAttrId": 10006,
-        "levelAttrId": 1,
+        "levelAttrId": 6,
         "starAttrId": 1,
         "skillIds": [
             2006101,
@@ -199,7 +199,7 @@
         "type": 0,
         "modelId": 15011037,
         "baseAttrId": 10007,
-        "levelAttrId": 1,
+        "levelAttrId": 7,
         "starAttrId": 1,
         "skillIds": [
             2007101,
@@ -231,7 +231,7 @@
         "type": 0,
         "modelId": 15011038,
         "baseAttrId": 10006,
-        "levelAttrId": 1,
+        "levelAttrId": 8,
         "starAttrId": 1,
         "skillIds": [
             2006101,
@@ -263,7 +263,7 @@
         "type": 0,
         "modelId": 15011101,
         "baseAttrId": 20001,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 1001,
         "skillIds": [
             2101101
@@ -290,7 +290,7 @@
         "type": 0,
         "modelId": 15011102,
         "baseAttrId": 20002,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 1002,
         "skillIds": [
             2102101
@@ -317,7 +317,7 @@
         "type": 0,
         "modelId": 15011103,
         "baseAttrId": 20003,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2103101,
@@ -348,7 +348,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 20501,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2501101
@@ -375,7 +375,7 @@
         "type": 0,
         "modelId": 15011105,
         "baseAttrId": 20502,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2502101,
@@ -404,7 +404,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 20801,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2502101,
@@ -432,7 +432,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 28011,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2880101
@@ -459,7 +459,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 28012,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2880101
@@ -486,7 +486,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 28013,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2880101
@@ -513,7 +513,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 28014,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2880101
@@ -540,7 +540,7 @@
         "type": 0,
         "modelId": 15011104,
         "baseAttrId": 28015,
-        "levelAttrId": 10001,
+        "levelAttrId": 101,
         "starAttrId": 10001,
         "skillIds": [
             2880101

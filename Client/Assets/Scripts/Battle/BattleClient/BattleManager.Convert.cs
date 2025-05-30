@@ -94,7 +94,8 @@ namespace Battle_Client
                 entity.guid = _entity.guid;
                 entity.configId = _entity.configId;
                 entity.playerIndex = _entity.playerIndex;
-
+                entity.level = _entity.level;
+                
                 entity.position = new UnityEngine.Vector3(_entity.position.x, _entity.position.y, _entity.position.z);
                 ;
 
