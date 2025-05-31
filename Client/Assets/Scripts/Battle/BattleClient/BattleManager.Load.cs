@@ -11,27 +11,14 @@ namespace Battle_Client
     //战斗中的加载创建相关
     public partial class BattleManager
     {
+        public MapSaveData mapSaveData;
+        
         public IEnumerator StartLoad()
         {
-            // if (this.battleType == BattleType.Remote)
-            // {
-            //     yield return StartLoad_Remote();
-            // }
-            // else if (this.battleType == BattleType.PureLocal)
-            // {
-            //     yield return StartLoad_PureLocal();
-            // }
-
             if (this.battleType == BattleType.Remote)
             {
                 yield return StartLoad_SimulateServer();
             }
-            else if (this.battleType == BattleType.PureLocal)
-            {
-                yield return StartLoad_PureLocal();
-            }
-
-
             OnLoadFinish();
         }
 
@@ -41,10 +28,6 @@ namespace Battle_Client
         /// <returns></returns>
         public IEnumerator StartLoad_SimulateServer()
         {
-            //填充客户端所需组件
-            // MsgSender = new BattleClient_MsgSender_Remote();
-            // msgReceiver = new BattleClient_MsgReceiver_Impl();
-
             //创建战斗数据
             CreateBattleData(battleClientArgs);
 
@@ -52,65 +35,7 @@ namespace Battle_Client
             yield return StartLoad_Common();
         }
 
-        /// <summary>
-        /// 远端战斗加载
-        /// </summary>
-        /// <returns></returns>
-        public IEnumerator StartLoad_Remote()
-        {
-            //填充客户端所需组件
-            MsgSender = new BattleClient_MsgSender_Remote();
-            // msgReceiver = new BattleClient_MsgReceiver_Impl();
-
-            //创建战斗数据
-            CreateBattleData(battleClientArgs);
-
-            //根据数据开始加载通用战斗资源
-            yield return StartLoad_Common();
-        }
-
-        public MapSaveData mapSaveData;
-
-        /// <summary>
-        /// 纯本地战斗加载
-        /// </summary>
-        /// <returns></returns>
-        public IEnumerator StartLoad_PureLocal()
-        {
-            Logx.Log(LogxType.Game, "StartLoad_PureLocal : start laod");
-
-            // GameDataManager.Instance.UserData.Uid = "1";
-            // var uid = GameDataManager.Instance.UserData.Uid;
-
-            //地图数据由本地加载
-            EventSender.SendLoadingProgress(0.0f, "开始加载地图数据");
-            mapSaveData = null;
-            yield return LoadMapData(battleConfigId, (map) => { mapSaveData = map; });
-
-            EventSender.SendLoadingProgress(0.2f, "开始加载本地战斗所需数据");
-
-            Logx.Log(LogxType.Game, "StartLoad_PureLocal : load map config finish");
-
-            //获得申请战斗参数
-            var uid = "1";
-            var applyArg = ApplyBattleUtil.MakePureLocalApplyBattleArg(battleConfigId, uid, mapSaveData);
-
-            MapInitArg mapInitData = new MapInitArg();
-            mapInitData.mapList = mapSaveData.mapList;
-            mapInitData.enemyInitPosList = VectorConvert.ToVector3(mapSaveData.enemyInitPosList);
-            mapInitData.playerInitPosList = VectorConvert.ToVector3(mapSaveData.playerInitPosList);
-
-            //设置本地战斗逻辑
-            SetLocalBattleLogic(applyArg, mapInitData, true);
-
-            //创建本地战斗数据
-            CreateBattleData(battleClientArgs);
-
-            //根据数据开始加载通用战斗资源
-            yield return StartLoad_Common();
-        }
-
-
+      
         //加载地图
         public IEnumerator LoadMapData(int battleConfigId, Action<MapSaveData> finishCallback)
         {
@@ -206,90 +131,21 @@ namespace Battle_Client
             // UnderstudyManager_Client.Instance.Init(understudyRoot);
         }
 
-        #region 创建战斗
+        #region 开始战斗
 
-        //创建远端战斗(现在是本地服务模拟战斗)
-        public void CreateSimulateRemoteBattle(BattleClient_CreateBattleArgs battleClientArgs)
+        //开始远端战斗(现在是本地服务模拟战斗)
+        public void StartSimulateRemoteBattle(BattleClient_CreateBattleArgs battleClientArgs)
         {
             battleType = BattleType.Remote;
 
             this.battleClientArgs = battleClientArgs;
 
-            Logx.Log(LogxType.Game, "start create a remote battle");
+            Logx.Log(LogxType.Game, "start a remote battle");
 
             //进入战斗场景
             SceneCtrlManager.Instance.Enter<BattleSceneCtrl>();
-        }
-
-        //创建纯本地战斗
-        public void CreatePureLocalBattle(int battleConfigId)
-        {
-            this.battleConfigId = battleConfigId;
-
-            battleType = BattleType.PureLocal;
-
-            //进入战斗场景
-            SceneCtrlManager.Instance.Enter<BattleSceneCtrl>();
-        }
-
-        //创建远端结算的本地战斗
-        public void CreateLocalButRemoteResultBattle(ApplyBattleArg applyArg)
-        {
-            //TODO 进入战斗状态机 从而进行加载
-            battleType = BattleType.LocalButRemoteResult;
-            Logx.Log(LogxType.Game, "start create a local battle (result at remote)");
-
-            var battleConfigId = applyArg.BattleTableId;
-            // CoroutineManager.Instance.StartCoroutine(LoadTriggerResource(battleConfigId, (sourceData) =>
-            // {
-            //     //CreateLocalBattle(applyArg, sourceData, false);
-            // }));
         }
 
         #endregion
-
-        //设置本地战斗逻辑 供运行本地战斗使用
-        public void SetLocalBattleLogic(NetProto.ApplyBattleArg applyArg,
-            MapInitArg mapInitData, bool isPureLocal)
-        {
-            Logx.Log(LogxType.Game, "start create a local battle");
-            //填充数据
-
-            //初始化本地战斗后台逻辑
-            localBattleExecuter = new LocalBattleLogic_Executer();
-            localBattleExecuter.Init();
-
-            //根据申请战斗参数 获得后台战斗逻辑
-            var battleLogic = localBattleExecuter.CreateLocalBattleLogic(applyArg, mapInitData, isPureLocal);
-
-            //通过后台战斗逻辑 获得客户端战斗初始化参数（供客户端初始化，如地图加载 模型加载等）
-            battleClientArgs = GetBattleClientArgs(battleLogic);
-
-            //填充客户端所需组件
-            MsgSender = new BattleClient_MsgSender_Local(battleLogic);
-        }
-
-        // // 初始化本地战斗
-        // public void InitLocalBattle(int mapType, LocalBattleArg arg)
-        // {
-        //     SetState(BattleState.Loading);
-        //     //TODO: init logic
-        //     this.mapType = mapType;
-        //
-        //     BattleLoadData loadData = arg.loadData;
-        //
-        //     isBattleReplay = arg.isBattleReplay;
-        //     battleType = arg.battleType;
-        //     localBattleLogic = arg.logic;
-        //
-        //     //默认加载地图类型，从地图配置获取
-        //     //mapType = 0; // TODO:从地图配置获取
-        //
-        //     //设置本地战斗数据
-        //     Logx.Log(LogxType.Battle, " battle load init uid: ");
-        //     GameDataManager.Instance.UserData.Uid = "1";
-        //     var uid = GameDataManager.Instance.UserData.Uid;
-        //     Logx.Log(LogxType.Battle, " battle load init uid: " + uid);
-        // }
     }
 }

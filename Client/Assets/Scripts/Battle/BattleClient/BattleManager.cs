@@ -28,7 +28,9 @@ namespace Battle_Client
         public BattleState BattleState;
         public BattleProcessState processState;
         public LocalBattleLogic_Executer localBattleExecuter;
+
         public IBattleClientMsgSender MsgSender;
+
         // public IBattleClientMsgReceiver MsgReceiver;
         public BattleType battleType;
         private BattleClient_CreateBattleArgs battleClientArgs;
@@ -73,6 +75,20 @@ namespace Battle_Client
             EventDispatcher.AddListener(EventIDs.OnSyncIsUseReviveCoin, OnSyncIsUseReviveCoin);
         }
 
+        public void InitLocalExecute(Battle.Battle battle)
+        {
+            localBattleExecuter = new LocalBattleLogic_Executer();
+            localBattleExecuter.Init();
+            localBattleExecuter.SetBattle(battle);
+            
+            SetClientMsgSender(battle);
+        }
+
+        public void SetClientMsgSender(Battle.Battle battle)
+        {
+            MsgSender = new BattleClient_MsgSender_Local(battle);
+        }
+
         public void OnEnterBattle()
         {
             Logx.Log(LogxType.Game, "battle start");
@@ -80,13 +96,13 @@ namespace Battle_Client
             this.localBattleExecuter?.OnEnterBattle();
         }
 
-        public void OnEnterProcessState(BattleProcessState state,int waveIndex, int timeMS)
+        public void OnEnterProcessState(BattleProcessState state, int waveIndex, int timeMS)
         {
             this.processState = state;
 
             if (state == BattleProcessState.Ready)
             {
-                EventDispatcher.Broadcast<int,int>(EventIDs.OnProcessReadyStateEnter, waveIndex,timeMS);
+                EventDispatcher.Broadcast<int, int>(EventIDs.OnProcessReadyStateEnter, waveIndex, timeMS);
             }
             else if (state == BattleProcessState.Battle)
             {

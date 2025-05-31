@@ -44,8 +44,8 @@ namespace ServerSimulation
             //根据 战斗后台逻辑 创建客户端创建战斗参数
             var clientBattleCreateArg = BattleManager.Instance.GetBattleClientArgs(battle);
             
-            //根据 客户端创建战斗参数 客户端开始创建战斗
-            BattleManager.Instance.CreateSimulateRemoteBattle(clientBattleCreateArg);
+            //根据 客户端创建战斗参数 客户端开始战斗
+            BattleManager.Instance.StartSimulateRemoteBattle(clientBattleCreateArg);
         }
 
         public IEnumerator GenBattleCreateArg(int currSelectHeroGuid)
@@ -137,18 +137,12 @@ namespace ServerSimulation
           
         }
 
-
         public Battle.Battle CreateBattle(BattleCreateArg createArg )
         {
             //初始化本地战斗后台逻辑
             var battle = new Battle.Battle();
-            BattleManager.Instance.localBattleExecuter = new LocalBattleLogic_Executer();
-            BattleManager.Instance.localBattleExecuter.Init();
-            
             int battleGuid = 1;
             battle.TimeDelta = Time.fixedDeltaTime;
-            BattleManager.Instance.localBattleExecuter.SetBattle(battle);
-
             BattleLog.RegisterLog(new BattleLog_Impl());
             battle.PlayerMsgSender = new LocalBattleLogic_MsgSender();
             //加载战斗数据配置
@@ -157,16 +151,12 @@ namespace ServerSimulation
             {
                 battleConfigManager.LoadBattleConfig(new BattleConfig_Impl());
             }
-            
             battle.Init(battleGuid, createArg);
             
             //填充客户端所需组件
-            BattleManager.Instance.MsgSender = new BattleClient_MsgSender_Local(battle);
+            BattleManager.Instance.InitLocalExecute(battle);
             
             return battle;
         }
-
-
-        //OnBattleEnd?.Invoke();
     }
 }
