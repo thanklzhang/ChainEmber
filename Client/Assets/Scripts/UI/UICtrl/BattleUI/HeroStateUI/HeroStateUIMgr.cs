@@ -45,7 +45,7 @@ public class HeroStateUIMgr
 
     public void OnEntityDestroy(BattleEntity_Client entity)
     {
-        DestoryHpUI(entity);
+        DestroyHpUI(entity);
     }
 
     public void OnChangeEntityBattleData(BattleEntity_Client entity, int fromEntityGuid)
@@ -80,7 +80,7 @@ public class HeroStateUIMgr
         showObj.Refresh(entity, damageFromEntityGuid);
     }
 
-    public void DestoryHpUI(BattleEntity_Client entity)
+    public void DestroyHpUI(BattleEntity_Client entity)
     {
         var entityGuid = entity.guid;
         if (stateShowObjDic.ContainsKey(entityGuid))
@@ -143,5 +143,14 @@ public class HeroStateUIMgr
 
         EventDispatcher.RemoveListener<BattleEntity_Client, bool>(EventIDs.OnEntityChangeShowState,
             this.OnEntityChangeShowState);
+
+        foreach (var kv in stateShowObjDic)
+        {
+            var showObj = kv.Value;
+            showObj.Destroy();
+        }
+
+        stateShowObjDic.Clear();
+
     }
 }

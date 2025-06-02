@@ -232,14 +232,16 @@ namespace Battle_Client
             //EventDispatcher.RemoveListener<BattleEntityInfo>(EventIDs.OnCreateBattle, CreateEntity);
         }
 
-        public void Clear()
-        {
-            RemoveListener();
-            DestorySkillEffects();
-        }
+        // public void Clear()
+        // {
+        //     RemoveListener();
+        //     DestorySkillEffects();
+        // }
 
         public void Release()
         {
+            RemoveListener();
+            DestorySkillEffects();
         }
     }
 }

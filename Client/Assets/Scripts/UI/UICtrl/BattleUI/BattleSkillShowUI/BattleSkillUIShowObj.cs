@@ -9,11 +9,11 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
+public class BattleSkillUIShowObj // : BaseUIShowObj<BattleSkillUI>
 {
     public GameObject gameObject;
     public Transform transform;
-    
+
     protected Image icon;
     protected GameObject canUseMaskGo;
     protected GameObject cdRootGo;
@@ -31,7 +31,8 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
     private Transform normalRoot;
     private Transform lockRoot;
     private Transform emptyRoot;
-    public void Init(GameObject gameObject,BattleSkillUI skillUI)
+
+    public void Init(GameObject gameObject, BattleSkillUI skillUI)
     {
         this.gameObject = gameObject;
         this.transform = this.gameObject.transform;
@@ -39,9 +40,9 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
 
         normalRoot = this.transform.Find("normal");
         emptyRoot = this.transform.Find("empty");
-        
+
         lockRoot = this.normalRoot.Find("lock");
-      
+
         canUseMaskGo = normalRoot.Find("cantUse").gameObject;
         cdRootGo = normalRoot.Find("CDRoot").gameObject;
         cdTimeText = normalRoot.Find("CDRoot/CDShow/cd_text").GetComponent<Text>();
@@ -55,15 +56,15 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
 
         canUseMaskGo.SetActive(false);
         cdRootGo.SetActive(false);
-        
+
         normalRoot.gameObject.SetActive(false);
         emptyRoot.gameObject.SetActive(true);
-        
+
         lockRoot.gameObject.SetActive(false);
 
         evetnTrigger.OnPointEnterEvent -= OnPointEnter;
         evetnTrigger.OnPointerExitEvent -= OnPointExit;
-        
+
         evetnTrigger.OnPointEnterEvent += OnPointEnter;
         evetnTrigger.OnPointerExitEvent += OnPointExit;
     }
@@ -81,7 +82,7 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
         {
             normalRoot.gameObject.SetActive(true);
             emptyRoot.gameObject.SetActive(false);
-            
+
             if (this.uiData.configId > 0)
             {
                 lockRoot.gameObject.SetActive(false);
@@ -94,10 +95,11 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
             //技能图标
             var skillId = this.uiData.configId;
             var skillConfig = Config.ConfigManager.Instance.GetById<Config.Skill>(skillId);
-            ResourceManager.Instance.GetObject<Sprite>(skillConfig.IconResId, (sprite) => { this.icon.sprite = sprite; });
+            ResourceManager.Instance.GetObject<Sprite>(skillConfig.IconResId,
+                (sprite) => { this.icon.sprite = sprite; });
 
             //冷却显示
-            currCDTimer =  this.uiData.currCDTime;
+            currCDTimer = this.uiData.currCDTime;
 
             if (currCDTimer <= 0)
             {
@@ -112,7 +114,7 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
                 //mask 是代表不能用 并不是只有 cd 这个因素 尽管现在只有 cd
                 canUseMaskGo.SetActive(true);
             }
-            
+
             RefreshLevelExpShow();
         }
         else
@@ -120,7 +122,6 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
             normalRoot.gameObject.SetActive(false);
             emptyRoot.gameObject.SetActive(true);
         }
-
     }
 
     public void RefreshLevelExpShow()
@@ -134,7 +135,7 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
             var maxExp = skillUpdateConfig.UpgradeExpPerLevel.Sum() + 1;
             this.expSlider.value = currExp / (float)maxExp;
             this.expText.text = $"{currExp}/{maxExp}";
-        
+
             this.levelText.text = "" + skillConfig.Level;
         }
     }
@@ -227,7 +228,7 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
         {
             return;
         }
-        
+
         EventDispatcher.Broadcast<int>(EventIDs.On_UISkillOption_PointExit, this.uiData.configId);
     }
 
@@ -236,14 +237,13 @@ public class BattleSkillUIShowObj// : BaseUIShowObj<BattleSkillUI>
         this.uiData.configId = 0;
         this.Refresh(this.uiData, 0);
     }
-    
+
     public void Release()
     {
         evetnTrigger.OnPointEnterEvent -= OnPointEnter;
         evetnTrigger.OnPointerExitEvent -= OnPointExit;
+        GameObject.Destroy(this.gameObject);
     }
-
-  
 }
 
 

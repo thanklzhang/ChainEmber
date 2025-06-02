@@ -40,8 +40,10 @@ public class BattleResultUI : BaseUI
     private void OnClickConfirmBtn()
     {
         //回主页
+        UIManager.Instance.Close<BattleResultUI>();
+        SceneCtrlManager.Instance.Enter<LobbySceneCtrl>();
     }
-    
+
     protected override void OnOpen(UICtrlArgs args)
     {
         var resultArgs = (BattleResultUIArgs)args;
@@ -101,7 +103,7 @@ public class BattleResultUI : BaseUI
             showObj.Init(go, this);
             showObj.Show();
             showObj.Refresh(data);
-            
+
             optionShowList.Add(showObj);
         }
 

@@ -36,14 +36,14 @@ namespace Battle
 
             this.currStarExp += exp;
 
-            BattleLog.LogZxy($"{this.infoConfig.Name} add {exp} exp");
+            // BattleLog.LogZxy($"{this.infoConfig.Name} add {exp} exp");
 
             var nowStar = EntityUpgradeConfigHelper.GetLevelByExp(this.currStarExp);
             this.starLevel = nowStar;
 
             var upgradeStar = nowStar - preStar;
 
-            BattleLog.LogZxy($"{this.infoConfig.Name} now star level : {nowStar}");
+            // BattleLog.LogZxy($"{this.infoConfig.Name} now star level : {nowStar}");
 
             SyncStateData();
 

@@ -241,7 +241,10 @@ namespace Battle
         public void BattleEnd(int teamIndex)
         {
             battleState = BattleState.End;
+            
             OnBattleEnd?.Invoke(this, teamIndex);
+
+            Destroy();
         }
 
         public void BattleEnd_Pre(int teamIndex) //, BattleEndType endType

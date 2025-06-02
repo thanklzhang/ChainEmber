@@ -66,6 +66,11 @@ namespace Battle
         public int ProcessId => config.ProcessId;
         
         /// <summary>
+        ///通关奖励id
+        /// </summary>
+        public int PassRewardId => config.PassRewardId;
+        
+        /// <summary>
         ///战斗配置id
         /// </summary>
         public int BattleConfigId => config.BattleConfigId;

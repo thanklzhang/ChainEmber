@@ -60,7 +60,7 @@ namespace Battle_Client
         public void Init()
         {
             InitBattleRecvMsg();
-            this.RegisterListener();
+            // this.RegisterListener();
             BattleState = BattleState.Null;
 
             playerInput = new PlayerInput();
@@ -94,6 +94,8 @@ namespace Battle_Client
             Logx.Log(LogxType.Game, "battle start");
 
             this.localBattleExecuter?.OnEnterBattle();
+
+            RegisterListener();
         }
 
         public void OnEnterProcessState(BattleProcessState state, int waveIndex, int timeMS)
@@ -122,6 +124,11 @@ namespace Battle_Client
         public void Update(float deltaTime)
         {
             if (this.BattleState == BattleState.Null)
+            {
+                return;
+            }
+            
+            if (this.BattleState == BattleState.End)
             {
                 return;
             }
@@ -160,6 +167,10 @@ namespace Battle_Client
 
         public void BattleEnd(BattleResultDataArgs battleResultDataArgs)
         {
+            
+            Logx.Log("BattleManager :BattleEnd");
+
+            
             BattleManager.Instance.BattleState = BattleState.End;
 
             EventDispatcher.Broadcast(EventIDs.OnBattleEnd, battleResultDataArgs);
@@ -188,8 +199,8 @@ namespace Battle_Client
             // this._resultUIPre.Show();
             //
 
+            localBattleExecuter = null;
             UIManager.Instance.Close<BattleReviveUI>();
-
             UIManager.Instance.Open<BattleResultUI>(args);
 
             BattleEntityManager.Instance.OnBattleEnd();
@@ -250,6 +261,8 @@ namespace Battle_Client
 
         public void Release()
         {
+            BattleEntityManager.Instance.Release();
+            BattleSkillEffectManager_Client.Instance.Release();
             RemoveListener();
         }
     }

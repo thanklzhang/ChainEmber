@@ -1,10 +1,10 @@
 ﻿using Battle;
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Config;
 using GameData;
 using UnityEngine;
 
@@ -14,11 +14,9 @@ namespace Battle_Client
     {
         Battle.Battle battle;
 
-        
 
         public void Init()
         {
-            
         }
 
         public void SetBattle(Battle.Battle battle)
@@ -29,7 +27,7 @@ namespace Battle_Client
         bool isPureLocal;
 
         //创建本地战斗
-        public Battle.Battle CreateLocalBattleLogic(NetProto.ApplyBattleArg applyArg, 
+        public Battle.Battle CreateLocalBattleLogic(NetProto.ApplyBattleArg applyArg,
             MapInitArg mapInitData, bool isPureLocal)
         {
             this.isPureLocal = isPureLocal;
@@ -57,7 +55,6 @@ namespace Battle_Client
                 battleConfigManager.LoadBattleConfig(new BattleConfig_Impl());
             }
 
-           
 
             battle.Init(battleGuid, logicArgs);
             //加载后台战斗
@@ -115,40 +112,65 @@ namespace Battle_Client
             battle.OnBattleEnd += OnBattleLogicEnd;
         }
 
-        public void OnBattleLogicEnd(Battle.Battle battle, int teamIndex)//, BattleEndType endType
+        public void OnBattleLogicEnd(Battle.Battle battle, int winTeamIndex) //, BattleEndType endType
         {
-            //本地战斗结算是在 center server
-            var arg = BattleEndUtil.MakeApplyBattleArgProto(battle, teamIndex);//, endType
+           
 
+            BattleResultDataArgs resultData = new BattleResultDataArgs();
+            resultData.rewardDataList = new List<ItemData>();
 
-            //判断是否是服务端结算
-            if (!isPureLocal)
+            var isWin = winTeamIndex == BattleManager.Instance.GetLocalPlayer().team;
+            resultData.isWin = isWin;
+            Logx.Log("OnBattleLogicEnd : battle result , isWin : " + isWin);
+
+            var battleConfig = ConfigManager.Instance.GetById<Config.Battle>(battle.battleConfigId);
+            var rewardId = battleConfig.PassRewardId;
+            var rewardConfig = ConfigManager.Instance.GetById<Config.Reward>(rewardId);
+            // foreach (var item in rewardConfig.RewardItemIdList)
+            for (int i = 0; i < rewardConfig.RewardItemIdList.Count; i++)
             {
-                //本地战斗 在服务端结算
-                var battleNet = NetHandlerManager.Instance.GetHandler<BattleNetHandler>();
-                //battleNet.SendApplyBattleEnd(arg);
-            }
-            else
-            {
-                //纯本地战斗
-                Logx.Log(LogxType.Battle, "pure battle : battle result");
-
-                BattleResultDataArgs resultData = new BattleResultDataArgs();
-                resultData.rewardDataList = new List<ItemData>();
-
-                var isWin = teamIndex == BattleManager.Instance.GetLocalPlayer().team;
-                resultData.isWin = isWin;
-                
-                //test 这里先测试 ， 之后按照需求给
-                ItemData data1 = new ItemData()
+                var itemId = rewardConfig.RewardItemIdList[i];
+                resultData.rewardDataList.Add(new ItemData()
                 {
-                    configId = 22000001,
-                    count = 1200
-                };
-                
-                resultData.rewardDataList.Add(data1);
-                BattleManager.Instance.BattleEnd(resultData);
+                    configId = itemId,
+                    count = rewardConfig.RewardItemIdList[i]
+                });
             }
+
+            BattleManager.Instance.BattleEnd(resultData);
+
+            // //本地战斗结算是在 center server
+            // var arg = BattleEndUtil.MakeApplyBattleArgProto(battle, teamIndex);//, endType
+            //
+            //
+            // //判断是否是服务端结算
+            // if (!isPureLocal)
+            // {
+            //     //本地战斗 在服务端结算
+            //     var battleNet = NetHandlerManager.Instance.GetHandler<BattleNetHandler>();
+            //     //battleNet.SendApplyBattleEnd(arg);
+            // }
+            // else
+            // {
+            //     //纯本地战斗
+            //     Logx.Log(LogxType.Battle, "pure battle : battle result");
+            //
+            //     BattleResultDataArgs resultData = new BattleResultDataArgs();
+            //     resultData.rewardDataList = new List<ItemData>();
+            //
+            //     var isWin = teamIndex == BattleManager.Instance.GetLocalPlayer().team;
+            //     resultData.isWin = isWin;
+            //     
+            //     //test 这里先测试 ， 之后按照需求给
+            //     ItemData data1 = new ItemData()
+            //     {
+            //         configId = ItemIds.CoinId,
+            //         count = 1200
+            //     };
+            //     
+            //     resultData.rewardDataList.Add(data1);
+            //     BattleManager.Instance.BattleEnd(resultData);
+            // }
         }
 
         public void OnExitBattle()
@@ -211,9 +233,9 @@ namespace Battle_Client
 
         //根据申请战斗参数 获得 后台战斗初始化参数
         public Battle.BattleCreateArg GetBattleLogicArgs(NetProto.ApplyBattleArg applyArg,
-             MapInitArg mapInitData)
+            MapInitArg mapInitData)
         {
-            var battleArg = ApplyBattleUtil.ToBattleArg(applyArg,  mapInitData);
+            var battleArg = ApplyBattleUtil.ToBattleArg(applyArg, mapInitData);
             return battleArg;
         }
     }

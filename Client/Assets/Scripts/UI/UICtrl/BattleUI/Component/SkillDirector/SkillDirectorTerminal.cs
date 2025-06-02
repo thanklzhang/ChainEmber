@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Battle;
 using UnityEngine.UI;
+using BattleState = Battle_Client.BattleState;
 using Vector3 = UnityEngine.Vector3;
 
 public enum SkillDirectorTerminalType
@@ -53,6 +54,12 @@ public class SkillDirectorTerminal : BaseSkillDirector
 
     public override void OnUpdate(float deltaTime)
     {
+
+        if (BattleManager.Instance.BattleState != BattleState.Running)
+        {
+            return;
+        }
+
         this.transform.position = followEntity.transform.position;
 
         if (this.rotateType == SkillDirectorRotateType.Null)

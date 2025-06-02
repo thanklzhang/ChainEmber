@@ -58,6 +58,11 @@ namespace Config
         private int processId; 
         
         /// <summary>
+        ///通关奖励id
+        /// </summary>
+        private int passRewardId; 
+        
+        /// <summary>
         ///战斗配置id
         /// </summary>
         private int battleConfigId; 
@@ -86,6 +91,8 @@ namespace Config
         public int BossLimitTime { get => bossLimitTime; }     
         
         public int ProcessId { get => processId; }     
+        
+        public int PassRewardId { get => passRewardId; }     
         
         public int BattleConfigId { get => battleConfigId; }     
         

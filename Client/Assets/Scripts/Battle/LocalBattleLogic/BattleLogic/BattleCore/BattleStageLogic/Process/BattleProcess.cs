@@ -111,7 +111,7 @@ namespace Battle
                     }
                     else
                     {
-                        //所有波数结束
+                        //赢了 并且所有波数结束 所以整个战斗是赢了 
                         this.End(true);
                     }
                 }

@@ -66,11 +66,17 @@ public class BattleSceneCtrl : BaseSceneCtrl
         
     }
 
-    // public override void Exit(Action action)
-    // {
-    //     SceneLoadManager.Instance.Unload(sceneName,() =>
-    //     {
-    //         base.Exit(action);
-    //     });
-    // }
+    public override void Exit(Action action)
+    {
+        UIManager.Instance.Close<BattleUI>();
+        
+        
+        
+        BattleManager.Instance.Release();
+        
+        SceneLoadManager.Instance.Unload(sceneName,() =>
+        {
+            base.Exit(action);
+        });
+    }
 }

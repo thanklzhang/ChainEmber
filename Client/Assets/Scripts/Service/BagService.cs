@@ -3,7 +3,7 @@ using GameData;
 
 public class ItemIds
 {
-    public const int CoinId = 22000001;
+    public const int CoinId = 10001;
 }
 
 public class BagService : Singleton<BagService>

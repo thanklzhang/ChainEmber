@@ -194,17 +194,18 @@ namespace Battle_Client
             //EventDispatcher.RemoveListener<BattleEntityInfo>(EventIDs.OnCreateBattle, CreateEntity);
         }
 
-        //战斗清理 可以认为 reset
-        public void Clear()
-        {
-            this.RemoveListener();
-            DestoryAllEntities();
-        }
+        // //战斗清理 可以认为 reset
+        // public void Clear()
+        // {
+        //     this.RemoveListener();
+        //     DestoryAllEntities();
+        // }
 
         //完全释放
         public void Release()
         {
-            
+            this.RemoveListener();
+            DestoryAllEntities();
         }
     }
 }

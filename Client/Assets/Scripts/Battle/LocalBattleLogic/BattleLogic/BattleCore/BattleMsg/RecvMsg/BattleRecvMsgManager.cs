@@ -78,7 +78,10 @@ namespace Battle
                 }
                 finally
                 {
-                    msgList.RemoveAt(0);
+                    if (msgList.Count > 0)
+                    {
+                        msgList.RemoveAt(0);
+                    }
                 }
             }
          

@@ -57,6 +57,11 @@ namespace Battle
         int ProcessId {get;} 
         
         /// <summary>
+        ///通关奖励id
+        /// </summary>
+        int PassRewardId {get;} 
+        
+        /// <summary>
         ///战斗配置id
         /// </summary>
         int BattleConfigId {get;} 

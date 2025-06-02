@@ -39,6 +39,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -92,6 +93,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -145,6 +147,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -198,6 +201,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -251,6 +255,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -295,6 +300,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -336,6 +342,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -380,6 +387,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -424,6 +432,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -471,6 +480,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -515,6 +525,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -559,6 +570,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8002001,
         "teamInfo": [
             [
@@ -604,6 +616,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -657,6 +670,7 @@
         ],
         "bossLimitTime": 10000,
         "processId": 101,
+        "passRewardId": 0,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
@@ -702,6 +716,7 @@
         ],
         "bossLimitTime": 120000,
         "processId": 101,
+        "passRewardId": 101001,
         "battleConfigId": 8001001,
         "teamInfo": [
             [
