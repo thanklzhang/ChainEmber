@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Config;
 using GameData;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,7 @@ public class BattleResultUI : BaseUI
     // public Action onClickConfirmBtn;
 
     //当前选中的关卡相关组件--
-    Text winContent;
+    TextMeshProUGUI winContent;
     Button confirmBtn;
 
     Transform rewardRoot;
@@ -30,7 +31,7 @@ public class BattleResultUI : BaseUI
 
     protected override void OnLoadFinish()
     {
-        this.winContent = this.transform.Find("Panel/Result").GetComponent<Text>();
+        this.winContent = this.transform.Find("Panel/Result").GetComponent<TextMeshProUGUI>();
         this.confirmBtn = this.transform.Find("Panel/ConfirmBtn").GetComponent<Button>();
         this.rewardRoot = this.transform.Find("Panel/reward/scroll/mask/content");
 

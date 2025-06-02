@@ -1,5 +1,6 @@
 ﻿using Config;
 using GameData;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,8 +9,8 @@ public class ResultOptionShowObj
     public GameObject gameObject;
     public Transform transform;
 
-    Text nameText;
-    Text countText;
+    TextMeshProUGUI nameText;
+    TextMeshProUGUI countText;
     Image iconImg;
     public ItemData data;
 
@@ -24,8 +25,8 @@ public class ResultOptionShowObj
         this.transform = this.gameObject.transform;
         this.battleResultUI = battleResultUI;
 
-        nameText = this.transform.Find("root/name").GetComponent<Text>();
-        countText = this.transform.Find("root/count").GetComponent<Text>();
+        nameText = this.transform.Find("root/name").GetComponent<TextMeshProUGUI>();
+        countText = this.transform.Find("root/count").GetComponent<TextMeshProUGUI>();
         iconImg = this.transform.Find("root/icon").GetComponent<Image>();
     }
 

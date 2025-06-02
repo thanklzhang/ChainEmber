@@ -115,7 +115,9 @@ namespace Battle_Client
         public void OnBattleLogicEnd(Battle.Battle battle, int winTeamIndex) //, BattleEndType endType
         {
            
-
+         
+           
+            
             BattleResultDataArgs resultData = new BattleResultDataArgs();
             resultData.rewardDataList = new List<ItemData>();
 
@@ -130,10 +132,15 @@ namespace Battle_Client
             for (int i = 0; i < rewardConfig.RewardItemIdList.Count; i++)
             {
                 var itemId = rewardConfig.RewardItemIdList[i];
+                var count = rewardConfig.RewardItemCountList[i];
+                
+                // 获得奖励
+                BagService.Instance.AddItem(itemId, count);
+                
                 resultData.rewardDataList.Add(new ItemData()
                 {
                     configId = itemId,
-                    count = rewardConfig.RewardItemIdList[i]
+                    count = count
                 });
             }
 
